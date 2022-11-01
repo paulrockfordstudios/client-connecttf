@@ -1,0 +1,433 @@
+.conversationBar {
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    top: calc(100vh - 25px);
+    right: 0;
+    width: 100%;
+    height: 25px;
+    z-index: 999;
+}
+
+.convBarRight {
+    Height: 25px;
+}
+
+.convBarRight.open {
+    width: calc(20% + 17px);
+}
+
+.convBarRight.close {
+    width: 130px;
+}
+
+.convBarConvContainers {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 65%;
+    height: 25px;
+    z-index: 999;
+}
+
+.convBarConvContainer-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    background-color: white;
+    z-index: 997;
+    bottom: 0; 
+}
+
+.convBarConvContainer-container.up {
+    margin: 0 1px;
+}
+
+.convBarConvContainerBackgroundTheme {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    bottom: 0;
+}
+
+.convBarConvContainerBackgroundTheme.up {
+    height: 500px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    opacity: 0.75;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.convBarConvContainerBackgroundTheme.down {
+    width: 300px;
+    height: 25px;
+}
+
+.convBarConvContainer {
+    position: absolute;
+    background-color: white;
+    z-index: 999;
+}
+
+.convBarConvContainer.down {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 298px;
+    height: 24px;
+    background-color: white; 
+}  
+
+.convBarConvContainer.union.down {
+    margin-top: 1px; 
+}
+
+.convBarConvContainer.down.masculine {
+    border-top: 1px solid #4a76fd;
+    border-left: 1px solid #4a76fd;
+    border-right: 1px solid #4a76fd;
+}
+
+.convBarConvContainer.down.feminine {
+    border-top: 1px solid #e639af;
+    border-left: 1px solid #e639af;
+    border-right: 1px solid #e639af;
+}
+
+.convBarConvContainer.down.ruby {
+    border-top: 1px solid #850014;
+    border-left: 1px solid #850014;
+    border-right: 1px solid #850014;
+}
+
+.convBarConvContainer.down.orange {
+    border-top: 1px solid #ff8303;
+    border-left: 1px solid #ff8303;
+    border-right: 1px solid #ff8303;
+}
+
+.convBarConvContainer.down.sun {
+    border-top: 1px solid #ffe700;
+    border-left: 1px solid #ffe700;
+    border-right: 1px solid #ffe700;
+}
+
+.convBarConvContainer.down.emerald {
+    border-top: 1px solid #50c878;
+    border-left: 1px solid #50c878;
+    border-right: 1px solid #50c878;
+}
+
+.convBarConvContainer.down.blue {
+    border-top: 1px solid #098de9;
+    border-left: 1px solid #098de9;
+    border-right: 1px solid #098de9;
+}
+
+.convBarConvContainer.down.indigo {
+    border-top: 1px solid #30307e;
+    border-left: 1px solid #30307e;
+    border-right: 1px solid #30307e;
+}
+
+.convBarConvContainer.down.violet {
+    border-top: 1px solid #8a2be2;
+    border-left: 1px solid #8a2be2;
+    border-right: 1px solid #8a2be2;
+}
+
+.convBarConvContainer.down.gray {
+    border-top: 1px solid #aeb4b7;
+    border-left: 1px solid #aeb4b7;
+    border-right: 1px solid #aeb4b7;
+}
+
+.convBarConvContainer.up {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    bottom: calc(100% - 25px);
+    top: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.convBarConvContainer.up.masculine {
+    -webkit-box-shadow: 0px 0px 6px -2px #4a76fd; 
+    box-shadow: 0px 0px 6px -2px #4a76fd;
+}
+
+.convBarConvContainer.up.feminine {
+    -webkit-box-shadow: 0px 0px 6px -2px #e639af; 
+    box-shadow: 0px 0px 6px -2px #e639af;
+}
+
+.convBarConvContainer.up.ruby {
+    -webkit-box-shadow: 0px 0px 6px -2px #850014; 
+    box-shadow: 0px 0px 6px -2px #850014;
+}
+
+.convBarConvContainer.up.orange {
+    -webkit-box-shadow: 0px 0px 6px -2px #ff8303; 
+    box-shadow: 0px 0px 6px -2px #ff8303;
+}
+
+.convBarConvContainer.up.sun {
+    -webkit-box-shadow: 0px 0px 6px -2px #ffe700; 
+    box-shadow: 0px 0px 6px -2px #ffe700;
+}
+
+.convBarConvContainer.up.emerald {
+    -webkit-box-shadow: 0px 0px 6px -2px #50c878; 
+    box-shadow: 0px 0px 6px -2px #50c878;
+}
+
+.convBarConvContainer.up.blue {
+    -webkit-box-shadow: 0px 0px 6px -2px #098de9; 
+    box-shadow: 0px 0px 6px -2px #098de9;
+}
+
+.convBarConvContainer.up.indigo {
+    -webkit-box-shadow: 0px 0px 6px -2px #30307e; 
+    box-shadow: 0px 0px 6px -2px #30307e;
+}
+
+.convBarConvContainer.up.violet {
+    -webkit-box-shadow: 0px 0px 6px -2px #8a2be2; 
+    box-shadow: 0px 0px 6px -2px #8a2be2;
+}
+
+.convBarConvContainer.up.gray {
+    -webkit-box-shadow: 0px 0px 6px -2px #aeb4b7; 
+    box-shadow: 0px 0px 6px -2px #aeb4b7;
+}
+
+.convControlPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 25px;
+}
+
+.convBarConvName {
+    margin-left: 10px;
+}
+
+.convBarOptionBtns {
+    margin-right: 10px;
+    color: #aeb4b7;
+}
+
+.convExpandBtn {
+    font-size: 24px !important;
+    margin-top: 2px;
+}
+
+.convCloseBtn {
+    font-size: 18px !important;
+    margin-bottom: 3px;
+}
+
+.convBarHr {
+    height: 1px;
+    border: none;
+    width: 100%;
+}
+
+.convBarHr.masculine {
+    background-color: #4a76fd;
+}
+
+.convBarHr.feminine {
+    background-color: #e639af;
+}
+
+.convBarHr.ruby {
+    background-color: #850014;
+}
+
+.convBarHr.orange {
+    background-color: #ff8303;
+}
+
+.convBarHr.sun {
+    background-color: #ffe700;
+}
+
+.convBarHr.emerald {
+    background-color: #50c878;
+}
+
+.convBarHr.blue {
+    background-color: #098de9;
+}
+
+.convBarHr.indigo {
+    background-color: #30307e;
+}
+
+.convBarHr.violet {
+    background-color: #8a2be2;
+}
+
+.convBarHr.rainbow {
+    background: -webkit-linear-gradient(left, #850014 , #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014 , #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014 , #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014 , #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.convBarHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.convBarHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.convBarHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.convBarHr.gray {
+    background-color: #aeb4b7;
+}
+
+.convBarContainerCenter {
+    height: 448px;
+    width: 100%;
+}
+
+.convChatBoxBottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.convChatTextEditor {
+    margin: 5px 5px 0 5px;
+    height: 86px;
+    position: relative;
+    overflow-y: auto;
+}
+
+.convChatMessageInput {
+    width: calc(100% - 6px);
+    height: 86px;
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto;
+    resize: none;
+}
+
+.convChatControlPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 2px;
+}
+
+.convChatMessageInput:focus {
+    border: none;
+    outline: none;
+}
+
+.convChatIcon {
+    font-size: 20px !important;
+    color: #aeb4b7;
+}
+
+.convChatSubmitBtn {
+    height: 20px;
+    width: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.convChatSubmitBtn.masculine {
+    background-color: #4a76fd;
+}
+
+.convChatSubmitBtn.feminine {
+    background-color: #e639af;
+}
+
+.convChatSubmitBtn.ruby {
+    background-color: #850014;   
+}
+
+.convChatSubmitBtn.orange { 
+    background-color: #ff8303; 
+}
+
+.convChatSubmitBtn.sun {
+    background-color: #ffe700;  
+}
+
+.convChatSubmitBtn.emerald { 
+    background-color: #50c878; 
+}
+
+.convChatSubmitBtn.blue {
+    background-color: #098de9; 
+}
+
+.convChatSubmitBtn.indigo { 
+    background-color: #30307e; 
+}
+
+.convChatSubmitBtn.violet { 
+    background-color: #8a2be2; 
+}
+
+.convChatSubmitBtn.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.convChatSubmitBtn.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.convChatSubmitBtn.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.convChatSubmitBtn.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.convChatSubmitBtn.gray {
+    background-color: #aeb4b7;
+}

@@ -1,0 +1,913 @@
+.searchbarContainer {
+    position: relative;
+    height: 44px;
+    transition: width 325ms cubic-bezier(0.43,-0.35, 0.14, 1.35);
+}
+
+.searchbarContainer.open {
+    width: 76.75%;
+}
+
+.searchbarContainer.close {
+    width: 44px;
+}
+
+.searchbarHSBackgroundWhite {
+    position: absolute;
+    width: 100%;
+    height: 44px;
+    border-radius: 22px;
+    top: 0;
+    left: 0;
+    margin-left: 30px;
+    background-color: white;
+}
+
+.searchbarHigherSpectrumBackground {
+    position: absolute;
+    width: 100%;
+    height: 44px;
+    border-radius: 22px;
+    top: 0;
+    left: 0;
+    margin-left: 30px;
+}
+
+.searchbarWhiteBackground {
+    position: absolute;
+    margin: 20px 30px 20px 60px;
+    width: calc(100% - 60px);
+    height: 0;
+    border-radius: 22px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 30px 26px white; 
+    box-shadow: 0px 0px 30px 26px white;
+}
+
+.searchbarBackgroundTheme {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    margin-left: 30px;
+}
+
+.searchbarBackgroundTheme.open {
+    width: 100%;
+}
+
+.searchbarDropDownBackgroundTheme {
+    margin-top: 22px;
+    width: 100%;
+    position: absolute;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    opacity: 0.75;   
+    margin-left: 30px;
+    transition: height 325ms cubic-bezier(0.43,-0.35, 0.14, 1.35);
+}
+
+.searchbarDropDownBackgroundTheme.down {
+    height: 530px; 
+}
+
+.searchbarDropDownBackgroundTheme.up {
+    height: 0;
+}
+
+.searchbarDropDown {
+    margin-top: 22px;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 30px;
+    transition: height 325ms cubic-bezier(0.43,-0.35, 0.14, 1.35);
+}
+
+.searchbarDropDown.down {
+    height: 530px; 
+}
+
+.searchbarDropDown.up {
+    height: 0;
+}
+
+.sbDDSearchNames {
+    margin-top: 44px;
+    margin-left: 15px;
+}
+
+.sbDDSearchFlamesTitle {
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.sbDDSFHr {
+    height: 1px;
+    border: none;
+}
+
+.sbDDSFHr.flame {
+    width: 156px;
+}
+
+.sbDDSFHr.union {
+    width: 154px;
+}
+
+.sbDDSFHr.masculine {
+    background-color: #4a76fd;
+}
+
+.sbDDSFHr.feminine {
+    background-color: #e639af;
+}
+
+.sbDDSFHr.ruby {
+    background-color: #850014;
+}
+
+.sbDDSFHr.orange {
+    background-color: #ff8303;
+}
+
+.sbDDSFHr.sun {
+    background-color: #ffe700;
+}
+
+.sbDDSFHr.emerald {
+    background-color: #50c878;
+}
+
+.sbDDSFHr.blue {
+    background-color: #098de9;
+}
+
+.sbDDSFHr.indigo {
+    background-color: #30307e;
+}
+
+.sbDDSFHr.violet {
+    background-color: #8a2be2;
+}
+
+.sbDDSFHr.rainbow {
+    background: -webkit-linear-gradient(left, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.sbDDSFHr.silver {
+    background: -webkit-linear-gradient(left, #dadada, #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada, #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.sbDDSFHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d, #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d, #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.sbDDSFHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.sbDDSFHr.grey {
+    background-color: #aeb4b7;
+}
+
+.sbDDSearchNameLink {
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.sbDDSearchNameProfilePic-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.sbDDSearchNameProfilePic-container:hover {
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.sbDDSearchNameProfilePic-container.masculine:hover {
+    background-color: #d8e1fe;
+}
+
+.sbDDSearchNameProfilePic-container.feminine:hover {
+    background-color: #fde1ef;
+}
+
+.sbDDSearchNameProfilePic-container.ruby:hover {
+    background-color: #d4a6ad;
+}
+
+.sbDDSearchNameProfilePic-container.orange:hover {
+    background-color: #ffdab3;
+}
+
+.sbDDSearchNameProfilePic-container.sun:hover {
+    background-color: #fff9bf;
+}
+
+.sbDDSearchNameProfilePic-container.emerald:hover {
+    background-color: #caeed6;
+}
+
+.sbDDSearchNameProfilePic-container.blue:hover {
+    background-color: #cee8fb;
+}
+
+.sbDDSearchNameProfilePic-container.indigo:hover {
+    background-color: #babad4;
+}
+
+.sbDDSearchNameProfilePic-container.violet:hover {
+    background-color: #dcbff6;
+}
+
+.sbDDSearchNameProfilePic-container.rainbow:hover {
+    background: -webkit-linear-gradient(left, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+}
+
+.sbDDSearchNameProfilePic-container.silver:hover {
+    background: -webkit-linear-gradient(left, #f4f4f4 , #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4 , #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.sbDDSearchNameProfilePic-container.gold:hover {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+}
+
+.sbDDSearchNameProfilePic-container.platinum:hover {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.sbDDSearchNameProfilePic-container.gray:hover {
+    background-color: #f1f1f1;
+}
+
+.sbDDSearchNameProfilePic {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sbDDSearchNameEnergy {
+    height: 20px;
+    margin-left: 8px;
+    margin-bottom: 3px;
+}
+
+.sbDDSearchNameText {
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 5px;
+    color: black;
+}
+
+.sbDDSearchFlameShowAllLink {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 195px;
+}
+
+.sbDDSearchFlameShowAllLink:hover {
+    font-weight: 900;
+}
+
+.sbDDSearchFlameShowAllLink.masculine {
+    color: #4a76fd;
+}
+
+.sbDDSearchFlameShowAllLink.masculine:active {
+    color: #3453b2;
+}
+
+.sbDDSearchFlameShowAllLink.feminine {
+    color: #e639af;
+}
+
+.sbDDSearchFlameShowAllLink.feminine:active {
+    color: #a1287b;
+}
+
+.sbDDSearchFlameShowAllLink.ruby {
+    color: #850014;
+}
+
+.sbDDSearchFlameShowAllLink.ruby:active {
+    color: #5d000e;
+}
+
+.sbDDSearchFlameShowAllLink.orange {
+    color: #ff8303;
+}
+
+.sbDDSearchFlameShowAllLink.orange:active {
+    color: #b35c02;
+}
+
+.sbDDSearchFlameShowAllLink.sun {
+    color: #ffe700;
+}
+
+.sbDDSearchFlameShowAllLink.sun:active {
+    color: #b3a200;
+}
+
+.sbDDSearchFlameShowAllLink.emerald {
+    color: #50c878;
+}
+
+.sbDDSearchFlameShowAllLink.emerald:active {
+    color: #388c54;
+}
+
+.sbDDSearchFlameShowAllLink.blue {
+    color: #098de9;
+}
+
+.sbDDSearchFlameShowAllLink.blue:active {
+    color: #0663a4;
+}
+
+.sbDDSearchFlameShowAllLink.indigo {
+    color: #30307e;
+}
+
+.sbDDSearchFlameShowAllLink.indigo:active {
+    color: #222258;
+}
+
+.sbDDSearchFlameShowAllLink.violet {
+    color: #8a2be2;
+}
+
+.sbDDSearchFlameShowAllLink.violet:active {
+    color: #611e9f;
+}
+
+.sbDDSearchFlameShowAllLink.rainbow {
+    background: -webkit-linear-gradient(left, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sbDDSearchFlameShowAllLink.rainbow:active {
+    background: -webkit-linear-gradient(left, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sbDDSearchFlameShowAllLink.silver {
+    background: -webkit-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada, #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sbDDSearchFlameShowAllLink.silver:active {
+    background: -webkit-linear-gradient(right, #999999, #646464 , #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #999999, #646464 , #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #999999, #646464 , #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #999999, #646464 , #999999); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sbDDSearchFlameShowAllLink.gold, .sbDDSearchFlameShowAllLink.diamond {
+    background: -webkit-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d, #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sbDDSearchFlameShowAllLink.gold:active, .sbDDSearchFlameShowAllLink.diamond:active {
+    background: -webkit-linear-gradient(right, #785414, #a79346 , #785414); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #785414, #a79346 , #785414); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #785414, #a79346 , #785414); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #785414, #a79346 , #785414); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sbDDSearchFlameShowAllLink.platinum {
+    background: -webkit-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sbDDSearchFlameShowAllLink.platinum:active {
+    background: -webkit-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sbDDSearchFlameShowAllLinkBtnPNG {
+    height: 18px;
+    width: 18px;
+    margin-right: 3px;
+}
+
+.searchbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    display: flex;
+    height: 44px;
+    margin-left: 30px;
+    transition: width 325ms cubic-bezier(0.43,-0.35, 0.14, 1.35);
+    overflow: hidden;
+}
+
+.searchbar.open {
+    width: 100%;
+}
+
+.searchbar.close {
+    width: 44px;
+    background-color: white;
+}
+
+.searchbar.close.masculine:hover {
+    background-color: #d8e1fe;
+}
+
+.searchbar.close.masculine:active {
+    background-color: #cecfd0;
+}
+
+.searchbar.close.feminine:hover {
+    background-color: #fde1ef;
+}
+
+.searchbar.close.feminine:active {
+    background-color: #e4cbd8;
+}
+
+.searchbar.close.ruby:hover {
+    background-color: #d4a6ad;
+}
+
+.searchbar.close.ruby:active {
+    background-color: #be959b;
+}
+
+.searchbar.close.orange:hover {
+    background-color: #ffdab3;
+}
+
+.searchbar.close.orange:active {
+    background-color: #e6c5a1;
+}
+
+.searchbar.close.sun:hover {
+    background-color: #fff9bf;
+}
+
+.searchbar.close.sun:active {
+    background-color: #e6e1ac;
+}
+
+.searchbar.close.emerald:hover {
+    background-color: #caeed6;
+}
+
+.searchbar.close.emerald:active {
+    background-color: #b6d7c1;
+}
+
+.searchbar.close.blue:hover {
+    background-color: #cee8fb;
+}
+
+.searchbar.close.blue:active {
+    background-color: #bad1e2;
+}
+
+.searchbar.close.indigo:hover {
+    background-color: #babad4;
+}
+
+.searchbar.close.indigo:active {
+    background-color: #a8a8bf;
+}
+
+.searchbar.close.violet:hover {
+    background-color: #dcbff6;
+}
+
+.searchbar.close.violet:active {
+    background-color: #c6acde;
+}
+
+.searchbar.close.gray:hover {
+    background-color: #e4e6e7;
+}
+
+.searchbar.close.gray:active {
+    background-color: #cecfd0;
+}
+
+.searchbar.close.rainbow:hover {
+    background: -webkit-linear-gradient(left, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+}
+
+.searchbar.close.rainbow:active {
+    background: -webkit-linear-gradient(left, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* Standard syntax (must be last) */
+}
+
+.searchbar.close.silver:hover {
+    background: -webkit-linear-gradient(left, #f4f4f4, #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4, #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.searchbar.close.silver:active {
+    background: -webkit-linear-gradient(left, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dcdcdc, #c7c7c7 , #dcdcdc); /* Standard syntax (must be last) */
+}
+
+.searchbar.close.gold:hover {
+    background: -webkit-linear-gradient(left, #e6d6bb, #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb, #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb, #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb, #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+}
+
+.searchbar.close.gold:active {
+    background: -webkit-linear-gradient(left, #cfc1a9, #e1d9bc , #cfc1a9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #cfc1a9, #e1d9bc , #cfc1a9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #cfc1a9, #e1d9bc , #cfc1a9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #cfc1a9, #e1d9bc , #cfc1a9); /* Standard syntax (must be last) */
+}
+
+.searchbar.close.platinum:hover {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.searchbar.close.platinum:active {
+    background: -webkit-linear-gradient(left, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* Standard syntax (must be last) */
+}
+
+.searchbarBtn {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin: 0 4px 0 auto;
+    background-color: transparent;
+    transition: background-color 325ms ease-in-out;
+    position: relative;
+}
+
+.searchbarBtn.open {
+    color: white;
+}
+
+.searchbarBtn.close.masculine {
+    color: #4a76fd;
+}
+
+.searchbarBtn.open.masculine {
+    background-color: #4a76fd;
+    color: white;
+}
+
+.searchbarBtn.open.masculine:hover {
+    background-color: #4a76fd;
+    color: #d8e1fe;
+}
+
+.searchbarBtn.open.masculine:active {
+    background-color: #3453b2;
+    color: #c3cbe5;
+}
+
+.searchbarBtn.close.feminine {
+    color: #e639af
+}
+
+.searchbarBtn.open.feminine {
+    background-color: #e639af;
+    color: white;
+}
+
+.searchbarBtn.open.feminine:hover {
+    background-color: #e639af;
+    color: #fde1ef;
+}
+
+.searchbarBtn.open.feminine:active {
+    background-color: #a1287b;
+    color: #e4cbd8;
+}
+
+.searchbarBtn.ruby {
+    color: #850014
+}
+
+.searchbar:focus-within .searchbarBtn.ruby {
+    background-color: #850014;
+    color: white;
+}
+
+.searchbar:focus-within .searchbarBtn.ruby:hover {
+    background-color: #850014;
+    color: #d4a6ad;
+}
+
+.searchbar:focus-within .searchbarBtn.ruby:active {
+    background-color: #5d000e;
+    color: #be959b;
+}
+
+.searchbarBtn.orange {
+    color: #ff8303
+}
+
+.searchbar:focus-within .searchbarBtn.orange {
+    background-color: #ff8303;
+    color: white;
+}
+
+.searchbar:focus-within .searchbarBtn.orange:hover {
+    background-color: #ff8303;
+    color: #ffdab3;
+}
+
+.searchbar:focus-within .searchbarBtn.orange:active {
+    background-color: #b35c02;
+    color: #e6c5a1;
+}
+
+.searchbarBtn.sun {
+    color: #ffe700
+}
+
+.searchbar:focus-within .searchbarBtn.sun {
+    background-color: #ffe700;
+    color: white;
+}
+
+.searchbar:focus-within .searchbarBtn.sun:hover {
+    background-color: #ffe700;
+    color: #fff9bf;
+}
+
+.searchbar:focus-within .searchbarBtn.sun:active {
+    background-color: #b3a200;
+    color: #e6e1ac;
+}
+
+.searchbarBtn.emerald {
+    color: #50c878
+}
+
+.searchbar:focus-within .searchbarBtn.emerald {
+    background-color: #50c878;
+    color: white;
+}
+
+.searchbar:focus-within .searchbarBtn.emerald:hover {
+    background-color: #50c878;
+    color: #caeed6;
+}
+
+.searchbar:focus-within .searchbarBtn.emerald:active {
+    background-color: #388c54;
+    color: #b6d7c1;
+}
+
+.searchbarBtn.blue {
+    color: #098de9
+}
+
+.searchbar:focus-within .searchbarBtn.blue {
+    background-color: #098de9;
+    color: white;
+}
+
+.searchbar:focus-within .searchbarBtn.blue:hover {
+    background-color: #098de9;
+    color: #cee8fb;
+}
+
+.searchbar:focus-within .searchbarBtn.blue:active {
+    background-color: #0663a4;
+    color: #bad1e2;
+}
+
+.searchbarBtn.indigo {
+    color: #30307e
+}
+
+.searchbar:focus-within .searchbarBtn.indigo {
+    background-color: #30307e;
+    color: white;
+}
+
+.searchbar:focus-within .searchbarBtn.indigo:hover {
+    background-color: #30307e;
+    color: #babad4;
+}
+
+.searchbar:focus-within .searchbarBtn.indigo:active {
+    background-color: #222258;
+    color: #a8a8bf;
+}
+
+.searchbarBtn.violet {
+    color: #8a2be2
+}
+
+.searchbar:focus-within .searchbarBtn.violet {
+    background-color: #8a2be2;
+    color: white;
+}
+
+.searchbar:focus-within .searchbarBtn.violet:hover {
+    background-color: #8a2be2;
+    color: #dcbff6;
+}
+
+.searchbar:focus-within .searchbarBtn.violet:active {
+    background-color: #611e9f;
+    color: #c6acde;
+}
+
+
+
+
+
+
+.searchbar:focus-within .searchIcon {
+    font-size: 24px;
+}
+
+/*
+.searchbar.close {
+    
+}
+
+.searchbar.open {
+    width: 90%;
+}
+*/
+
+.searchbar.union {
+    position: absolute;
+}
+
+
+
+
+
+
+
+.searchIcon {
+   font-size: 25px !important;
+   margin: 3px 0 0 0;
+}
+
+.searchIcon.uPlus {
+    margin-top: -12px;
+}
+
+.searchIconTM {
+    margin-top: 3px;
+}
+
+
+
+.searchInput {
+    border: none;
+    padding-left: 18px;
+    width: calc(100% - 20px);
+    background: transparent;
+    position: absolute;
+    height: 44px;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.searchInput::placeholder {
+    color: #aeb4b7;
+}
+
+.searchInput:-ms-input-placeholder {
+    color: #aeb4b7;
+}
+
+.searchInput::-ms-input-placeholder {
+    color: #aeb4b7;
+}
+
+.searchInput.open {
+    opacity: 1; 
+}
+
+.searchInput.close {
+    opacity: 0; 
+}
+
+.searchInput:focus {
+    outline: none;
+    width: calc(100% - 62px); 
+    cursor: initial;
+}
+
+.searchBtnPNG.open {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.searchBtnPNG.close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}

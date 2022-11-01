@@ -1,0 +1,112 @@
+.repliesDropdown-Container {
+    border-radius: 10px;
+    background-color: black;
+    opacity: 0.7;
+    padding: 10px;
+    position: relative;
+    z-index: 900;
+}
+
+.repliesDropdownTitle {
+    color: #bfc2c7;
+}
+
+.repliesDropdownList {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.repliesDropdownListItem {
+    white-space: nowrap;
+    font-size: 10px;
+}
+
+.repliesDropdownListItem.masculine { 
+    color: #d8e1fe;
+}
+
+.repliesDropdownListItem.feminine { 
+    color: #fde1ef;
+}
+
+.repliesDropdownListItem.ruby {
+    color: #d4a6ad;   
+}
+
+.repliesDropdownListItem.orange { 
+    color: #ffdab3; 
+}
+
+.repliesDropdownListItem.sun {
+    color: #fff9bf;  
+}
+
+.repliesDropdownListItem.emerald { 
+    color: #caeed6; 
+}
+
+.repliesDropdownListItem.blue {
+    color: #cee8fb; 
+}
+
+.repliesDropdownListItem.indigo { 
+    color: #babad4; 
+}
+
+.repliesDropdownListItem.violet { 
+    color: #dcbff6; 
+}
+
+.repliesDropdownListItem.rainbow {
+    background: -webkit-linear-gradient(left, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.repliesDropdownListItem.silver {
+    background: -webkit-linear-gradient(left, #f4f4f4, #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4, #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.repliesDropdownListItem.gold {
+    background: -webkit-linear-gradient(left, #e6d6bb, #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb, #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb, #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb, #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.repliesDropdownListItem.platinum {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.repliesDropdownListItem.diamond {
+    background: -webkit-linear-gradient(right, #d8e1fe, #bfc2c7, #faf1d0, #bfc2c7, #d8e1fe, #bfc2c7, #faf1d0, #bfc2c7, #d8e1fe); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d8e1fe, #bfc2c7, #faf1d0, #bfc2c7, #d8e1fe, #bfc2c7, #faf1d0, #bfc2c7, #d8e1fe); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d8e1fe, #bfc2c7, #faf1d0, #bfc2c7, #d8e1fe, #bfc2c7, #faf1d0, #bfc2c7, #d8e1fe); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d8e1fe, #bfc2c7, #faf1d0, #bfc2c7, #d8e1fe, #bfc2c7, #faf1d0, #bfc2c7, #d8e1fe); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.repliesDropdownListItem.gray { 
+    color: #bfc2c7;
+}

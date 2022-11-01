@@ -1,0 +1,145 @@
+.medFullDisplayContainer {
+    margin-right: 2px;
+    margin-left: -2px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.medFullDisplayBackgroundTheme {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+    top: -10px;
+}
+
+.medFullDisplay {
+    width: 100%; 
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.medFullDisplay.union {
+    position: absolute;
+}
+
+.medFullDisplay-container {
+    padding: 30px;
+}
+
+.medFullDisplayContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.medFullDisplayContainerTop {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.medFullDisplayContainerTopLeft.indexEven {
+    margin-right: 30px;
+}
+
+.medFullDisplayContainerTopRight.indexEven {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.medFullDisplayContainerTopLeft.indexOdd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.medFullDisplayContainerTopRight.indexOdd {
+    margin-left: 30px;
+}
+
+.medFullDisplayContainerHeader {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.medFullDisplayContainerImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.medFullDisplayContainerName {
+    font-size: 32px;
+    font-weight: 700;  
+}
+
+.medFullDisplayContainerHeaderYouTubeIcon {
+    font-size: 48px !important;
+    color: #c4302b;
+    margin-right: 10px;
+}
+
+.medFullDisplayContainerProfile {
+    display: flex;
+    align-items: center;
+}
+
+.medFullDisplayContainerProfilePic {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.medFullDisplayContainerProfileSpectrum {
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+}
+
+.medFullDisplayContainerProfileName {
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.medFullDisplayContainerMoreVert {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.medFullDisplayContainerStats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.medFullDisplayContainerStarField {
+    margin-left: 10px;
+}
+
+.medFullDisplayContainerStatText {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.medFullDisplayContainerStatCount {
+    font-size: 18px;
+    font-weight: 900;
+    margin-right: 10px;
+}

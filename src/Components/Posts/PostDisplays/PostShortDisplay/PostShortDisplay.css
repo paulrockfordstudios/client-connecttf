@@ -1,0 +1,405 @@
+.postShortDisplayContainer {
+    margin-right: 2px;
+    margin-left: -2px;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.postShortDisplayBackgroundTheme {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+    z-index: 1;
+}
+
+.postShortDisplay {
+    width: 100%; 
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.postShortDisplay.union {
+    position: absolute;
+}
+
+.postShortDisplay-container {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* ------- Post Top ------- */
+
+.postShortDisplayTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postShortDisplayTopLeft {
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.postShortDisplayLink {
+    display: flex;
+    align-items: center; 
+}
+
+.postShortDisplayProfilePic {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.postShortDisplayProfileEnergy {
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.postShortDisplayUserName {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px 0 3px;
+}
+
+.postShortDisplayDateTime {
+    font-size: 12px;
+    margin-right: 5px;
+    color: #bfc2c7;
+}
+
+.postShortDisplayVisibilityIcon {
+    display: flex;
+    align-items: top;
+    color: #bfc2c7;
+}
+
+.postShortDisplaypostODropdown {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+/* ------- Post Center ------- */
+
+.postShortDisplayCenter {
+    margin: 20px 0 20px 10px;
+}
+
+.postShortDisplayTitle {
+    width: calc(100% - 120px);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.postShortDisplayDescriptionPreview {
+    width: calc(100% - 10px);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.postShortDisplayText {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    color: #7a7e80;
+    padding-top: 2px;
+}
+
+.postShortDisplayPhotoContainer {
+    position: relative;
+}
+
+.postShortDisplayPhoto {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 80px;
+    width: 120px;
+    object-fit: cover;
+}
+
+.postShortDisplayPhotoCntBG {
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.postShortDisplayPhotCnt {
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.postShortDisplayHashtagList {
+    margin-top: 20px;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.postShortDisplayhashtags {
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.postShortDisplayhashtags:hover {
+    font-weight: 500;
+}
+
+.postShortDisplayhashtags.masculine {
+    color: #4a76fd;
+}
+
+.postShortDisplayhashtags.feminine {
+    color: #e639af;
+}
+
+.postShortDisplayhashtags.ruby {
+    color: #850014;
+}
+
+.postShortDisplayhashtags.orange {
+    color: #ff8303;
+}
+
+.postShortDisplayhashtags.sun {
+    color: #ffe700;
+}
+
+.postShortDisplayhashtags.emerald {
+    color: #50c878;
+}
+
+.postShortDisplayhashtags.blue {
+    color: #098de9;
+}
+
+.postShortDisplayhashtags.indigo {
+    color: #30307e;
+}
+
+.postShortDisplayhashtags.violet {
+    color: #8a2be2;
+}
+
+.postShortDisplayhashtags.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.postShortDisplayhashtags.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.postShortDisplayhashtags.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.postShortDisplayhashtags.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.postShortDisplayhashtags.gray {
+    color: #aeb4b7;
+}
+
+.photoList {
+    margin-right: 40px;
+}
+
+.photos {
+    list-style: none;
+}
+
+.postImg {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+/* ------- Post Bottom ------- */
+
+.postShortDisplayBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postShortDisplayCountItem {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.postShortDisplaySVGIcon {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.postShortDisplayPNGIcon {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.postShortDisplayCounter {
+    font-size: 15px;
+}
+
+.postShortDisplayBottomLeft {
+    display: flex;
+    align-items: center;
+    
+}
+
+.postShortDisplayViewsDropdown {
+    position: absolute; 
+    top: 25px;
+    z-index: 9999;
+    overflow: visible;
+}
+
+.postShortDisplayLikesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.postShortDisplayLovesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.postShortDisplaySVGIcon.left {
+    margin-right: 5px;
+}
+
+.postShortDisplayPNGIcon.left {
+    margin-right: 5px;
+}
+
+.postShortDisplayCounter.left {
+    margin-right: 20px;
+}
+
+.postShortDisplayBottomRight {
+    display: flex;
+    align-items: center;
+}
+
+.postShortDisplaySVGIconDiv {
+    display: flex;
+    align-items: center;
+}
+
+.postShortDisplayCommentsDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.postShortDisplaySharesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.postShortDisplaySVGIcon.right {
+    margin-left: 20px;
+}
+
+.postShortDisplayPNGIcon.right {
+    margin-left: 20px;
+}
+
+.postShortDisplayCounter.right {
+    margin-left: 5px;
+}
+
+.postShortDisplaySVGIcon.masculine { 
+    color: #4a76fd;
+}
+
+.postShortDisplaySVGIcon.feminine { 
+    color: #e639af;
+}
+
+.postShortDisplaySVGIcon.ruby {
+    color: #850014;   
+}
+
+.postShortDisplaySVGIcon.orange { 
+    color: #ff8303; 
+}
+
+.postShortDisplaySVGIcon.sun {
+    color: #ffe700;  
+}
+
+.postShortDisplaySVGIcon.emerald { 
+    color: #50c878; 
+}
+
+.postShortDisplaySVGIcon.blue {
+    color: #098de9; 
+}
+
+.postShortDisplaySVGIcon.indigo { 
+    color: #30307e; 
+}
+
+.postShortDisplaySVGIcon.violet { 
+    color: #8a2be2; 
+}
+
+.postShortDisplaySVGIcon.gray { 
+    color: #bfc2c7;
+}

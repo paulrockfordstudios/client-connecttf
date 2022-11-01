@@ -1,0 +1,126 @@
+.backgroundEditorDropdownContainer {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.backgroundEditorDropdownBackgroundTheme {
+    width: 76px;
+    height: 85px;
+    border-radius: 10px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+}
+
+.backgroundEditorDropdown-Container {
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 56px;
+}
+
+.backgroundEditorDropdown-Container.union {
+    position: absolute;
+}
+
+.backgroundEditorDropdownHrDiamond {
+    width: 95%;
+    height: 1px;
+    margin: 3px 0;
+    object-fit: cover;
+}
+
+.backgroundEditorDropdownOption {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.backgroundEditorDropdownOption.disabled {
+    color: #aeb4b7;
+}
+
+.backgroundEditorDropdownOption.hov:hover {
+    font-weight: 500;
+}
+
+.backgroundEditorDropdownHr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    margin: 3px 0;
+}
+
+.backgroundEditorDropdownHr.masculine {
+    background-color: #4a76fd;
+}
+
+.backgroundEditorDropdownHr.feminine {
+    background-color: #e639af;
+}
+
+.backgroundEditorDropdownHr.ruby {
+    background-color: #850014;   
+}
+
+.backgroundEditorDropdownHr.orange { 
+    background-color: #ff8303; 
+}
+
+.backgroundEditorDropdownHr.sun {
+    background-color: #ffe700;  
+}
+
+.backgroundEditorDropdownHr.emerald { 
+    background-color: #50c878; 
+}
+
+.backgroundEditorDropdownHr.blue {
+    background-color: #098de9; 
+}
+
+.backgroundEditorDropdownHr.indigo { 
+    background-color: #30307e; 
+}
+
+.backgroundEditorDropdownHr.violet { 
+    background-color: #8a2be2; 
+}
+
+.backgroundEditorDropdownHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.backgroundEditorDropdownHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.backgroundEditorDropdownHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.backgroundEditorDropdownHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.backgroundEditorDropdownHr.gray {
+    background-color: black;
+}

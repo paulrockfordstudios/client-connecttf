@@ -1,0 +1,420 @@
+.unionSubRequest {
+    position: relative;
+    width: 100%;
+    height: 89px;
+}
+
+.unionSubRequestBackgroundTheme {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 89px;
+    transition-delay: 325ms;
+    transition: opacity 4000ms ease-in-out;
+    -webkit-transition: opacity 4000ms ease-in-out;
+    -moz-transition: opacity 4000ms ease-in-out;
+}
+
+.unionSubRequestContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    top: 2px
+}
+
+.unionSubRequestBackgroundTheme.unseen {
+    opacity: 1;   
+}
+
+
+.unionSubRequestBackgroundTheme.seen {
+    opacity: 0;   
+}
+
+.unionSubRequestBackgroundTheme.ruby {
+    background-color: #d4a6ad;
+}
+
+.unionSubRequestBackgroundTheme.orange {
+    background-color: #ffdab3;
+}
+
+.unionSubRequestBackgroundTheme.sun {
+    background-color: #fff9bf;
+}
+
+.unionSubRequestBackgroundTheme.emerald {
+    background-color: #caeed6;
+}
+
+.unionSubRequestBackgroundTheme.blue {
+    background-color: #cee8fb;
+}
+
+.unionSubRequestBackgroundTheme.indigo {
+    background-color: #babad4;
+}
+
+.unionSubRequestBackgroundTheme.violet {
+    background-color: #dcbff6;
+}
+
+.unionSubRequestBackgroundTheme.rainbow {
+    background: -webkit-linear-gradient(left, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+}
+
+.unionSubRequestBackgroundTheme.silver {
+    background: -webkit-linear-gradient(left, #f4f4f4 , #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4 , #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.unionSubRequestBackgroundTheme.gold {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+}
+
+.unionSubRequestBackgroundTheme.platinum {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.unionSubRequestBackgroundTheme.gray {
+    background-color: #e4e6e7;
+}
+
+.unionSubRequestHr {
+    height: 2px;
+    width: 100%;
+    border: none;
+}
+
+.unionSubRequestHr.bottom {
+    margin-top: 85px;
+}
+
+.unionSubRequestHr.ruby {
+    background-color: #850014;   
+}
+
+.unionSubRequestHr.orange { 
+    background-color: #ff8303; 
+}
+
+.unionSubRequestHr.sun {
+    background-color: #ffe700;  
+}
+
+.unionSubRequestHr.emerald { 
+    background-color: #50c878; 
+}
+
+.unionSubRequestHr.blue {
+    background-color: #098de9; 
+}
+
+.unionSubRequestHr.indigo { 
+    background-color: #30307e; 
+}
+
+.unionSubRequestHr.violet { 
+    background-color: #8a2be2; 
+}
+
+.unionSubRequestHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.unionSubRequestHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.unionSubRequestHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.unionSubRequestHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.unionSubRequestHr.gray {
+    background-color: #aeb4b7;
+}
+
+.unionSubRequestLeft {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 100%;
+}
+
+.unionSubRequestProfilePic {
+    display: flex; 
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;    
+}
+
+.unionSubRequestIcon {
+    display: flex; 
+    position: absolute;
+    height: 22px;
+    margin-right: 5px;
+    right: 0;
+    bottom: 20px;
+}
+
+.unionSubRequestRight {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% - 75px);
+    height: auto;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.unionSubRequestRightTop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: auto; 
+}
+
+.unionSubRequestTitle {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+.unionSubRequestTitleLeft {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 227px;
+    height: auto;
+}
+
+.unionSubRequestTitleRight {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+.unionSubRequestTitleRight.ruby {
+    color: #850014;
+}
+
+.unionSubRequestTitleRight.orange {
+    color: #ff8303;
+}
+
+.unionSubRequestTitleRight.sun {
+    color: #ffe700;
+}
+
+.unionSubRequestTitleRight.emerald {
+    color: #50c878;
+}
+
+.unionSubRequestTitleRight.blue {
+    color: #098de9;
+}
+
+.unionSubRequestTitleRight.indigo {
+    color: #30307e;
+}
+
+.unionSubRequestTitleRight.violet {
+    color: #8a2be2;
+}
+
+.unionSubRequestTitleRight.gray {
+    color: #aeb4b7;
+}
+
+.unionSubRequestName {
+    font-size: 15px;
+    font-weight: bold;
+    width: 225px   
+}
+
+.unionSubRequestAction {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.unionSubRequestRightCenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 20px;   
+}
+
+.unionSubRequestRightBottom {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.unionSubRequestRetort {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    color: #7a7e80;
+    width: 100%;
+}
+
+.unionSubRequestRetort.request {
+    justify-content: space-evenly;
+}
+
+.unionSubRequestRetortLeft.friendship {
+    width: calc(100% - 75px);
+    padding-right: 10px;
+}
+
+.unionSubRequestRetortRight.friendship {
+    width: 75px;
+}
+
+.unionSubRequestRetortLeft.befriend {
+    width: calc(100% - 90px);
+    padding-right: 10px;
+}
+
+.unionSubRequestRetortRight.befriend {
+    width: 90px;  
+}
+
+.unionSubRequestBtn {
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    height: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.unionSubRequestBtn.befriend {
+    width: 90px;
+}
+
+.unionSubRequestBtn.message {
+    width: 75px;
+}
+
+.unionSubRequestBtn.accept {
+    width: 100px;
+}
+
+.unionSubRequestBtn.reject {
+    width: 100px;
+}
+
+.unionSubRequestBtn.ruby {
+    background-color: #850014;
+    color: white;
+}
+
+.unionSubRequestBtn.orange {
+    background-color: #ff8303;
+    color: white;
+}
+
+.unionSubRequestBtn.sun {
+    background-color: #ffe700;
+    color: white;
+}
+
+.unionSubRequestBtn.emerald {
+    background-color: #50c878;
+    color: white;
+}
+
+.unionSubRequestBtn.blue {
+    background-color: #098de9;
+    color: white;
+}
+
+.unionSubRequestBtn.indigo {
+    background-color: #30307e;
+    color: white;
+}
+
+.unionSubRequestBtn.violet {
+    background-color: #8a2be2;
+    color: white;
+}
+
+.unionSubRequestBtn.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.unionSubRequestBtn.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.unionSubRequestBtn.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.unionSubRequestBtn.gray {
+    background-color: #bfc2c7;
+    color: black;
+}

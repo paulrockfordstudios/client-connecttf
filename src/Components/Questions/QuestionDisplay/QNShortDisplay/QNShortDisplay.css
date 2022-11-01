@@ -1,0 +1,433 @@
+.qnShortDisplayContainer {
+    margin-right: 2px;
+    margin-left: -2px;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.qnShortDisplayBackgroundTheme {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+    z-index: 1;
+}
+
+.qnShortDisplay {
+    width: 100%; 
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.qnShortDisplay.union {
+    position: absolute;
+}
+
+.qnShortDisplay-container {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/*
+.question-container:hover {
+    background-color: #f1f1f1;
+}
+*/
+
+/* ------- Question Top ------- */
+
+.qnShortDisplayTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qnShortDisplayTopLeft {
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.qnShortDisplayLink {
+    display: flex;
+    align-items: center; 
+}
+
+.qnShortDisplayProfilePic {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.qnShortDisplayProfileEnergy {
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.qnShortDisplayUserName {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px 0 3px;
+}
+
+.qnShortDisplayDateTime {
+    font-size: 12px;
+    margin-right: 5px;
+    color: #bfc2c7;
+}
+
+.qnShortDisplayVisibilityIcon {
+    display: flex;
+    align-items: top;
+    color: #bfc2c7;
+}
+
+.qnShortDisplayQNODropdown {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+/* ------- Question Center ------- */
+
+.qnShortDisplayCenter {
+    margin: 20px 0 20px 10px;
+}
+
+.qnShortDisplayTitle {
+    width: calc(100% - 20px);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.qnShortDisplayDescriptionPreview {
+    width: calc(100% - 10px);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.qnShortDisplayDescription {
+    height: 80px;
+    max-height: 80px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.qnShortDisplayTextContainer {
+    overflow: hidden;
+}
+
+.qnShortDisplayText {
+    color: #7a7e80;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 2px;
+    margin-right: 10px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.qnShortDisplayShowMore {
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.qnShortDisplayPhotoContainer {
+    position: relative;
+    flex-shrink: 0;
+    height: 80px;
+}
+
+.qnShortDisplayPhoto {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 80px;
+    width: 120px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.qnShortDisplayPhotoCntBG {
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    flex-shrink: 0;
+}
+
+.qnShortDisplayPhotCnt {
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.qnShortDisplayHashtagList {
+    margin-top: 20px;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qnShortDisplayhashtags {
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.qnShortDisplayhashtags:hover {
+    font-weight: 500;
+}
+
+.qnShortDisplayhashtags.masculine {
+    color: #4a76fd;
+}
+
+.qnShortDisplayhashtags.feminine {
+    color: #e639af;
+}
+
+.qnShortDisplayhashtags.ruby {
+    color: #850014;
+}
+
+.qnShortDisplayhashtags.orange {
+    color: #ff8303;
+}
+
+.qnShortDisplayhashtags.sun {
+    color: #ffe700;
+}
+
+.qnShortDisplayhashtags.emerald {
+    color: #50c878;
+}
+
+.qnShortDisplayhashtags.blue {
+    color: #098de9;
+}
+
+.qnShortDisplayhashtags.indigo {
+    color: #30307e;
+}
+
+.qnShortDisplayhashtags.violet {
+    color: #8a2be2;
+}
+
+.qnShortDisplayhashtags.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.qnShortDisplayhashtags.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.qnShortDisplayhashtags.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.qnShortDisplayhashtags.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.qnShortDisplayhashtags.gray {
+    color: #aeb4b7;
+}
+
+.photoList {
+    margin-right: 40px;
+}
+
+.photos {
+    list-style: none;
+}
+
+.postImg {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+/* ------- Question Bottom ------- */
+
+.qnShortDisplayBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qnShortDisplayCountItem {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.qnShortDisplaySVGIcon {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.qnShortDisplayPNGIcon {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.qnShortDisplayCounter {
+    font-size: 15px;
+}
+
+.qnShortDisplayBottomLeft {
+    display: flex;
+    align-items: center;
+    
+}
+
+.qnShortDisplayViewsDropdown {
+    position: absolute; 
+    top: 25px;
+    z-index: 9999;
+    overflow: visible;
+}
+
+.qnShortDisplayLikesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.qnShortDisplayLovesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.qnShortDisplaySVGIcon.left {
+    margin-right: 5px;
+}
+
+.qnShortDisplayPNGIcon.left {
+    margin-right: 5px;
+}
+
+.qnShortDisplayCounter.left {
+    margin-right: 20px;
+}
+
+.qnShortDisplayBottomRight {
+    display: flex;
+    align-items: center;
+}
+
+.qnShortDisplaySVGIconDiv {
+    display: flex;
+    align-items: center;
+}
+
+.qnShortDisplayAnswersDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.qnShortDisplaySharesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.qnShortDisplaySVGIcon.right {
+    margin-left: 20px;
+}
+
+.qnShortDisplayPNGIcon.right {
+    margin-left: 20px;
+}
+
+.qnShortDisplayCounter.right {
+    margin-left: 5px;
+}
+
+.qnShortDisplaySVGIcon.masculine { 
+    color: #4a76fd;
+}
+
+.qnShortDisplaySVGIcon.feminine { 
+    color: #e639af;
+}
+
+.qnShortDisplaySVGIcon.ruby {
+    color: #850014;   
+}
+
+.qnShortDisplaySVGIcon.orange { 
+    color: #ff8303; 
+}
+
+.qnShortDisplaySVGIcon.sun {
+    color: #ffe700;  
+}
+
+.qnShortDisplaySVGIcon.emerald { 
+    color: #50c878; 
+}
+
+.qnShortDisplaySVGIcon.blue {
+    color: #098de9; 
+}
+
+.qnShortDisplaySVGIcon.indigo { 
+    color: #30307e; 
+}
+
+.qnShortDisplaySVGIcon.violet { 
+    color: #8a2be2; 
+}
+
+.qnShortDisplaySVGIcon.gray { 
+    color: #bfc2c7;
+}

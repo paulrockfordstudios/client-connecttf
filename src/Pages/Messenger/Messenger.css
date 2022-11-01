@@ -1,0 +1,270 @@
+.messenger {
+    height: calc(100vh - 70px);
+    width: 85%;
+    margin-left: 15%;
+    margin-top: 73px;
+    position: fixed;
+    display: flex;
+    background-color: white;
+    z-index: 1;
+}
+
+.chatMenu {
+    flex: 3.5;
+}
+
+.chatMenuInput {
+    width: 90%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.chatMenuInput:focus {
+    outline: none;
+    cursor: initial;
+}
+
+.chatMenuContainer.union {
+    margin: 30px 0 0 10px;
+}
+
+.chatMenuContainer.flame {
+    margin: 50px 0 0 10px;
+}
+
+.chatMenuContainerText {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.chatMenuContainerText.masculine {
+    color: #4a76fd;
+}
+
+.chatMenuContainerText.feminine {
+    color: #e639af;
+}
+
+.chatMenuContainerText.ruby {
+    color: #850014;   
+}
+
+.chatMenuContainerText.orange { 
+    color: #ff8303; 
+}
+
+.chatMenuContainerText.sun {
+    color: #ffe700;  
+}
+
+.chatMenuContainerText.emerald { 
+    color: #50c878; 
+}
+
+.chatMenuContainerText.blue {
+    color: #098de9; 
+}
+
+.chatMenuContainerText.indigo { 
+    color: #30307e; 
+}
+
+.chatMenuContainerText.violet { 
+    color: #8a2be2; 
+}
+
+.chatMenuContainerText.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatMenuContainerText.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatMenuContainerText.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatMenuContainerText.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatMenuContainerText.gray {
+    background-color: #bfc2c7;
+}
+
+.chatMenuHr {
+    border: none;
+    height: 4px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.chatMenuHr.masculine {
+    background-color: #4a76fd;
+}
+
+.chatMenuHr.feminine {
+    background-color: #e639af;
+}
+
+.chatMenuHr.ruby {
+    background-color: #850014;   
+}
+
+.chatMenuHr.orange { 
+    background-color: #ff8303; 
+}
+
+.chatMenuHr.sun {
+    background-color: #ffe700;  
+}
+
+.chatMenuHr.emerald { 
+    background-color: #50c878; 
+}
+
+.chatMenuHr.blue {
+    background-color: #098de9; 
+}
+
+.chatMenuHr.indigo { 
+    background-color: #30307e; 
+}
+
+.chatMenuHr.violet { 
+    background-color: #8a2be2; 
+}
+
+.chatMenuHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.chatMenuHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.chatMenuHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.chatMenuHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.chatMenuHr.gray {
+    background-color: #bfc2c7;
+}
+
+.chatMenuHrDiamond {
+    justify-content: center;
+    height: 4px;
+    margin: 20px 0 0 10px;
+    object-fit: cover;
+    width: 90%;
+}
+
+
+.chatBox {
+    flex: 5.5;
+}
+
+.chatBox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.chatBoxTop {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 80%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding-right: 10px;
+}
+
+.chatBoxBottom {
+    margin: 30px 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chatMessageInput {
+    width: 80%;
+    min-width: 80%;
+    height: 90px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.chatSubmitBtn {
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+.chatOnline {
+    flex: 3;
+}
+
+.chatMenu-container,
+ .chatBox-container, 
+ .chatOnline-container {
+    padding: 10px;
+    height: 100%;
+}
+
+.noConversationText {
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+    color: #bfc2c7;
+}
+
+.chatBoxFeed {
+    display: flex;
+    flex-direction: column-reverse;
+}

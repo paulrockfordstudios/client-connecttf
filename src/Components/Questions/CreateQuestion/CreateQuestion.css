@@ -1,0 +1,1213 @@
+.createQuestionPortal {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+}
+
+.createQuestionBackdropOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.createQuestionModal {
+    position: fixed;
+    top: 0;
+    left: 15%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.createQuestion {
+    width: 630px;
+    height: 630px;
+    border-radius: 40px;
+    background-color: white;
+    padding: 20px;
+    top: 2px;
+    left: 2px;
+    position: relative;
+    opacity: 1;
+    -webkit-box-shadow: 0px 10px 50px -20px rgba(0,0,0,0.75); 
+    box-shadow: 0px 10px 50px -20px rgba(0,0,0,0.75);
+}
+
+.createQuestion.union {
+    position: absolute;
+}
+
+.createQuestion.flame {
+    margin-bottom: 30px;
+}
+
+
+
+.createQuestion-container {
+    padding: 10px;
+}
+
+.createQuestionTop {
+    display: flex;
+    flex-direction: column;
+}
+
+.createQuestionTopUpper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createQuestionLogo {
+    height: 30px;
+}
+
+.creatQuestionTitle {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.createQuestionCancelPNGIcon {
+    height: 36px;
+    margin-right: -5px;
+    margin-bottom: -2px;
+}
+
+.createQuestionCancelSVGIcon {
+    font-size: 36px !important;
+    margin-right: -5px;
+    margin-bottom: -2px;
+}
+
+.createQuestionCancelSVGIcon.masculine {
+    color: #d8e1fe;
+}
+
+.createQuestionCancelSVGIcon.masculine:hover {
+    color: #4a76fd;
+}
+
+.createQuestionCancelSVGIcon.masculine:active {
+    color: #3453b2;
+}
+
+.createQuestionCancelSVGIcon.feminine {
+    color: #fde1ef;
+}
+
+.createQuestionCancelSVGIcon.feminine:hover {
+    color: #e639af;
+}
+
+.createQuestionCancelSVGIcon.feminine:active {
+    color: #a1287b;
+}
+
+.createQuestionCancelSVGIcon.ruby {
+    color: #d4a6ad;
+}
+
+.createQuestionCancelSVGIcon.ruby:hover {
+    color: #850014;
+}
+
+.createQuestionCancelSVGIcon.ruby:active {
+    color: #5d000e;
+}
+
+.createQuestionCancelSVGIcon.orange {
+    color: #ffdab3;
+}
+
+.createQuestionCancelSVGIcon.orange:hover {
+    color: #ff8303;
+}
+
+.createQuestionCancelSVGIcon.orange:active {
+    color: #b35c02;
+}
+
+.createQuestionCancelSVGIcon.sun {
+    color: #fff9bf;
+}
+
+.createQuestionCancelSVGIcon.sun:hover {
+    color: #ffe700;
+}
+
+.createQuestionCancelSVGIcon.sun:active {
+    color: #b3a200;
+}
+
+.createQuestionCancelSVGIcon.emerald {
+    color: #caeed6;
+}
+
+.createQuestionCancelSVGIcon.emerald:hover {
+    color: #50c878;
+}
+
+.createQuestionCancelSVGIcon.emerald:active {
+    color: #388c54;
+}
+
+.createQuestionCancelSVGIcon.blue {
+    color: #cee8fb;
+}
+
+.createQuestionCancelSVGIcon.blue:hover {
+    color: #098de9;
+}
+
+.createQuestionCancelSVGIcon.blue:active {
+    color: #0663a4;
+}
+
+.createQuestionCancelSVGIcon.indigo {
+    color: #babad4;
+}
+
+.createQuestionCancelSVGIcon.indigo:hover {
+    color: #30307e;
+}
+
+.createQuestionCancelSVGIcon.indigo:active {
+    color: #222258;
+}
+
+.createQuestionCancelSVGIcon.violet {
+    color: #dcbff6;
+}
+
+.createQuestionCancelSVGIcon.violet:hover {
+    color: #8a2be2;
+}
+
+.createQuestionCancelSVGIcon.violet:active {
+    color: #611e9f;
+}
+
+.createQuestionCancelSVGIcon.gray {
+    color: #e4e6e7;
+}
+
+.createQuestionCancelSVGIcon.gray:hover {
+    color: #aeb4b7;
+}
+
+.createQuestionCancelSVGIcon.gray:active {
+    color: #7a7e80;
+}
+
+.createQuestionTopLower {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createQuestionLink {
+    display: flex;
+    align-items: center;
+}
+
+.createQuestionProfilePic {
+    flex-shrink: 0;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.createQuestionProfileIcon {
+    flex-shrink: 0;
+    height: 24px;
+    margin-right: 3px;
+}
+
+.createQuestionName {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+
+.createQuestionDropdownBtns {
+    display: flex;
+    flex-direction: row;
+}
+
+.createQuestionDropdownBtn {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-left: 20px;
+}
+
+.createQuestionDropdownBtn.masculine {
+    background-color: #4a76fd;
+}
+
+.createQuestionDropdownBtn.feminine {
+    background-color: #e639af;
+}
+
+.createQuestionDropdownBtn.ruby {
+    background-color: #850014;
+}
+
+.createQuestionDropdownBtn.orange {
+    background-color: #ff8303;
+}
+
+.createQuestionDropdownBtn.sun {
+    background-color: #ffe700;
+}
+
+.createQuestionDropdownBtn.emerald {
+    background-color: #50c878;
+}
+
+.createQuestionDropdownBtn.blue {
+    background-color: #098de9;
+}
+
+.createQuestionDropdownBtn.indigo {
+    background-color: #30307e;
+}
+
+.createQuestionDropdownBtn.violet {
+    background-color: #8a2be2;
+}
+
+.createQuestionDropdownBtn.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.createQuestionDropdownBtn.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.createQuestionDropdownBtn.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.createQuestionDropdownBtn.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.createQuestionDropdownBtn.gray {
+    background-color: #aeb4b7;
+}
+
+.createQuestionVisibilityIcon {
+    display: flex;
+    align-items: top;
+    font-size: 20px !important;
+    margin: 0 5px;
+}
+
+.createQuestionDropdownTitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.createQuestionDropdownTitle.feed {
+    margin-left: 5px;
+}
+
+.createQuestionDropdownIcon {
+    font-size: 30px !important;
+    margin-right: -2px;
+}
+
+.createQuestionTitleEditorContainer {
+    position: relative;
+    height: 48px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.createQuestionTitleHigherSpectrumBackground {
+    position: absolute;
+    width: 100%;
+    min-height: 48px;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+}
+
+.createQuestionTitleWhiteBackground {
+    position: absolute;
+    margin: 24px 30px;
+    width: calc(100% - 60px);
+    height: 0px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 30px 30px white; 
+    box-shadow: 0px 0px 30px 30px white;
+}
+
+
+
+.createQuestionTitleEditor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 48px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.createQuestionTitleEditorInput {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 50px);
+    margin-left: 22px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background: transparent;  
+}
+
+.createQuestionTitleEditorInput:focus {
+    outline: none;
+}
+
+.createQuestionTitleRequirementText {
+    font-size: 12px;
+    cursor: initial;
+    margin: 0 20px;
+    color: #aeb4b7;
+}
+
+.createQuestionEditorContainerContainer {
+    position: relative;
+    height: 256px;
+    width: 100%;
+    border-radius: 20px; 
+}
+
+.createQuestionEditorContainerContainer.editor {
+    position: relative;
+    margin: 20px 0;
+}
+
+.createQuestionEditorContainerContainer.imgDZ {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.createQuestionHigherSpectrumBackground {
+    position: absolute;
+    width: 100%;
+    height: 256px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+}
+
+.createQuestionWhiteBackground {
+    position: absolute;
+    margin: 50px;
+    width: calc(100% - 100px);
+    height: 154px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 30px 50px white; 
+    box-shadow: 0px 0px 30px 50px white;
+}
+
+
+.createQuestionEditor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 44px);
+    height: 214px;
+    max-height: 254px;
+    padding:  20px 19px 20px 25px;
+    font-size: 14px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.creatQuestionImgDropzoneContainer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -2px;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    overflow: hidden;
+    transition: height 325ms cubic-bezier(0.43,-0.35, 0.14, 1.35);
+    border-radius: 20px;
+}
+
+.createQuestionImgDZContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 222px;
+    width: 570px; 
+    margin: 20px;  
+    border-radius: 20px;
+}
+
+.createQuestionImgDZContainer.rainbow {
+    background: -webkit-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+}
+
+
+.createQuestionImgDZContainer.silver {
+    background: -webkit-linear-gradient(left, #f4f4f4, #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4, #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.createQuestionImgDZContainer.gold {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+}
+
+.createQuestionImgDZContainer.platinum {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.createQuestionImgDZBorder {
+    height: 222px;
+    width: 570px;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+}
+
+.createQuestionImgDropzone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 564px;
+    height: 216px;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.createQuestionImgDropzone.masculine {
+    background-color: #d8e1ef; 
+    border: dashed 3px #4a76fd;
+}
+
+.createQuestionImgDropzone.feminine {
+    background-color: #fde1ef; 
+    border: dashed 3px #e639af;
+}
+
+.createQuestionImgDropzone.ruby {
+    background-color: #d4a6ad; 
+    border: dashed 3px #850014;
+}
+
+.createQuestionImgDropzone.orange {
+    background-color: #ffdab3; 
+    border: dashed 3px #ff8303;
+}
+
+.createQuestionImgDropzone.sun {
+    background-color: #fff9bf; 
+    border: dashed 3px #ff3700;
+}
+
+.createQuestionImgDropzone.emerald {
+    background-color: #caeed6; 
+    border: dashed 3px #50c878;
+}
+
+.createQuestionImgDropzone.blue {
+    background-color: #cee8fb; 
+    border: dashed 3px #098de9;
+}
+
+.createQuestionImgDropzone.indigo {
+    background-color: #babad4; 
+    border: dashed 3px #30307e;
+}
+
+.createQuestionImgDropzone.violet {
+    background-color: #dcbff6; 
+    border: dashed 3px #8a2be2;
+}
+
+.createQuestionImgDropzone.violet {
+    background-color: #dcbff6; 
+    border: dashed 3px #8a2be2;
+}
+
+.createQuestionImgDropzone.gray {
+    background-color: #e4e6e7; 
+    border: dashed 3px #aeb4b7;
+}
+
+.createQuestionImgDZCancelPNGIcon {
+    position: absolute;
+    top: 25px;
+    right: 27px;
+    height: 20px;
+    width: 20px;
+    z-index: 3;
+}
+
+.createQuestionImgDZCancelSVGIcon {
+    position: absolute;
+    top: 23px;
+    right: 25px;
+    z-index: 3;
+}
+
+.createQuestionImgDZCancelSVGIcon.masculine {
+    color: #4a76fd;
+}
+
+.createQuestionImgDZCancelSVGIcon.feminine {
+    color: #e639af;
+}
+
+.createQuestionImgDZCancelSVGIcon.ruby {
+    color: #850014;
+}
+
+.createQuestionImgDZCancelSVGIcon.orange {
+    color: #ff8303;
+}
+
+.createQuestionImgDZCancelSVGIcon.sun {
+    color: #ffe700;
+}
+
+.createQuestionImgDZCancelSVGIcon.emerald {
+    color: #50c878;
+}
+
+.createQuestionImgDZCancelSVGIcon.blue {
+    color: #098de9;
+}
+
+.createQuestionImgDZCancelSVGIcon.indigo {
+    color: #30307e;
+}
+
+.createQuestionImgDZCancelSVGIcon.violet {
+    color: #8a2be2;
+}
+
+.createQuestionImgDZCancelSVGIcon.gray {
+    color: #aeb4b7;
+}
+
+.createQuestionEditorContainer {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.createQuestionHashtagEditor {
+    width: 100%;
+    padding-right: 20px;
+}
+
+/*
+div.public-DraftEditorPlaceholder-inner {
+    font-size: 12px;
+}
+*/
+
+.createQuestionInput {
+    border: none;
+    width: 80%;
+    white-space: pre-wrap;
+}
+
+.createQuestionInput:focus {
+    outline: none;
+}
+
+.createQuestionHrDiamond {
+    width: 95%;
+    height: 1px;
+    margin: 20px;
+    object-fit: cover;
+}
+
+.createQuestionHr {
+    width: 100%;
+    margin: 20px 0;
+    border: none;
+    height: 1px;
+}
+
+.createQuestionHr.masculine {
+    background-color: #4a76fd;
+}
+
+.createQuestionHr.feminine {
+    background-color: #e639af;
+}
+
+.createQuestionHr.ruby {
+    background-color: #850014;   
+}
+
+.createQuestionHr.orange { 
+    background-color: #ff8303; 
+}
+
+.createQuestionHr.sun {
+    background-color: #ffe700;  
+}
+
+.createQuestionHr.emerald { 
+    background-color: #50c878; 
+}
+
+.createQuestionHr.blue {
+    background-color: #098de9; 
+}
+
+.createQuestionHr.indigo { 
+    background-color: #30307e; 
+}
+
+.createQuestionHr.violet { 
+    background-color: #8a2be2; 
+}
+
+.createQuestionHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.createQuestionHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.createQuestionHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.createQuestionHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.createQuestionHr.gray {
+    background-color: #aeb4b7;
+}
+
+.createQuestionImages-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 250px;
+}
+
+.createQuestionImageContainer {
+    position: relative;
+    margin-top: 10px;
+}
+
+.createQuestionImageContainer.top {
+    margin-top: 0;
+}
+
+.createQuestionImg {
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+.createQuestionCancelImgPNGBtn {
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+   
+}
+
+.createQuestionCancelImgSVGBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+   
+}
+
+.createQuestionCancelImgSVGBtn.masculine {
+    color: #4a76fd;
+}
+
+.createQuestionCancelImgSVGBtn.feminine {
+    color: #e639af;
+}
+
+.createQuestionCancelImgSVGBtn.ruby {
+    color: #850014;
+}
+
+.createQuestionCancelImgSVGBtn.orange {
+    color: #ff8303;
+}
+
+.createQuestionCancelImgSVGBtn.sun {
+    color: #ffe700;
+}
+
+.createQuestionCancelImgSVGBtn.emerald {
+    color: #50c878;
+}
+
+.createQuestionCancelImgSVGBtn.blue {
+    color: #098de9;
+}
+
+.createQuestionCancelImgSVGBtn.indigo {
+    color: #30307e;
+}
+
+.createQuestionCancelImgSVGBtn.violet {
+    color: #8a2be2;
+}
+
+.createQuestionCancelImgSVGBtn.gray {
+    color: #aeb4b7;
+}
+
+.createQuestionBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createQuestionOptions {
+    height: 36px;
+}
+
+.createQuestionOption {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.createQuestionAddPhotoSVGIcon {
+    font-size: 36px !important;
+    color: #7a7e80;
+}
+
+.createQuestionAddPhotoPNGIcon {
+    width: 36px;
+}
+
+.createQuestionBottomRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.createQuestionError {
+    font-size: 14px;
+    color: red;
+}
+
+.createQuestionShareButtonBackground {
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 120px;
+    height: 36px;
+    margin-left: 20px;
+}
+
+.createQuestionShareButtonBackground.disabled {
+    opacity: 0.3;
+}
+
+.createQuestionShareButtonBackground.masculine {
+    background-color: #4a76fd;
+}
+
+.createQuestionShareButtonBackground.feminine {
+    background-color: #e639af;
+}
+
+.createQuestionShareButtonBackground.ruby {
+    background-color: #850014;
+}
+
+.createQuestionShareButtonBackground.orange {
+    background-color: #ff8303;
+}
+
+.createQuestionShareButtonBackground.sun {
+    background-color: #ffe700;
+}
+
+.createQuestionShareButtonBackground.emerald {
+    background-color: #50c878;
+}
+
+.createQuestionShareButtonBackground.blue {
+    background-color: #098de9;
+}
+
+.createQuestionShareButtonBackground.indigo {
+    background-color: #30307e;
+}
+
+.createQuestionShareButtonBackground.violet {
+    background-color: #8a2be2;
+}
+
+
+.createQuestionShareButtonBackground.rainbow, .createQuestionShareButtonBackground.rainbow.disabled:active  {
+    background: -webkit-linear-gradient(left, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.createQuestionShareButtonBackground.rainbow:active {
+    background: -webkit-linear-gradient(left, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* Standard syntax (must be last) */
+}
+
+.createQuestionShareButtonBackground.silver, .createQuestionShareButtonBackground.silver.disabled:active {
+    background: -webkit-linear-gradient(left, #dadada, #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada, #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.createQuestionShareButtonBackground.silver:active {
+    background: -webkit-linear-gradient(left, #999999, #646464 , #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #999999, #646464 , #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #999999, #646464 , #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #999999, #646464 , #999999); /* Standard syntax (must be last) */
+}
+
+.createQuestionShareButtonBackground.gold, .createQuestionShareButtonBackground.gold.disabled:active {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.createQuestionShareButtonBackground.gold:active {
+    background: -webkit-linear-gradient(left, #785414, #a79346 , #785414); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #785414, #a79346 , #785414); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #785414, #a79346 , #785414); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #785414, #a79346 , #785414); /* Standard syntax (must be last) */
+}
+
+.createQuestionShareButtonBackground.platinum, .createQuestionShareButtonBackground.platinum.disabled:active {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.createQuestionShareButtonBackground.platinum:active {
+    background: -webkit-linear-gradient(left, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* Standard syntax (must be last) */
+}
+
+.createQuestionShareButtonBackground.gray {
+    background-color: #aeb4b7;
+}
+
+.createQuestionShareButton {
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 120px;
+    height: 36px;
+    font-size: 24px;
+    color: white;
+    background: transparent;
+}
+
+.createQuestionShareButton.masculine {
+    background-color: #4a76fd;
+}
+
+.createQuestionShareButton.masculine:hover {
+    color: #d8e1fe;
+}
+
+.createQuestionShareButton.masculine:active {
+    background-color: #3453b2;
+    color: #c3cbe5;
+}
+
+.createQuestionShareButton.feminine {
+    background-color: #e639af;
+}
+
+.createQuestionShareButton.feminine:hover {
+    color: #fde1ef;
+}
+
+.createQuestionShareButton.feminine:active {
+    background-color: #a1287b;
+    color: #e4cbd8;
+}
+
+.createQuestionShareButton.ruby {
+    background-color: #850014; 
+}
+
+.createQuestionShareButton.ruby:hover {
+    color: #d4a6ad;
+}
+
+.createQuestionShareButton.ruby:active {
+    background-color: #5d000e;
+    color: #be959b;
+}
+
+.createQuestionShareButton.orange { 
+    background-color: #ff8303; 
+}
+
+.createQuestionShareButton.orange:hover {
+    color: #ffdab3;
+}
+
+.createQuestionShareButton.orange:active {
+    background-color: #b35c02;
+    color: #e6c1ac;
+}
+
+.createQuestionShareButton.sun {
+    background-color: #ffe700; 
+}
+
+.createQuestionShareButton.sun:hover {
+    color: #fff9bf;
+}
+
+.createQuestionShareButton.sun:active {
+    background-color: #b3a200;
+    color: #e6e1ac;
+}
+
+.createQuestionShareButton.emerald { 
+    background-color: #50c878; 
+}
+
+.createQuestionShareButton.emerald:hover {
+    color: #caeed6;
+}
+
+.createQuestionShareButton.emerald:active {
+    background-color: #388c54;
+    color: #b6d7c1;
+}
+
+.createQuestionShareButton.blue {
+    background-color: #098de9;
+}
+
+.createQuestionShareButton.blue:hover {
+    color: #cee8fb;
+}
+
+.createQuestionShareButton.blue:active {
+    background-color: #0663a4;
+    color: #bad1e2;
+}
+
+.createQuestionShareButton.indigo { 
+    background-color: #30307e; 
+}
+
+.createQuestionShareButton.indigo:hover {
+    color: #babad4;
+}
+
+.createQuestionShareButton.indigo:active {
+    background-color: #222258;
+    color: #a8a8bf;
+}
+
+.createQuestionShareButton.violet { 
+    background-color: #8a2be2; 
+}
+
+.createQuestionShareButton.violet:hover {
+    color: #dcbff6;
+}
+
+.createQuestionShareButton.violet:active {
+    background-color: #611e9f;
+    color: #c6acde;
+}
+
+.createQuestionShareButton.rainbow,
+.createQuestionShareButton.silver,
+.createQuestionShareButton.gold,
+.createQuestionShareButton.platinum {
+    background: transparent;
+    color: white;
+}
+
+.createQuestionShareButton.rainbow:hover {
+    background: -webkit-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.createQuestionShareButton.rainbow:active {
+    background: -webkit-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.createQuestionShareButton.silver:hover {
+    background: -webkit-linear-gradient(left, #f4f4f4, #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #f4f4f4, #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.createQuestionShareButton.silver:active {
+    background: -webkit-linear-gradient(left, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #dcdcdc, #c7c7c7 , #dcdcdc); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.createQuestionShareButton.gold:hover {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.createQuestionShareButton.gold:active {
+    background: -webkit-linear-gradient(left, #cfc1a9, #e1d9bc , #cfc1a9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #cfc1a9, #e1d9bc , #cfc1a9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #cfc1a9, #e1d9bc , #cfc1a9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #cfc1a9, #e1d9bc , #cfc1a9); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.createQuestionShareButton.platinum:hover {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.createQuestionShareButton.platinum:active {
+    background: -webkit-linear-gradient(left, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.createQuestionShareButton.diamond {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.createQuestionShareButton.diamond:active {
+    background: -webkit-linear-gradient(left, #785414, #a79346 , #785414); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #785414, #a79346 , #785414); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #785414, #a79346 , #785414); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #785414, #a79346 , #785414); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.createQuestionShareButton.gray {
+    background-color: #bfc2c7;
+    color: black;
+}

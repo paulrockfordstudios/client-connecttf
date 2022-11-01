@@ -1,0 +1,1078 @@
+.unionProfile {
+    display: flex;
+}
+
+.unionProfile-container {
+    margin-top: 74px;
+    width: 100%;
+    padding: 20px 20% 30px 15%;
+    overflow-x: hidden;  
+}
+
+.unionProfileRight {
+    margin-left: 20px;
+}
+
+.unionProfileRightTop {
+    height: 100%;   
+}
+
+.unionProfileContainer {
+    width: calc(100% - 20px);
+    position: relative;
+}
+
+.unionProfileBackgroundTheme {
+    width: 100%;
+    border-radius: 60px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+}
+
+.unionProfileDisplay-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border-radius: 60px;
+    background-color: white;
+}
+
+.unionProfileDisplay-container.union {
+    position: sticky;
+}
+
+.unionProfileBackgroundImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    margin-bottom: 0;
+}
+
+.profileNavigation {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.profileNavLeft {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+
+.profileNavRight {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+
+
+.profileNavLeft Button {
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    margin: 0 2.5px;
+    cursor: pointer; 
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileNavRight Button {
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    margin: 0 2.5px;
+    cursor: pointer;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.userProfileBtn.ruby {
+    background-color: #850014;
+    color: white;
+}
+
+.userProfileBtn-active.ruby {
+    background-color: white;
+    color: #850014;
+}
+
+.userProfileBtn.private.ruby {
+    background-color: #d4a6ad;
+    color: white;
+}
+
+.userProfileBtn.orange {
+    background-color: #ff8303;
+    color: white;
+}
+
+.userProfileBtn-active.orange {
+    background-color: white;
+    color: #ff8303;
+}
+
+.userProfileBtn.private.orange {
+    background-color: #ffdab3;
+    color: white;
+}
+
+.userProfileBtn.sun {
+    background-color: #ffe700;
+    color: white;
+}
+
+.userProfileBtn-active.sun {
+    background-color: white;
+    color: #ffe700;
+}
+
+.userProfileBtn.private.sun {
+    background-color: #fff9bf;
+    color: white;
+}
+
+.userProfileBtn.emerald {
+    background-color: #50c878;
+    color: white;
+}
+
+.userProfileBtn-active.emerald {
+    background-color: white;
+    color: #50c878;
+}
+
+.userProfileBtn.private.emerald {
+    background-color: #caeed6;
+    color: white;
+}
+
+.userProfileBtn.blue {
+    background-color: #098de9;
+    color: white;
+}
+
+.userProfileBtn-active.blue {
+    background-color: white;
+    color: #098de9;
+}
+
+.userProfileBtn.private.blue {
+    background-color: #cee8fb;
+    color: white;
+}
+
+.userProfileBtn.indigo {
+    background-color: #30307e;
+    color: white;
+}
+
+.userProfileBtn-active.indigo {
+    background-color: white;
+    color: #30307e;
+}
+
+.userProfileBtn.private.indigo {
+    background-color: #babad4;
+    color: white;
+}
+
+.userProfileBtn.violet {
+    background-color: #8a2be2;
+    color: white;
+}
+
+.userProfileBtn-active.violet {
+    background-color: white;
+    color: #8a2be2;
+}
+
+.userProfileBtn.private.violet {
+    background-color: #dcbff6;
+    color: white;
+}
+
+.userProfileBtn.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn-active.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userProfileBtn.private.silver {
+    background: -webkit-linear-gradient(left, #f4f4f4, #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4, #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn-active.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userProfileBtn.private.gold {
+    background: -webkit-linear-gradient(left, #e6d6bb, #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb, #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb, #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb, #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn.story.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn-active.story.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userProfileBtn.private.story.platinum {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn.about.platinum {
+    background: -webkit-linear-gradient(left, #566167, #8e8e8e, #6d606a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #566167, #8e8e8e, #6d606a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #566167, #8e8e8e, #6d606a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #566167, #8e8e8e, #6d606a); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn-active.about.platinum {
+    background: -webkit-linear-gradient(left, #566167, #8e8e8e, #6d606a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #566167, #8e8e8e, #6d606a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #566167, #8e8e8e, #6d606a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #566167, #8e8e8e, #6d606a); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userProfileBtn.private.about.platinum {
+    background: -webkit-linear-gradient(left, #cccfd1, #dddddd, #d3cfd2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #cccfd1, #dddddd, #d3cfd2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #cccfd1, #dddddd, #d3cfd2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #cccfd1, #dddddd, #d3cfd2); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn.posts.platinum {
+    background: -webkit-linear-gradient(left, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn-active.posts.platinum {
+    background: -webkit-linear-gradient(left, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userProfileBtn.private.posts.platinum {
+    background: -webkit-linear-gradient(left, #d3cfd2, #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3cfd2, #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3cfd2, #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3cfd2, #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn.questions.platinum {
+    background: -webkit-linear-gradient(left, #dadada, #af9499, #6d606a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,  #dadada, #af9499, #6d606a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,  #dadada, #af9499, #6d606a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,  #dadada, #af9499, #6d606a); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn-active.questions.platinum {
+    background: -webkit-linear-gradient(left,  #dadada, #af9499, #6d606a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,  #dadada, #af9499, #6d606a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,  #dadada, #af9499, #6d606a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,  #dadada, #af9499, #6d606a); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userProfileBtn.private.questions.platinum {
+    background: -webkit-linear-gradient(left, #f4f4f4, #e7dfe0, #d3cfd2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,  #f4f4f4, #e7dfe0, #d3cfd2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,  #f4f4f4, #e7dfe0, #d3cfd2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,  #f4f4f4, #e7dfe0, #d3cfd2); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn.answers.platinum {
+    background: -webkit-linear-gradient(left, #6d606a,  #8e8e8e, #566167); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #6d606a,  #8e8e8e, #566167); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #6d606a,  #8e8e8e, #566167); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #6d606a,  #8e8e8e, #566167); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn-active.answers.platinum {
+    background: -webkit-linear-gradient(left, #6d606a,  #8e8e8e, #566167); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #6d606a,  #8e8e8e, #566167); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #6d606a,  #8e8e8e, #566167); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #6d606a,  #8e8e8e, #566167); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userProfileBtn.private.answers.platinum {
+    background: -webkit-linear-gradient(left, #d3cfd2,  #dddddd, #cccfd1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3cfd2,  #dddddd, #cccfd1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3cfd2,  #dddddd, #cccfd1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3cfd2,  #dddddd, #cccfd1); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn.blogs.platinum {
+    background: -webkit-linear-gradient(left, #566167, #6b8c95, #d3e9f6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #566167, #6b8c95, #d3e9f6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #566167, #6b8c95, #d3e9f6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #566167, #6b8c95, #d3e9f6); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn-active.blogs.platinum {
+    background: -webkit-linear-gradient(left, #566167, #6b8c95, #d3e9f6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #566167, #6b8c95, #d3e9f6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #566167, #6b8c95, #d3e9f6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #566167, #6b8c95, #d3e9f6); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userProfileBtn.private.blogs.platinum {
+    background: -webkit-linear-gradient(left, #cccfd1, #d2dcdf, #f2f8fc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #cccfd1, #d2dcdf, #f2f8fc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #cccfd1, #d2dcdf, #f2f8fc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #cccfd1, #d2dcdf, #f2f8fc); /* Standard syntax (must be last) */
+    color: white;
+}
+
+
+.userProfileBtn.story.rainbow {
+    background: -webkit-linear-gradient(left, #850014 , #ff8303); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014 , #ff8303); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014 , #ff8303); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014 , #ff8303); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn-active.story.rainbow {
+    background: -webkit-linear-gradient(left, #850014 , #ff8303); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014 , #ff8303); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014 , #ff8303); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014 , #ff8303); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userProfileBtn.private.story.rainbow {
+    background: -webkit-linear-gradient(left, #d4a6ad, #ffdab3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn.about.rainbow {
+    background: -webkit-linear-gradient(left, #ff8303 , #ffe700); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ff8303 , #ffe700); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ff8303 , #ffe700); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ff8303 , #ffe700); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn-active.about.rainbow {
+    background: -webkit-linear-gradient(left, #ff8303 , #ffe700); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ff8303 , #ffe700); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ff8303 , #ffe700); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ff8303 , #ffe700); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userProfileBtn.private.about.rainbow {
+    background: -webkit-linear-gradient(left, #ffdab3, #fff9bf); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ffdab3, #fff9bf); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ffdab3, #fff9bf); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ffdab3, #fff9bf); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn.posts.rainbow {
+    background: -webkit-linear-gradient(left, #ffe700 , #50c878); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ffe700 , #50c878); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ffe700 , #50c878); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ffe700 , #50c878); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn-active.posts.rainbow {
+    background: -webkit-linear-gradient(left, #ffe700 , #50c878); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ffe700 , #50c878); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ffe700 , #50c878); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ffe700 , #50c878); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userProfileBtn.private.posts.rainbow {
+    background: -webkit-linear-gradient(left, #fff9bf, #caeed6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #fff9bf, #caeed6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #fff9bf, #caeed6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #fff9bf, #caeed6); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn.questions.rainbow {
+    background: -webkit-linear-gradient(left, #50c878 , #098de9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #50c878 , #098de9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #50c878 , #098de9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #50c878 , #098de9); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn-active.questions.rainbow {
+    background: -webkit-linear-gradient(left, #50c878 , #098de9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #50c878 , #098de9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #50c878 , #098de9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #50c878 , #098de9); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userProfileBtn.private.questions.rainbow {
+    background: -webkit-linear-gradient(left, #caeed6, #cee8fb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #caeed6, #cee8fb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #caeed6, #cee8fb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #caeed6, #cee8fb); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn.answers.rainbow {
+    background: -webkit-linear-gradient(left, #098de9 , #30307e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #098de9 , #30307e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #098de9 , #30307e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #098de9 , #30307e); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn-active.answers.rainbow {
+    background: -webkit-linear-gradient(left, #098de9 , #30307e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #098de9 , #30307e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #098de9 , #30307e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #098de9 , #30307e); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userProfileBtn.private.answers.rainbow {
+    background: -webkit-linear-gradient(left, #cee8fb, #babad4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #cee8fb, #babad4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #cee8fb, #babad4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #cee8fb, #babad4); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn.blogs.rainbow {
+    background: -webkit-linear-gradient(left, #30307e , #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #30307e , #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #30307e , #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #30307e , #8a2be2); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.userProfileBtn-active.blogs.rainbow {
+    background: -webkit-linear-gradient(left, #30307e , #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #30307e , #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #30307e , #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #30307e , #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.userProfileBtn.private.blogs.rainbow {
+    background: -webkit-linear-gradient(left, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #babad4, #dcbff6); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.upDiamondText {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.userProfileBtn.grey {
+    background-color: #bfc2c7;
+    color: black;
+}
+
+.userProfileBtn-active.grey {
+    background-color: white;
+    color: #bfc2c7;
+}
+
+.userProfileBtn.private.grey {
+    background-color: #e4e6e7;
+    color: white;
+}
+
+
+
+
+
+.userStoryBtn {
+    background-color: #bfc2c7;
+}
+
+.userStoryBtn {
+    background-color: white;
+}
+
+.userAboutBtn {
+    background-color: #bfc2c7;
+}
+
+.userAboutBtn {
+    background-color: white;
+}
+
+.userPostsBtn {
+    background-color: #bfc2c7;
+}
+
+.userPostsBtn {
+    background-color: white;
+}
+
+.userQuestionsBtn {
+    background-color: #bfc2c7;
+}
+
+.userQuestionsBtn {
+    background-color: white;
+}
+
+.userAnswersBtn {
+    background-color: #bfc2c7;
+}
+
+.userAnswersBtn {
+    background-color: white;
+}
+
+.userBlogsBtn {
+    background-color: #bfc2c7;
+}
+
+.userBlogsBtn {
+    background-color: white;
+}
+
+.profileImgBackgroundLayer {
+    position: absolute;
+    border-radius: 50%;
+    margin: auto;
+    border: 5px solid white;
+}
+
+.profileImgBackgroundLayer.primary {
+    width: 200px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    top: 145px;
+}
+
+.profileImgBackgroundLayer.secondary {
+    width: 100px;
+    height: 100px;
+    top: 200px;
+}
+
+.profileImgBackgroundLayer.secondary.masculine {
+    left: 0;
+    right: 220px;
+}
+
+.profileImgBackgroundLayer.secondary.feminine {
+    right: 0;
+    left: 220px;
+}
+
+.profileImgBackgroundLayer.masculine {
+    background-color: #d8e1fe;
+}
+
+.profileImgBackgroundLayer.feminine {
+    background-color: #fde1ef;
+}
+
+.profileImgBackgroundLayer.ruby {
+    background-color: #d4a6ad;
+}
+
+.profileImgBackgroundLayer.orange {
+    background-color: #ffdab3;
+}
+
+.profileImgBackgroundLayer.sun {
+    background-color: #fff9bf;
+}
+
+.profileImgBackgroundLayer.emerald {
+    background-color: #caeed6;
+}
+
+.profileImgBackgroundLayer.blue {
+    background-color: #cee8fb;
+}
+
+.profileImgBackgroundLayer.indigo {
+    background-color: #babad4;
+}
+
+.profileImgBackgroundLayer.violet {
+    background-color: #dcbff6;
+}
+
+.profileImgBackgroundLayer.rainbow {
+    background: -webkit-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+}
+
+.profileImgBackgroundLayer.silver {
+    background: -webkit-linear-gradient(left, #f4f4f4, #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #f4f4f4, #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.profileImgBackgroundLayer.gold {
+    background: -webkit-linear-gradient(left, #e6d6bb, #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb, #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb, #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb, #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+}
+
+.profileImgBackgroundLayer.platinum {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.profileImgBackgroundLayer.diamond {
+    background-color: white;
+}
+
+.profileImgBackgroundLayer.gray {
+    background-color: #e4e6e7;
+}
+
+.profileImg {
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    margin: auto;
+    border: 5px solid white;
+}
+
+.profileImg.primary {
+    width: 200px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    top: 145px;
+}
+
+.masculineProfileImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 220px;
+    top: 200px;
+    margin: auto;
+    border: 5px solid white;
+}
+
+.feminineProfileImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 220px;
+    right: 0;
+    top: 200px;
+    margin: auto;
+    border: 5px solid white;
+}
+
+.profileImg.edit {
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.profileBackgroundImgEdit {
+    position: absolute;
+    right: 22px;
+    top: 20px;
+    font-size: 30px !important;
+}
+
+.profileBackgroundImgEdit.masculine {
+    color: #4a76fd;
+}
+
+.profileBackgroundImgEdit.feminine {
+    color: #e639af;
+}
+
+.profileBackgroundImgEdit.grey {
+    color: #f1f1f1;
+}
+
+.profileImgEdit {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 205px;
+    font-size: 96px !important;
+    color: white;
+    cursor: pointer;
+}
+
+/*
+.profileImgEdit.masculine {
+    color: #4a76fd;
+}
+
+.profileImgEdit.feminine {
+    color: #e639af;
+}
+
+.profileImgEdit.grey {
+    color: #f1f1f1;
+}
+*/
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.profileInfoEdit {
+    position: absolute;
+    right: 22px;
+    top: 350px;
+    font-size: 30px !important;
+}
+
+.profileInfoEdit.masculine {
+    color: #4a76fd;
+}
+
+.profileInfoEdit.feminine {
+    color: #e639af;
+}
+
+.profileInfoEdit.grey {
+    color: #f1f1f1;
+}
+
+.unionProfileName {
+    font-size: 48px;
+    margin: 10px 0 20px 0;
+}
+
+.unionProfileAbout {
+    width: 90%;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.unionProfileDP-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4px 0 34px 0;
+}
+
+.unionProfileTF {
+    display: flex;
+    align-items: center;
+}
+
+.unionProfileTFKey {
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.unionProfileTFKey.masculine {
+    color: #4a76fd;
+}
+
+.unionProfileTFKey.feminine {
+    color: #e639af;
+}   
+
+.unionProfileTFValue {
+    cursor: pointer;
+}
+
+.unionProfileTFLink {
+    display: flex;
+    align-items: center;
+}
+
+.unionProfileTFPic {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.unionProfileTFEnergy {
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+.unionProfileTFName {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 3px;
+}
+
+
+
+.profileInfoHereFor {
+    display: flex;
+}
+
+.profileInfoHereForKey {
+    font-weight: 500;
+    margin-right: 10px;
+    color: #555;
+}
+
+
+
+.profileRightBottom {
+    display: flex;
+}
+
+.profileInfoHereForValue {
+    color: #555;
+}
+
+.profileFollowStats {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.profileFollowStatLink {
+    text-decoration: none;
+    color: black;
+}
+
+.profileFollowStatText {
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.profileFollowStatCount {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.profileSubscribeStats {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.profileSubscribeStatLink {
+    text-decoration: none;
+    color: black;
+}
+
+.profileSubscribeStatText {
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.profileSubscribeStatCount {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.unionProfileHr {
+    width: 80%;
+    margin-top: 30px;
+    height: 5px;
+    border: none;
+}
+    
+.unionProfileHr.ruby {
+    background: #850014;   
+}
+
+.unionProfileHr.orange {
+    background: #ff8303;   
+}
+
+.unionProfileHr.sun {
+    background: #ffe700;   
+}
+
+.unionProfileHr.emerald {
+    background: #50c878;   
+}
+
+.unionProfileHr.blue {
+    background: #098de9;   
+}
+
+.unionProfileHr.indigo {
+    background: #30307e;   
+}
+
+.unionProfileHr.violet {
+    background: #8a2be2;   
+}
+
+.unionProfileHr.rainbow {
+    background: -webkit-linear-gradient(left, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.unionProfileHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.unionProfileHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.unionProfileHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.unionProfileHr.gray {
+    background: #bfc2c7;   
+}
+
+.unionProfileHrDiamond {
+    width: 80%;
+    height: 5px;
+    margin-top: 30px;
+    object-fit: cover;
+}
+
+
+
+
+.profileDisplay-container {
+    width: 80%;
+}
+

@@ -1,0 +1,34 @@
+.answerFeed {
+    flex: 5.5;
+}
+
+.answerFeed-container {
+    padding: 20px;
+}
+
+.answerFeedController {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px 30px 30px;
+}
+
+.answerFeedTitle {
+    
+    font-size: 24px; 
+    font-weight: 500; 
+    margin-right: 20px;  
+}
+
+.answerFeedCount {
+    font-size: 12px;
+}
+
+.answerFeedControllerBtn {
+    font-size: 12px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    padding-top: 10px;
+    cursor: pointer;
+}

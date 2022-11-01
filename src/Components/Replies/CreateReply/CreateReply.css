@@ -1,0 +1,278 @@
+.createReply {
+    margin-top: 20px;
+    
+}
+
+.createReply-container.one {
+    margin: 0 70px 0 100px;
+}
+
+.createReply-container.two {
+    margin: 0 140px 0 200px;
+}
+
+.createReply-container.three {
+    margin: 0 210px 0 300px;
+}
+
+.createReply-container.four {
+    margin: 0 280px 0 400px;
+}
+
+.createReplyTop {
+    display: flex;
+    align-items: center;
+}
+
+.createReplyProfilePic {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.createReplyEditor {
+    width: 100%;
+    margin-left: 60px;
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+.createReplyInput {
+    border: none;
+    width: 80%;
+}
+
+.createReplyInput:focus {
+    outline: none;
+}
+
+.createReplyHr {
+    margin: 20px;
+    border: none;
+    height: 1px;
+}
+
+.createReplyHr.masculine {
+    background-color: #4a76fd;
+}
+
+.createReplyHr.feminine {
+    background-color: #e639af;
+}
+
+.createReplyHr.ruby {
+    background-color: #850014;   
+}
+
+.createReplyHr.orange { 
+    background-color: #ff8303; 
+}
+
+.createReplyHr.sun {
+    background-color: #ffe700;  
+}
+
+.createReplyHr.emerald { 
+    background-color: #50c878; 
+}
+
+.createReplyHr.blue {
+    background-color: #098de9; 
+}
+
+.createReplyHr.indigo { 
+    background-color: #30307e; 
+}
+
+.createReplyHr.violet { 
+    background-color: #8a2be2; 
+}
+
+.createReplyHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.createReplyHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.createReplyHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.createReplyHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.createReplyHr.gray {
+    background-color: black;
+}
+
+.createReplyHrDiamond {
+    width: 95%;
+    height: 1px;
+    margin: 20px;
+    object-fit: cover;
+}
+
+.createReplyImages-container {
+    padding: 0 20px 10px 20px;
+    position: relative;
+}
+
+.createReplyImg {
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.createReplyCancelImgBtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.createReplyBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createReplyOptions {
+    display: flex;
+    margin-left: 20px;
+}
+
+.createReplyOption {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.createReplyIcon {
+    font-size: 18px;
+    margin-right: 3px;
+}
+
+.createReplyOptionText {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.createReplyShareButton {
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.createReplyShareButton.masculine {
+    background-color: #4a76fd;
+    color: white;
+}
+
+.createReplyShareButton.feminine {
+    background-color: #e639af;
+    color: white;
+}
+
+.createReplyShareButton.ruby {
+    background-color: #850014; 
+    color: white;
+}
+
+.createReplyShareButton.orange { 
+    background-color: #ff8303; 
+    color: white;
+}
+
+.createReplyShareButton.sun {
+    background-color: #ffe700; 
+    color: white;
+}
+
+.createReplyShareButton.emerald { 
+    background-color: #50c878; 
+    color: white;
+}
+
+.createReplyShareButton.blue {
+    background-color: #098de9;
+    color: white;
+}
+
+.createReplyShareButton.indigo { 
+    background-color: #30307e; 
+    color: white;
+}
+
+.createReplyShareButton.violet { 
+    background-color: #8a2be2; 
+    color: white;
+}
+
+.createReplyShareButton.rainbow {
+    background: -webkit-linear-gradient(top, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.createReplyShareButton.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.createReplyShareButton.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.createReplyShareButton.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.createReplyShareButton.gray {
+    background-color: #bfc2c7;
+    color: black;
+}
+
+.crDiamondText {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}

@@ -1,0 +1,312 @@
+.notDropdown.friend {
+    top: 66px;
+}
+
+.notDropdown.union {
+    top: 73px;
+}
+
+.notificationsDropdownHigherSpectrumBackground {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    top: 0;
+    left: 0;
+}
+
+.notificationsDropdownWhiteBackground {
+    position: absolute;
+    margin: 20px;
+    width: 2px;
+    height: 2px;
+    border-radius: 22px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 30px 26px white; 
+    box-shadow: 0px 0px 30px 26px white;
+    opacity: .75;
+}
+
+.notDropdownBackgroundTheme {
+    width: 350px;
+    height: 485px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+}
+
+.notDropdown-container {
+    position: absolute;
+    width:  350px; 
+    height: 485px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.notDropdownList {
+    display: flex;
+    flex-direction: column;
+    height: 445px;
+    width: 100%;
+}
+
+.notDropdownLinkContainer {
+    width: 100%;
+    height: 40px;
+}
+
+.notDropdownHr {
+    height: 2px;
+    width: 100%;
+    border: none;
+}
+
+.notDropdownHr.masculine {
+    background-color: #4a76fd;
+}
+
+.notDropdownHr.feminine {
+    background-color: #e639af;
+}
+
+.notDropdownHr.ruby {
+    background-color: #850014;
+}
+
+.notDropdownHr.orange {
+    background-color: #ff8303;
+}
+
+.notDropdownHr.sun {
+    background-color: #ffe700;
+}
+
+.notDropdownHr.emerald {
+    background-color: #50c878;
+}
+
+.notDropdownHr.blue {
+    background-color: #098de9;
+}
+
+.notDropdownHr.indigo {
+    background-color: #30307e;
+}
+
+.notDropdownHr.violet {
+    background-color: #8a2be2;
+}
+
+.notDropdownHr.rainbow {
+    background: -webkit-linear-gradient(left, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.notDropdownHr.silver {
+    background: -webkit-linear-gradient(left, #dadada, #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada, #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.notDropdownHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d, #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d, #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.notDropdownHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.notDropdownHr.gray {
+    background-color: #aeb4b7;
+}
+
+.notDropdownLinkContainerBottom {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    height: 38px;
+}
+
+.notDropdownLink {
+    width: 170px;
+    cursor: pointer;
+}
+
+.notDropdownLinkText:hover {
+   font-weight: 500;
+}
+
+.notDropdownLinkText.masculine {
+    color: #4a76fd;
+}
+
+.notDropdownLinkText.feminine:active {
+    color: #3453b2;
+}
+
+.notDropdownLinkText.feminine {
+    color: #e639af;
+}
+
+.notDropdownLinkText.feminine:active {
+    color: #a1287b;
+}
+
+.notDropdownLinkText.ruby {
+    color: #850014;
+}
+
+.notDropdownLinkText.ruby:active {
+    color: #5d000e;
+}
+
+.notDropdownLinkText.orange {
+    color: #ff8303;
+}
+
+.notDropdownLinkText.orange:active {
+    color: #b35c02;
+}
+
+.notDropdownLinkText.sun {
+    color: #ffe700;
+}
+
+.notDropdownLinkText.sun:active {
+    color: #b3a200;
+}
+
+.notDropdownLinkText.emerald {
+    color: #50c878;
+}
+
+.notDropdownLinkText.emerald:active {
+    color: #388c54;
+}
+
+.notDropdownLinkText.blue {
+    color: #098de9;
+}
+
+.notDropdownLinkText.blue:active {
+    color: #0663a4;
+}
+
+.notDropdownLinkText.indigo {
+    color: #30307e;
+}
+
+.notDropdownLinkText.indigo:active {
+    color: #222258;
+}
+
+.notDropdownLinkText.violet {
+    color: #8a2be2;
+}
+
+.notDropdownLinkText.violet:active {
+    color: #611e9f;
+}
+
+.notDropdownLinkText.rainbow {
+    background: -webkit-linear-gradient(left, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.notDropdownLinkText.rainbow:active {
+    background: -webkit-linear-gradient(left, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.notDropdownLinkText.silver {
+    background: -webkit-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada, #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.notDropdownLinkText.silver:active {
+    background: -webkit-linear-gradient(right, #999999, #646464 , #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #999999, #646464 , #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #999999, #646464 , #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #999999, #646464 , #999999); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.notDropdownLinkText.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.notDropdownLinkText.platinum:active {
+    background: -webkit-linear-gradient(left, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.notDropdownLinkText.gold, .notDropdownLinkText.diamond {
+    background: -webkit-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d, #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.notDropdownLinkText.gold:active, .notDropdownLinkText.diamond:active {
+    background: -webkit-linear-gradient(right, #785414, #a79346 , #785414); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #785414, #a79346 , #785414); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #785414, #a79346 , #785414); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #785414, #a79346 , #785414); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.notDropdownLinkText.gray {
+    color: #aeb4b7;
+}
+
+.notDropdownLinkText.gray:active {
+    color: #7a7e80;
+}

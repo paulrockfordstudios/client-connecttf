@@ -1,0 +1,61 @@
+.friendRequests {
+    display: flex;
+}
+
+.friendRequests-container {
+    margin-top: 74px;
+    width: 100%;
+    padding: 20px 20% 30px 15%;
+    overflow-x: hidden;  
+}
+
+.friendRequestsAd {
+    margin: 0 20px;
+}
+
+.friendRequestsRight {
+    margin: 0 60px 0 20px;
+}
+
+.friendRequestsDisplayContainer {
+    width: 100%;
+    position: relative;
+}
+
+.friendRequestsDisplayBackgroundTheme {
+    width: 100%;
+    padding-right: 40px;
+    border-radius: 20px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+}
+
+.friendRequestsDisplay-container {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px; 
+    
+}
+
+.friendRequestsDisplay-container.union {
+    position: sticky;
+}
+
+.friendRequestsDisplay-container.flame {
+    width: calc(100% - 20px);
+}
+
+.friendRequestsDisplayList {
+    padding-left: 0;
+}
+
+.friendRequestsDisplayListItem {
+    list-style: none;
+}

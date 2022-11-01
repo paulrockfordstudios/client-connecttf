@@ -1,0 +1,67 @@
+.popQuestionsContainer {
+    position: relative;
+    margin-top: 20px;
+}
+
+.popQuestionsBackgroundTheme {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+}
+
+.popQuestions {
+    width: 100%; 
+    border-radius: 10px;
+    background-color: white;
+}
+
+.popQuestions.union {
+    position: absolute;
+}
+
+.popQuestions.flame {
+    margin-Top: 20px;
+}
+
+.popQuestions-container {
+    padding: 10px;
+}
+
+.popQuestionsTitle {
+    margin-bottom: 20px;
+}
+
+.popQuestionsList {
+    padding-left: 10px;
+    margin: 0;
+    list-style: none;
+}
+
+.popQuestion {
+    margin-bottom: 10px;
+    color: #4a76fd;
+    align-items: center;
+    cursor: pointer;
+}
+
+.popQuestion:hover {
+    font-weight: 500;
+}
+
+.popQuestion:active {
+    font-weight: 500;
+    color: #3453b2;
+}
+
+.popQuestionAnswerlength {
+    white-space: nowrap;
+    color: #e639af;
+    font-size: 12px;
+    font-weight: 300;
+}

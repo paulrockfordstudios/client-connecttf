@@ -1,0 +1,133 @@
+.cdpCommentScreenContainer {
+    position: fixed;
+    z-index: 999;
+    top: 30%;
+    bottom: 30%;
+    left: 30%;
+    right: 30%;
+    width: 40%;
+    height: 20%;
+}
+
+.cdpCommentContainer {
+    width: 80%;
+    height: 40%;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 10px 50px -20px rgba(0,0,0,0.75); 
+    box-shadow: 0px 10px 50px -20px rgba(0,0,0,0.75);
+}
+
+.cdpCommentTop {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cdpCommentQuestion {
+    margin: 40px 0;
+    font-weight: 500;
+}
+
+.cdpCommentDataTitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 40px;
+}
+
+.cdpCommentBottom {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.cdpCommentButton {
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.cdpCommentButton.ruby {
+    background-color: #850014;
+    color: white;
+}
+
+.cdpCommentButton.orange {
+    background-color: #ff8303;
+    color: white;
+}
+
+.cdpCommentButton.sun {
+    background-color: #ffe700;
+    color: white;
+}
+
+.cdpCommentButton.emerald {
+    background-color: #50c878;
+    color: white;
+}
+
+.cdpCommentButton.blue {
+    background-color: #098de9;
+    color: white;
+}
+
+.cdpCommentButton.indigo {
+    background-color: #30307e;
+    color: white;
+}
+
+.cdpCommentButton.violet {
+    background-color: #8a2be2;
+    color: white;
+}
+
+
+.cdpCommentButton.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.cdpCommentButton.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.cdpCommentButton.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.cdpCommentButton.masculine {
+    background-color: #4a76fd;
+    color: white;
+}
+
+.cdpCommentButton.feminine {
+    background-color: #e639af;
+    color: white;
+}
+
+.cdpCommentButton.gray {
+    background-color: #a4b4b7;
+    color: black;
+}

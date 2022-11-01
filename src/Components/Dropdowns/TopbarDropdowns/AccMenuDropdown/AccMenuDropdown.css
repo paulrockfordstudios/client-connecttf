@@ -1,0 +1,607 @@
+accMenuDDContainer {
+    position: relative;
+}
+
+.accMenuProfilePicRing {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    top: -24px;
+    right: 30px;
+}
+
+.accMenuProfilePicRing.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.accMenuProfilePicRing.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.accMenuProfilePicRing.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.accMenuProfilePicRing.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.tbProfilePicDropdown {
+    top: 66px;
+}
+
+.tbProfilePicDropdownBackgroundTheme {
+    width: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+}
+
+.tbProfilePicDropdown-container {
+    width:  250px; 
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.tbMenuAcc {
+   font-weight: 900;
+}
+
+.tbMenuAcc.masculine {
+    color: #4a76fd;
+}
+
+.tbMenuAcc.feminine {
+    color: #e639af;
+}
+
+.tbMenuAcc.ruby {
+    color: #850014;   
+}
+
+.tbMenuAcc.orange { 
+    color: #ff8303; 
+}
+
+.tbMenuAcc.sun {
+    color: #ffe700;  
+}
+
+.tbMenuAcc.emerald { 
+    color: #50c878; 
+}
+
+.tbMenuAcc.blue {
+    color: #098de9; 
+}
+
+.tbMenuAcc.indigo { 
+    color: #30307e; 
+}
+
+.tbMenuAcc.violet { 
+    color: #8a2be2; 
+}
+
+.tbMenuAcc.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 16px;
+}
+
+.tbMenuAcc.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tbMenuAcc.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tbMenuAcc.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tbMenuAcc.gray {
+    color: black;
+}
+
+.tbProfilePicDropdownMenuItems {
+    list-style: none; 
+    width: 90%;
+}
+
+/*
+.tbProfilePicMenuItem {
+    color: gray;  
+    font-size: 16px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tbProfilePicMenuItem:hover {
+    background-color: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+*/
+
+.tbProfilePicMenuItem { 
+    font-size: 16px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tbProfilePicMenuItem.masculine {
+    color: #4a76fd;
+}
+
+.tbProfilePicMenuItem.feminine {
+    color: #e639af;
+}
+
+.tbProfilePicMenuItem.grey {
+    color: gray;
+}
+
+.tbProfilePicMenuItem:hover {
+    background-color: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.tbProfilePicMenuItem.masculine:hover {
+    background-color: #d8e1fe;
+}
+
+.tbProfilePicMenuItem.feminine:hover {
+    background-color: #fde1ef;
+}
+
+.tbProfilePicMenuItem.grey:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdownUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dropdownProfilePic {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    margin: 10px 0;
+    object-fit: cover;
+    align-self: center;
+}
+
+.dropdownUserName {
+    font-weight: 900;
+    align-self: center;
+}
+
+.dropdownUserName.masculine {
+    color: #4a76fd;
+}
+
+.dropdownUserName.feminine {
+    color: #e639af;
+}
+
+.dropdownUserName.ruby {
+    color: #850014;   
+}
+
+.dropdownUserName.orange { 
+    color: #ff8303; 
+}
+
+.dropdownUserName.sun {
+    color: #ffe700;  
+}
+
+.dropdownUserName.emerald { 
+    color: #50c878; 
+}
+
+.dropdownUserName.blue {
+    color: #098de9; 
+}
+
+.dropdownUserName.indigo { 
+    color: #30307e; 
+}
+
+.dropdownUserName.violet { 
+    color: #8a2be2; 
+}
+
+.dropdownUserName.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 16px;
+}
+
+.dropdownUserName.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dropdownUserName.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dropdownUserName.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dropdownUserName.gray {
+    color: black;
+}
+
+.viewProfileLink {
+    width: 100%;
+    margin-left: 3px;
+}
+
+.viewProfileBtn {
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    margin: 10px;
+}
+
+.viewProfileBtn.masculine {
+    background-color: #4a76fd;
+    color: white;
+}
+
+.viewProfileBtn.feminine {
+    background-color: #e639af;
+    color: white;
+}
+
+.viewProfileBtn.ruby {
+    background-color: #850014; 
+    color: white;
+}
+
+.viewProfileBtn.orange { 
+    background-color: #ff8303; 
+    color: white;
+}
+
+.viewProfileBtn.sun {
+    background-color: #ffe700; 
+    color: white;
+}
+
+.viewProfileBtn.emerald { 
+    background-color: #50c878; 
+    color: white;
+}
+
+.viewProfileBtn.blue {
+    background-color: #098de9;
+    color: white;
+}
+
+.viewProfileBtn.indigo { 
+    background-color: #30307e; 
+    color: white;
+}
+
+.viewProfileBtn.violet { 
+    background-color: #8a2be2; 
+    color: white;
+}
+
+.viewProfileBtn.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.viewProfileBtn.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.viewProfileBtn.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.viewProfileBtn.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.viewProfileBtn.gray {
+    background-color: #bfc2c7;
+    color: black;
+}
+
+.tbddDiamondText {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.tbPPMenuItem {
+    display: flex;
+    align-items: center;
+}
+
+.tbProfilePicMenuIcon {
+    margin-right: 3px;
+}
+
+.tbProfileDropdownHrDiamond {
+    width: 90%;
+    height: 1px;
+    object-fit: cover;
+}
+
+.tbMenuConnect {
+    font-weight: 900;
+    color: #4a76fd;
+}
+
+.tbMenuTF {
+    font-weight: 900;
+    color: #e639af;
+}
+
+.tbProfileDropdownHr {
+    width: 90%;
+    border: none;
+    height: 1px;
+}
+
+.tbProfileDropdownHr.masculine {
+    background-color: #4a76fd;
+}
+
+.tbProfileDropdownHr.feminine {
+    background-color: #e639af;
+}
+
+.tbProfileDropdownHr.ruby {
+    background-color: #850014;   
+}
+
+.tbProfileDropdownHr.orange { 
+    background-color: #ff8303; 
+}
+
+.tbProfileDropdownHr.sun {
+    background-color: #ffe700;  
+}
+
+.tbProfileDropdownHr.emerald { 
+    background-color: #50c878; 
+}
+
+.tbProfileDropdownHr.blue {
+    background-color: #098de9; 
+}
+
+.tbProfileDropdownHr.indigo { 
+    background-color: #30307e; 
+}
+
+.tbProfileDropdownHr.violet { 
+    background-color: #8a2be2; 
+}
+
+.tbProfileDropdownHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.tbProfileDropdownHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.tbProfileDropdownHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.tbProfileDropdownHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.tbProfileDropdownHr.gray {
+    background-color: black;
+}
+
+.signOutBtn {
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px
+}
+
+.signOutBtn.masculine {
+    background-color: #4a76fd;
+    color: white;
+}
+
+.signOutBtn.feminine {
+    background-color: #e639af;
+    color: white;
+}
+
+.signOutBtn.ruby {
+    background-color: #850014; 
+    color: white;
+}
+
+.signOutBtn.orange { 
+    background-color: #ff8303; 
+    color: white;
+}
+
+.signOutBtn.sun {
+    background-color: #ffe700; 
+    color: white;
+}
+
+.signOutBtn.emerald { 
+    background-color: #50c878; 
+    color: white;
+}
+
+.signOutBtn.blue {
+    background-color: #098de9;
+    color: white;
+}
+
+.signOutBtn.indigo { 
+    background-color: #30307e; 
+    color: white;
+}
+
+.signOutBtn.violet { 
+    background-color: #8a2be2; 
+    color: white;
+}
+
+.signOutBtn.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.signOutBtn.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.signOutBtn.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.signOutBtn.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.signOutBtn.gray {
+    background-color: #bfc2c7;
+    color: black;
+}

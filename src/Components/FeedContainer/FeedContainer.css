@@ -1,0 +1,390 @@
+.feedContainerContainer {
+    margin-right: 2px;
+    margin-left: -2px;
+    position: relative;
+    min-height: 2000px;
+}
+
+.feedContainerBackgroundTheme {
+    min-height: 2000px;
+    width: 100%;
+    border-radius: 50px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+}
+
+
+.feedContainer {
+    min-height: 2000px;
+    width: 100%;
+    display: flex; 
+    justify-content: center;   
+}
+
+.feedContainer.union {
+    position: absolute;
+}
+
+.feedContainer-container {
+    min-height: 2000px;
+    padding: 0.5%;
+    width: 100%; 
+    border-radius: 50px;
+    background-color: white;
+}
+
+.feedContainerBtns {
+    display: flex;
+    align-items: center;
+}
+
+.postFeedBtn {
+    width: 49.7%;
+    height: 50px;
+    border-top-left-radius: 50px;
+    font-size: 24px;
+    font-weight: 900;
+    border: none;
+    margin-right: 0.3%;
+    color: white;
+}
+
+.postFeedBtn-active {
+    width: 49.7%;
+    height: 50px;
+    border-top-left-radius: 50px;
+    background-color: white;
+    font-size: 24px;
+    font-weight: 900;
+    border: none;
+    margin-right: 0.3%;  
+}
+
+.postFeedBtn.masculine {
+    background-color: #4a76fd;
+}
+
+.postFeedBtn-active.masculine {
+    color: #4a76fd;
+}
+
+.postFeedBtn.feminine {
+    background-color: #e639af;
+}
+
+.postFeedBtn-active.feminine {
+    color: #e639af;
+}
+
+.postFeedBtn.ruby {
+    background-color: #850014;
+}
+
+.postFeedBtn-active.ruby {
+    color: #850014;
+}
+
+.postFeedBtn.orange {
+    background-color: #ff8303;
+}
+
+.postFeedBtn-active.orange {
+    color: #ff8303;
+}
+
+.postFeedBtn.sun {
+    background-color: #ffe700;
+}
+
+.postFeedBtn-active.sun {
+    color: #ffe700;
+}
+
+.postFeedBtn.emerald {
+    background-color: #50c878;
+}
+
+.postFeedBtn-active.emerald {
+    color: #50c878;
+}
+
+.postFeedBtn.blue {
+    background-color: #098de9;
+}
+
+.postFeedBtn-active.blue {
+    color: #098de9;
+}
+
+.postFeedBtn.indigo {
+    background-color: #30307e;
+}
+
+.postFeedBtn-active.indigo {
+    color: #30307e;
+}
+
+.postFeedBtn.violet {
+    background-color: #8a2be2;
+}
+
+.postFeedBtn-active.violet {
+    color: #8a2be2;
+}
+
+.postFeedBtn.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.postFeedBtn-active.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.postFeedBtn.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.postFeedBtn-active.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.postFeedBtn.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.postFeedBtn-active.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.postFeedBtn.rainbow {
+    background: -webkit-linear-gradient(left, #850014 , #ff8303, #ffe700, #50c878); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014 , #ff8303, #ffe700, #50c878); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014 , #ff8303, #ffe700, #50c878); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014 , #ff8303, #ffe700, #50c878); /* Standard syntax (must be last) */
+}
+
+.postFeedBtn-active.rainbow {
+    background: -webkit-linear-gradient(left, #850014 , #ff8303, #ffe700, #50c878); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014 , #ff8303, #ffe700, #50c878); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014 , #ff8303, #ffe700, #50c878); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014 , #ff8303, #ffe700, #50c878); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.postFeedBtn.grey {
+    background-color: #bfc2c7; 
+}
+
+.postFeedBtn-active.grey {
+    color: #bfc2c7;
+}
+
+.questionFeedBtn {
+    width: 49.7%;
+    height: 50px;
+    border-top-right-radius: 50px;
+    font-size: 24px;
+    font-weight: 900;
+    border: none;
+    margin-left: 0.3%;
+    padding: 0;
+    color: white;
+}
+
+.questionFeedBtn-active {
+    width: 49.7%;
+    height: 50px;
+    border-top-right-radius: 50px;
+    background-color: white;
+    font-size: 24px;
+    font-weight: 900;
+    border: none;
+    margin-left: 0.3%;
+    padding: 0;
+}
+
+.questionFeedBtn.masculine {
+    background-color: #4a76fd;
+}
+
+.questionFeedBtn-active.masculine {
+    color: #4a76fd;
+}
+
+.questionFeedBtn.feminine {
+    background-color: #e639af;
+}
+
+.questionFeedBtn-active.feminine {
+    color: #e639af;
+}
+
+.questionFeedBtn.ruby {
+    background-color: #850014;
+}
+
+.questionFeedBtn-active.ruby {
+    color: #850014;
+}
+
+.questionFeedBtn.orange {
+    background-color: #ff8303;
+}
+
+.questionFeedBtn-active.orange {
+    color: #ff8303;
+}
+
+.questionFeedBtn.sun {
+    background-color: #ffe700;
+}
+
+.questionFeedBtn-active.sun {
+    color: #ffe700;
+}
+
+.questionFeedBtn.emerald {
+    background-color: #50c878;
+}
+
+.questionFeedBtn-active.emerald {
+    color: #50c878;
+}
+
+.questionFeedBtn.blue {
+    background-color: #098de9;
+}
+
+.questionFeedBtn-active.blue {
+    color: #098de9;
+}
+
+.questionFeedBtn.indigo {
+    background-color: #30307e;
+}
+
+.questionFeedBtn-active.indigo {
+    color: #30307e;
+}
+
+.questionFeedBtn.violet {
+    background-color: #8a2be2;
+}
+
+.questionFeedBtn-active.violet {
+    color: #8a2be2;
+}
+
+.questionFeedBtn.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.questionFeedBtn-active.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.questionFeedBtn.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.questionFeedBtn-active.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.questionFeedBtn.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.questionFeedBtn-active.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.questionFeedBtn.rainbow {
+    background: -webkit-linear-gradient(left, #50c878, #098de9 , #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #50c878, #098de9 , #30307e, #8a2be2 ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #50c878, #098de9 , #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #50c878, #098de9 , #30307e, #8a2be2); /* Standard syntax (must be last) */
+    
+}
+
+.questionFeedBtn-active.rainbow {
+    background: -webkit-linear-gradient(left, #50c878, #098de9 , #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #50c878, #098de9 , #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #50c878, #098de9 , #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #50c878, #098de9 , #30307e, #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.questionFeedBtn.gray {
+    background-color: #bfc2c7; 
+}
+
+.questionFeedBtn-active.gray {
+    color: #bfc2c7;
+}
+
+.fcDiamondText {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}

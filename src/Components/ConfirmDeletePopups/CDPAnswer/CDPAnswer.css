@@ -1,0 +1,133 @@
+.cdpAnswerScreenContainer {
+    position: fixed;
+    z-index: 999;
+    top: 30%;
+    bottom: 30%;
+    left: 30%;
+    right: 30%;
+    width: 40%;
+    height: 20%;
+}
+
+.cdpAnswerContainer {
+    width: 80%;
+    height: 40%;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 10px 50px -20px rgba(0,0,0,0.75); 
+    box-shadow: 0px 10px 50px -20px rgba(0,0,0,0.75);
+}
+
+.cdpAnswerTop {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cdpAnswerQuestion {
+    margin: 40px 0;
+    font-weight: 500;
+}
+
+.cdpAnswerDataTitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 40px;
+}
+
+.cdpAnswerBottom {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.cdpAnswerButton {
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.cdpAnswerButton.ruby {
+    background-color: #850014;
+    color: white;
+}
+
+.cdpAnswerButton.orange {
+    background-color: #ff8303;
+    color: white;
+}
+
+.cdpAnswerButton.sun {
+    background-color: #ffe700;
+    color: white;
+}
+
+.cdpAnswerButton.emerald {
+    background-color: #50c878;
+    color: white;
+}
+
+.cdpAnswerButton.blue {
+    background-color: #098de9;
+    color: white;
+}
+
+.cdpAnswerButton.indigo {
+    background-color: #30307e;
+    color: white;
+}
+
+.cdpAnswerButton.violet {
+    background-color: #8a2be2;
+    color: white;
+}
+
+
+.cdpAnswerButton.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.cdpAnswerButton.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.cdpAnswerButton.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.cdpAnswerButton.masculine {
+    background-color: #4a76fd;
+    color: white;
+}
+
+.cdpAnswerButton.feminine {
+    background-color: #e639af;
+    color: white;
+}
+
+.cdpAnswerButton.gray {
+    background-color: #a4b4b7;
+    color: black;
+}

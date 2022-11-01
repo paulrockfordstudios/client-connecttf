@@ -1,0 +1,61 @@
+.groups {
+    display: flex;
+}
+
+.groups-container {
+    margin-top: 74px;
+    width: 100%;
+    padding: 20px 20% 30px 15%;
+    overflow-x: hidden;  
+}
+
+.groupsAd {
+    margin: 0 20px;
+}
+
+.groupsRight {
+    margin: 0 60px 0 20px;
+}
+
+.groupsDisplayContainer {
+    width: 100%;
+    position: relative;
+}
+
+.groupsDisplayBackgroundTheme {
+    width: 100%;
+    padding-right: 40px;
+    border-radius: 20px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+}
+
+.groupsDisplay-container {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px; 
+    
+}
+
+.groupsDisplay-container.union {
+    position: sticky;
+}
+
+.groupsDisplay-container.flame {
+    width: 100%;
+}
+
+.groupsDisplayList {
+    padding-left: 0;
+}
+
+.groupsDisplayListItem {
+    list-style: none;
+}

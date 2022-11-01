@@ -1,0 +1,233 @@
+.chatOnlineFriend {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.chatOnlineContainer.union {
+    margin: 70px 0 0 10px;
+}
+
+.chatOnlineContainer.flame {
+    margin: 50px 0 0 10px;
+}
+
+.chatOnlineContainerText {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.chatOnlineContainerText.masculine {
+    color: #4a76fd;
+}
+
+.chatOnlineContainerText.feminine {
+    color: #e639af;
+}
+
+.chatOnlineContainerText.ruby {
+    color: #850014;   
+}
+
+.chatOnlineContainerText.orange { 
+    color: #ff8303; 
+}
+
+.chatOnlineContainerText.sun {
+    color: #ffe700;  
+}
+
+.chatOnlineContainerText.emerald { 
+    color: #50c878; 
+}
+
+.chatOnlineContainerText.blue {
+    color: #098de9; 
+}
+
+.chatOnlineContainerText.indigo { 
+    color: #30307e; 
+}
+
+.chatOnlineContainerText.violet { 
+    color: #8a2be2; 
+}
+
+.chatOnlineContainerText.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatOnlineContainerText.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatOnlineContainerText.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatOnlineContainerText.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatOnlineContainerText.gray {
+    background-color: #bfc2c7;
+}
+
+.chatOnlineContainerHr {
+    border: none;
+    height: 4px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.chatOnlineContainerHr.masculine {
+    background-color: #4a76fd;
+}
+
+.chatOnlineContainerHr.feminine {
+    background-color: #e639af;
+}
+
+.chatOnlineContainerHr.ruby {
+    background-color: #850014;   
+}
+
+.chatOnlineContainerHr.orange { 
+    background-color: #ff8303; 
+}
+
+.chatOnlineContainerHr.sun {
+    background-color: #ffe700;  
+}
+
+.chatOnlineContainerHr.emerald { 
+    background-color: #50c878; 
+}
+
+.chatOnlineContainerHr.blue {
+    background-color: #098de9; 
+}
+
+.chatOnlineContainerHr.indigo { 
+    background-color: #30307e; 
+}
+
+.chatOnlineContainerHr.violet { 
+    background-color: #8a2be2; 
+}
+
+.chatOnlineContainerHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.chatOnlineContainerHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.chatOnlineContainerHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.chatOnlineContainerHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.chatOnlineContainerHr.gray {
+    background-color: #bfc2c7;
+}
+
+.chatOnlineContainerHrDiamond {
+    justify-content: center;
+    height: 4px;
+    margin: 20px 0 0 10px;
+    object-fit: cover;
+    width: 90%;
+}
+
+.chatOnlineFriend {
+    margin: 20px 0 0 10px;
+}
+
+.chatOnlineImg-container {
+    position: relative;
+    margin-right: 10px;
+}
+
+.chatOnlineImg {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/*
+.chatOnlineImg:hover {
+    border-radius: 18px;
+    height: 36px;
+    width: 100%;
+}
+*/
+
+.chatOnlineImg.masculine:hover {
+    background-color: #d8e1fe;
+   
+}
+
+.chatOnlineImg.feminineCO:hover {
+    background-color: #fde1ef;
+}
+
+.chatOnlineImg.greyCO:hover {
+    background-color: #f1f1f1;
+}
+
+.chatOnlineBadge {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border: 3px solid white;
+
+}
+
+.chatOnlineProfileName {
+    margin-bottom: 5px;
+}
+

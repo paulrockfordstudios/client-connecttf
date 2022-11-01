@@ -1,0 +1,257 @@
+.flameSubRequest {
+    position: relative;
+    width: 100%;
+    height: 89px;
+}
+
+.flameSubRequestBackgroundTheme {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 89px;
+    transition-delay: 325ms;
+    transition: opacity 4000ms ease-in-out;
+    -webkit-transition: opacity 4000ms ease-in-out;
+    -moz-transition: opacity 4000ms ease-in-out;
+}
+
+.flameSubRequestContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    top: 2px;
+}
+
+.flameSubRequestBackgroundTheme.unseen {
+    opacity: 1;   
+}
+
+
+.flameSubRequestBackgroundTheme.seen {
+    opacity: 0;   
+}
+
+
+.flameSubRequestBackgroundTheme.masculine {
+    background-color: #d8e1fe;
+    
+}
+
+.flameSubRequestBackgroundTheme.feminine {
+    background-color: #fde1ef;
+}
+
+.flameSubRequestBackgroundTheme.gray {
+    background-color: #e4e6e7;
+}
+
+.flameSubRequestHr {
+    height: 2px;
+    width: 100%;
+    border: none;
+}
+
+.flameSubRequestHr.bottom {
+    margin-top: 85px;
+}
+
+.flameSubRequestHr.masculine {
+    background-color: #4a76fd;
+}
+
+.flameSubRequestHr.feminine {
+    background-color: #e639af;
+}
+.flameSubRequestHr.gray {
+    background-color: #aeb4b7;
+}
+
+.flameSubRequestLeft {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 100%;
+}
+
+.flameSubRequestProfilePic {
+    display: flex; 
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;    
+}
+
+.flameSubRequestIcon {
+    display: flex; 
+    position: absolute;
+    height: 22px;
+    margin-right: 5px;
+    right: 0;
+    bottom: 20px;
+}
+
+.flameSubRequestRight {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% - 75px);
+    height: 70px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.flameSubRequestRightTop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: auto; 
+}
+
+.flameSubRequestTitle {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+.flameSubRequestTitleLeft {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 227px;
+    height: auto;
+}
+
+.flameSubRequestTitleRight {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+.flameSubRequestTitleRight.masculine {
+    color: #4a76fd;
+}
+
+.flameSubRequestTitleRight.feminine {
+    color: #e639af;
+}
+
+.flameSubRequestTitleRight.gray {
+    color: #aeb4b7;
+}
+
+.flameSubRequestName {
+    font-size: 15px;
+    font-weight: bold;   
+}
+
+.flameSubRequestRightCenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 20px;   
+}
+
+.flameSubRequestAction {
+    white-space: pre-wrap;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.flameSubRequestRightBottom {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.flameSubRequestRetort {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    color: #7a7e80;
+    width: 100%;
+}
+
+.flameSubRequestRetort.request {
+    justify-content: space-evenly;
+}
+
+.flameSubRequestRetortLeft.friendship {
+    width: calc(100% - 75px);
+    padding-right: 10px;
+}
+
+.flameSubRequestRetortRight.friendship {
+    width: 75px;
+}
+
+.flameSubRequestRetortLeft.befriend {
+    width: calc(100% - 90px);
+    padding-right: 10px;
+}
+
+.flameSubRequestRetortRight.befriend {
+    width: 90px;  
+}
+
+.flameSubRequestBtn {
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    height: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.flameSubRequestBtn.befriend {
+    width: 90px;
+}
+
+.flameSubRequestBtn.message {
+    width: 75px;
+}
+
+.flameSubRequestBtn.accept {
+    width: 100px;
+}
+
+.flameSubRequestBtn.reject {
+    width: 100px;
+}
+
+
+.flameSubRequestBtn.masculine {
+    background-color: #4a76fd;
+    color: white;
+}
+
+.flameSubRequestBtn.feminine {
+    background-color: #e639af;
+    color: white;
+}
+
+.flameSubRequestBtn.gray {
+    background-color: #bfc2c7;
+    color: black;
+}

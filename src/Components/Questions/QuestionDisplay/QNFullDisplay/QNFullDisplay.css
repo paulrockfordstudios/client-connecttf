@@ -1,0 +1,457 @@
+.qnFullDisplayContainer {
+    margin-right: 2px;
+    margin-left: -2px;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 997;
+}
+
+.qnFullDisplayBackgroundTheme {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    margin-top: 10px;
+    opacity: 0.75;
+}
+
+.qnFullDisplay {
+    width: 100%; 
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: white;
+}
+
+.qnFullDisplay.union {
+    position: absolute;
+}
+
+.qnFullDisplay-container {
+    padding: 10px;
+}
+
+/*
+.question-container:hover {
+    background-color: #f1f1f1;
+}
+*/
+
+/* ------- Question Top ------- */
+
+.qnFullDisplayTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.qnFullDisplayTopLeft {
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.qnFullDisplayProfileLink {
+    display: flex;
+    align-items: center; 
+}
+
+.qnFullDisplayProfilePic {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.qnFullDisplayProfileEnergy {
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.qnFullDisplayUserName {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px 0 3px;
+}
+
+.qnFullDisplayInfo {
+    font-size: 12px;
+    margin-right: 3px;
+    color: #bfc2c7;
+}
+
+.qnFullDisplayVisibilityIcon {
+    display: flex;
+    align-items: top;
+    color: #bfc2c7;
+}
+
+.qnFullDisplayTopRight {
+    position: relative;
+    margin-right: -5px;
+    cursor: pointer;
+}
+
+.qnFullDisplayQNODropdown {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+
+
+
+/* ------- Question Center ------- */
+
+.qnFullDisplayCenter {
+    margin: 20px 30px;
+}
+
+.qnFullDisplayTitle {
+    width: calc(100% - 120px);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.qnFullDisplayText {
+    width: calc(100% - 10px);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: #7a7e80;
+}
+
+.qnFullDisplayHashtagList {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qnFullDisplayhashtags {
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.qnFullDisplayhashtags:hover {
+    font-weight: 500;
+}
+
+.qnFullDisplayhashtags.masculine {
+    color: #4a76fd;
+}
+
+.qnFullDisplayhashtags.feminine {
+    color: #e639af;
+}
+
+.qnFullDisplayhashtags.ruby {
+    color: #850014;
+}
+
+.qnFullDisplayhashtags.orange {
+    color: #ff8303;
+}
+
+.qnFullDisplayhashtags.sun {
+    color: #ffe700;
+}
+
+.qnFullDisplayhashtags.emerald {
+    color: #50c878;
+}
+
+.qnFullDisplayhashtags.blue {
+    color: #098de9;
+}
+
+.qnFullDisplayhashtags.indigo {
+    color: #30307e;
+}
+
+.qnFullDisplayhashtags.violet {
+    color: #8a2be2;
+}
+
+.qnFullDisplayhashtags.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.qnFullDisplayhashtags.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.qnFullDisplayhashtags.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.qnFullDisplayhashtags.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.qnFullDisplayhashtags.gray {
+    color: #aeb4b7;
+}
+
+.photoList {
+    margin-right: 40px;
+}
+
+.photos {
+    list-style: none;
+}
+
+.postImg {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+/* ------- Question Bottom ------- */
+
+.qnFullDisplayBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.qnFullDisplayCountItem {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.qnFullDisplaySVGIcon {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.qnFullDisplayPNGIcon {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;   
+}
+
+.qnFullDisplayCounter {
+    font-size: 15px;
+}
+
+.qnFullDisplayBottomLeft {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 50%;
+}
+
+.qnFullDisplayViewsDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.qnFullDisplayLikesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.qnFullDisplayLovesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.qnFullDisplaySVGIcon.left {
+    margin-right: 5px;
+}
+
+.qnFullDisplayPNGIcon.left {
+    margin-right: 5px;
+}
+
+.qnFullDisplayCounter.left {
+    margin-right: 20px;
+}
+
+.qnFullDisplayBottomRight {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+    position: relative;
+}
+
+.qnFullDisplayAnswersDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.qnFullDisplaySharesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.qnFullDisplaySVGIcon.right {
+    margin-left: 20px;
+}
+
+.qnFullDisplaySVGIconDiv {
+    display: flex;
+    align-items: center;
+}
+
+.qnFullDisplayPNGIcon.right {
+    margin-left: 20px;
+}
+
+.qnFullDisplayCounter.right {
+    margin-left: 5px;
+}
+
+.qnFullDisplaySVGIcon.masculine { 
+    color: #4a76fd;
+}
+
+.qnFullDisplaySVGIcon.feminine { 
+    color: #e639af;
+}
+
+.qnFullDisplaySVGIcon.ruby {
+    color: #850014;   
+}
+
+.qnFullDisplaySVGIcon.orange { 
+    color: #ff8303; 
+}
+
+.qnFullDisplaySVGIcon.sun {
+    color: #ffe700;  
+}
+
+.qnFullDisplaySVGIcon.emerald { 
+    color: #50c878; 
+}
+
+.qnFullDisplaySVGIcon.blue {
+    color: #098de9; 
+}
+
+.qnFullDisplaySVGIcon.indigo { 
+    color: #30307e; 
+}
+
+.qnFullDisplaySVGIcon.violet { 
+    color: #8a2be2; 
+}
+
+.qnFullDisplaySVGIcon.gray { 
+    color: #bfc2c7;
+}
+.qnFullDisplayHr {
+    margin: 20px 10px 0 10px;
+    border: none;
+    height: 4px;
+}
+
+.qnFullDisplayHr.masculine {
+    background-color: #4a76fd;
+}
+
+.qnFullDisplayHr.feminine {
+    background-color: #e639af;
+}
+
+.qnFullDisplayHr.ruby {
+    background-color: #850014;   
+}
+
+.qnFullDisplayHr.orange { 
+    background-color: #ff8303; 
+}
+
+.qnFullDisplayHr.sun {
+    background-color: #ffe700;  
+}
+
+.qnFullDisplayHr.emerald { 
+    background-color: #50c878; 
+}
+
+.qnFullDisplayHr.blue {
+    background-color: #098de9; 
+}
+
+.qnFullDisplayHr.indigo { 
+    background-color: #30307e; 
+}
+
+.qnFullDisplayHr.violet { 
+    background-color: #8a2be2; 
+}
+
+.qnFullDisplayHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.qnFullDisplayHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.qnFullDisplayHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.qnFullDisplayHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.qnFullDisplayHr.gray {
+    background-color: #bfc2c7;
+}
+
+.qnFullDisplayHrDiamond {
+    justify-content: center;
+    width: calc(100% - 20px);
+    height: 4px;
+    margin: 20px 0 0 10px;
+    object-fit: cover;
+}

@@ -1,0 +1,11 @@
+.primaryMiddlebar {
+    width: calc(70% + 1.5px);
+}
+
+.secondaryMiddlebar {
+    width: 70%;
+}
+ 
+.middlebar-container {
+    padding: 20px 20px 10px 20px;
+}

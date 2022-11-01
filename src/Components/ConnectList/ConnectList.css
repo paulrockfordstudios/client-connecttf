@@ -1,0 +1,219 @@
+.connects {
+    padding: 0;
+    margin: 20px 10px 0 10px;
+    list-style: none;
+}
+
+ .connectUnion {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-bottom: 15px;
+ }
+
+.connectUnion.ruby:hover {
+    background-color: #d4a6ad;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectUnion.orange:hover {
+    background-color: #ffdab3;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectUnion.sun:hover {
+    background-color: #fff9bf;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectUnion.emerald:hover {
+    background-color: #caeed6;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectUnion.blue:hover {
+    background-color: #cee8fb;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectUnion.indigo:hover {
+    background-color: #babad4;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectUnion.violet:hover {
+    background-color: #dcbff6;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectUnion.rainbow:hover {
+    background: -webkit-linear-gradient(left, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectUnion.silver:hover {
+    background: -webkit-linear-gradient(left, #f4f4f4 , #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4 , #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectUnion.gold:hover {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectUnion.platinum:hover {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectUnion.gray:hover {
+    background-color: #e4e6e7;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectUnionDiamondHover {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.connectUnionLink {
+    text-decoration: none;
+}
+
+.connectUnionProfilePic-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.connectUnionProfilePic {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.connectUnionEnergy {
+    height: 24px;
+    margin-left: 8px;
+    margin-bottom: 3px;
+}
+
+.connectUnionName {
+    font-weight: 500;
+    margin-left: 5px;
+    color: black;
+}
+
+.connectFlame {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-bottom: 15px;
+ }
+
+.connectFlame.masculine:hover {
+    background-color: #d8e1fe;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectFlame.feminine:hover {
+    background-color: #fde1ef;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectFlame.gray:hover {
+    background-color: #f1f1f1;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.connectFlameLink {
+    text-decoration: none;
+}
+
+.connectFlameProfilePic-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.connectFlameProfilePic {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.connectFlameEnergy {
+    height: 24px;
+    margin-left: 8px;
+    margin-bottom: 3px;
+}
+
+.connectFlameName {
+    font-weight: 500;
+    margin-left: 5px;
+    color: black;
+}

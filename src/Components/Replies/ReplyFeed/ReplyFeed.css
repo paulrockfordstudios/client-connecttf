@@ -1,0 +1,34 @@
+.replyFeedController {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.replyFeedController.one {
+    margin: 5px 70px 0 100px;
+}
+
+.replyFeedController.two {
+    margin: 15px 140px 0 200px;
+}
+
+.replyFeedController.three {
+    margin: 15px 210px 0 300px;
+}
+
+.replyFeedController.four {
+    margin: 15px 280px 0 400px;
+}
+
+.replyFeedCount {
+    font-size: 11px;
+}
+
+.replyFeedControllerBtn {
+    font-size: 11px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    padding-top: 10px;
+    cursor: pointer;
+}

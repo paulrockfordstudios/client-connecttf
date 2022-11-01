@@ -1,0 +1,137 @@
+.coachShortDisplayContainer {
+    margin-right: 2px;
+    margin-left: -2px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.coachShortDisplayBackgroundTheme {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+    top: -10px;
+}
+
+.coachShortDisplay {
+    width: 100%; 
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.coachShortDisplay.union {
+    position: absolute;
+}
+
+.coachShortDisplay-container {
+    padding: 30px;
+}
+
+.coachShortDisplayContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coachShortDisplayContainerTop {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.coachShortDisplayContainerTopLeft.indexEven {
+    margin-right: 30px;
+}
+
+.coachShortDisplayContainerTopRight.indexEven {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coachShortDisplayContainerTopLeft.indexOdd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coachShortDisplayContainerTopRight.indexOdd {
+    margin-left: 30px;
+}
+
+.coachShortDisplayContainerHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coachShortDisplayContainerImg {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.coachShortDisplayContainerName {
+    font-size: 32px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.coachShortDisplayContainerProfile {
+    display: flex;
+    align-items: center;
+}
+
+.coachShortDisplayContainerProfilePic {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.coachShortDisplayContainerProfileSpectrum {
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+}
+
+.coachShortDisplayContainerProfileName {
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.coachShortDisplayContainerMoreVert {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.coachShortDisplayContainerStats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coachShortDisplayContainerStarField {
+    margin-left: 10px;
+}
+
+.coachShortDisplayContainerStatText {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.coachShortDisplayContainerStatCount {
+    font-size: 18px;
+    font-weight: 900;
+    margin-right: 10px;
+}

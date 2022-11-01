@@ -1,0 +1,347 @@
+.answerDisplay {
+    width: 100%; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.answerDisplay-container {
+    
+    padding: 10px 10px 0 10px;
+}
+
+/* ------- Post Top ------- */
+
+.answerDisplayTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.answerDisplayTopLeft {
+    display: flex;
+    align-items: center; 
+}
+
+.answerDisplayProfileLink {
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.answerDisplayProfileLink.masculine {
+    background-color: #d8e1fe;
+}
+
+.answerDisplayProfileLink.feminine {
+    background-color: #fde1ef;
+}
+
+.answerDisplayProfileLink.ruby {
+    background-color: #d4a6ad;
+}
+
+.answerDisplayProfileLink.orange {
+    background-color: #ffdab3;
+}
+
+.answerDisplayProfileLink.sun {
+    background-color: #fff9bf;
+}
+
+.answerDisplayProfileLink.emerald {
+    background-color: #caeed6;
+}
+
+.answerDisplayProfileLink.blue {
+    background-color: #cee8fb;
+}
+
+.answerDisplayProfileLink.indigo {
+    background-color: #babad4;
+}
+
+.answerDisplayProfileLink.violet {
+    background-color: #dcbff6;
+}
+
+.answerDisplayProfileLink.rainbow {
+    background: -webkit-linear-gradient(left, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+}
+
+.answerDisplayProfileLink.silver {
+    background: -webkit-linear-gradient(left, #f4f4f4 , #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4 , #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.answerDisplayProfileLink.gold {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+}
+
+.answerDisplayProfileLink.platinum {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.answerDisplayProfileLink.gray {
+    background-color: #f1f1f1;
+}
+
+.answerDisplayProfilePic {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.answerDisplayProfileEnergy {
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.answerDisplayUserName {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px 0 3px;
+}
+
+.answerDisplayDateTime {
+    font-size: 12px;
+    color: #bfc2c7;
+}
+
+.answerDisplayTopRight {
+    position: relative;
+}
+
+.answerDisplayOptions {
+    cursor: pointer;
+}
+
+.answerDisplayAODropdown {
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+/* ------- Answer Center ------- */
+
+.answerDisplayCenter {
+    margin: 20px 0 10px 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.answerDisplayText {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    max-width: 100%;
+    
+}
+
+.answerDisplayText.hidden {
+    height: 40px;
+    overflow: hidden;
+}
+
+.answerDisplyTextBtn {
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*
+.fade {
+    -webkit-mask-image: linear-gradient(180deg, #000 40%, transparent);
+  }
+*/
+
+.answerDisplayHashtags {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 10px; 
+    width: 40%;
+}
+
+.answerDisplayHashtag {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.answerDisplayHashtag:hover {
+    font-weight: 500;
+}
+
+.answerDisplayHashtags.masculine {
+    color: #4a76fd;
+}
+
+.answerDisplayHashtags.feminine {
+    color: #e639af;
+}
+
+
+.photoList {
+    margin-right: 40px;
+}
+
+.photos {
+    list-style: none;
+}
+
+.postImg {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+/* ------- Answer Bottom ------- */
+
+.answerDisplayBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.answerDisplayBottomLeft {
+    display: flex;
+    align-items: center;
+}
+
+.answerDisplayCountItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.aDShowReplies {
+    font-size: 12px;
+    font-weight: 500;
+    color: #4a76fd;
+    cursor: pointer;
+}
+
+.answerDisplayLikesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.answerDisplayLovesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.answerDisplayRepliesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.answerDisplaySVGIconDiv {
+    display: flex;
+    align-items: center;
+}
+
+.answerDisplayPNGIcon {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.answerDisplaySVGIcon {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.answerDisplayPNGIcon.left {
+    height: 18px;
+    width: 18px;
+}
+
+.answerDisplaySVGIcon.left {
+    height: 24px;
+    width: 24px;
+}
+
+.answerDisplayPNGIcon.right {
+    height: 24px;
+    width: 24px;
+}
+
+.answerDisplaySVGIcon.right {
+    height: 32px;
+    width: 32px;
+}
+
+.answerDisplaySVGIcon.masculine { 
+    color: #4a76fd;
+}
+
+.answerDisplaySVGIcon.feminine { 
+    color: #e639af;
+}
+
+.answerDisplaySVGIcon.ruby {
+    color: #850014;   
+}
+
+.answerDisplaySVGIcon.orange { 
+    color: #ff8303; 
+}
+
+.answerDisplaySVGIcon.sun {
+    color: #ffe700;  
+}
+
+.answerDisplaySVGIcon.emerald { 
+    color: #50c878; 
+}
+
+.answerDisplaySVGIcon.blue {
+    color: #098de9; 
+}
+
+.answerDisplaySVGIcon.indigo { 
+    color: #30307e; 
+}
+
+.answerDisplaySVGIcon.violet { 
+    color: #8a2be2; 
+}
+
+.answerDisplaySVGIcon.gray { 
+    color: #bfc2c7;
+}
+
+.answerDisplayCounter {
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.my-anchor-css-class {
+    margin-left: 10px;
+    font-weight: 600;
+
+}

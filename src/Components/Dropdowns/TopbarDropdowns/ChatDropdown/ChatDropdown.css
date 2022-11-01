@@ -1,0 +1,312 @@
+.chatDropdown.friend {
+    top: 66px;
+}
+
+.chatDropdown.union {
+    top: 73px;
+}
+
+.chatDropdownHigherSpectrumBackground {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    top: 0;
+    left: 0;
+}
+
+.chatDropdownWhiteBackground {
+    position: absolute;
+    margin: 20px;
+    width: 2px;
+    height: 2px;
+    border-radius: 22px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 30px 26px white; 
+    box-shadow: 0px 0px 30px 26px white;
+    opacity: .75;
+}
+
+.chatDropdownBackgroundTheme {
+    width: 350px;
+    height: 485px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+}
+
+.chatDropdown-container {
+    position: absolute;
+    width:  350px; 
+    height: 485px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.chatDropdownList {
+    display: flex;
+    flex-direction: column;
+    height: 445px;
+    width: 100%;
+}
+
+.chatDropdownLinkContainer {
+    width: 100%;
+    height: 40px;
+}
+
+.chatDropdownHr {
+    height: 2px;
+    width: 100%;
+    border: none;
+}
+
+.chatDropdownHr.masculine {
+    background-color: #4a76fd;
+}
+
+.chatDropdownHr.feminine {
+    background-color: #e639af;
+}
+
+.chatDropdownHr.ruby {
+    background-color: #850014;
+}
+
+.chatDropdownHr.orange {
+    background-color: #ff8303;
+}
+
+.chatDropdownHr.sun {
+    background-color: #ffe700;
+}
+
+.chatDropdownHr.emerald {
+    background-color: #50c878;
+}
+
+.chatDropdownHr.blue {
+    background-color: #098de9;
+}
+
+.chatDropdownHr.indigo {
+    background-color: #30307e;
+}
+
+.chatDropdownHr.violet {
+    background-color: #8a2be2;
+}
+
+.chatDropdownHr.rainbow {
+    background: -webkit-linear-gradient(left, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.chatDropdownHr.silver {
+    background: -webkit-linear-gradient(left, #dadada, #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada, #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.chatDropdownHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d, #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d, #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.chatDropdownHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.chatDropdownHr.gray {
+    background-color: #aeb4b7;
+}
+
+.chatDropdownLinkContainerBottom {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    height: 38px;
+}
+
+.chatDropdownLink {
+    width: 170px;
+    cursor: pointer;
+}
+
+.chatDropdownLinkText:hover {
+   font-weight: 500;
+}
+
+.chatDropdownLinkText.masculine {
+    color: #4a76fd;
+}
+
+.chatDropdownLinkText.feminine:active {
+    color: #3453b2;
+}
+
+.chatDropdownLinkText.feminine {
+    color: #e639af;
+}
+
+.chatDropdownLinkText.feminine:active {
+    color: #a1287b;
+}
+
+.chatDropdownLinkText.ruby {
+    color: #850014;
+}
+
+.chatDropdownLinkText.ruby:active {
+    color: #5d000e;
+}
+
+.chatDropdownLinkText.orange {
+    color: #ff8303;
+}
+
+.chatDropdownLinkText.orange:active {
+    color: #b35c02;
+}
+
+.chatDropdownLinkText.sun {
+    color: #ffe700;
+}
+
+.chatDropdownLinkText.sun:active {
+    color: #b3a200;
+}
+
+.chatDropdownLinkText.emerald {
+    color: #50c878;
+}
+
+.chatDropdownLinkText.emerald:active {
+    color: #388c54;
+}
+
+.chatDropdownLinkText.blue {
+    color: #098de9;
+}
+
+.chatDropdownLinkText.blue:active {
+    color: #0663a4;
+}
+
+.chatDropdownLinkText.indigo {
+    color: #30307e;
+}
+
+.chatDropdownLinkText.indigo:active {
+    color: #222258;
+}
+
+.chatDropdownLinkText.violet {
+    color: #8a2be2;
+}
+
+.chatDropdownLinkText.violet:active {
+    color: #611e9f;
+}
+
+.chatDropdownLinkText.rainbow {
+    background: -webkit-linear-gradient(left, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatDropdownLinkText.rainbow:active {
+    background: -webkit-linear-gradient(left, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatDropdownLinkText.silver {
+    background: -webkit-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada, #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatDropdownLinkText.silver:active {
+    background: -webkit-linear-gradient(right, #999999, #646464 , #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #999999, #646464 , #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #999999, #646464 , #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #999999, #646464 , #999999); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatDropdownLinkText.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatDropdownLinkText.platinum:active {
+    background: -webkit-linear-gradient(left, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatDropdownLinkText.gold, .chatDropdownLinkText.diamond {
+    background: -webkit-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d, #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d, #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatDropdownLinkText.gold:active, .chatDropdownLinkText.diamond:active {
+    background: -webkit-linear-gradient(right, #785414, #a79346 , #785414); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #785414, #a79346 , #785414); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #785414, #a79346 , #785414); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #785414, #a79346 , #785414); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatDropdownLinkText.gray {
+    color: #aeb4b7;
+}
+
+.chatDropdownLinkText.gray:active {
+    color: #7a7e80;
+}

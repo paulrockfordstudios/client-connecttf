@@ -1,0 +1,245 @@
+.createComment-container {
+    padding: 20px 10% 0 10%;
+    margin-bottom: 50px;
+}
+
+.createCommentTop {
+    display: flex;
+    align-items: center;
+}
+
+.createCommentProfilePic {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.createCommentInput {
+    border: none;
+    width: 80%;
+}
+
+.createCommentInput:focus {
+    outline: none;
+}
+
+.createCommentHr {
+    margin: 20px;
+    border: none;
+    height: 1px;
+}
+
+.createCommentHr.masculine {
+    background-color: #4a76fd;
+}
+
+.createCommentHr.feminine {
+    background-color: #e639af;
+}
+
+.createCommentHr.ruby {
+    background-color: #850014;   
+}
+
+.createCommentHr.orange { 
+    background-color: #ff8303; 
+}
+
+.createCommentHr.sun {
+    background-color: #ffe700;  
+}
+
+.createCommentHr.emerald { 
+    background-color: #50c878; 
+}
+
+.createCommentHr.blue {
+    background-color: #098de9; 
+}
+
+.createCommentHr.indigo { 
+    background-color: #30307e; 
+}
+
+.createCommentHr.violet { 
+    background-color: #8a2be2; 
+}
+
+.createCommentHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.createCommentHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.createCommentHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.createCommentHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.createCommentHr.gray {
+    background-color: black;
+}
+
+.createCommentHrDiamond {
+    width: 95%;
+    height: 1px;
+    margin: 20px;
+    object-fit: cover;
+}
+
+.createCommentImages-container {
+    padding: 0 20px 10px 20px;
+    position: relative;
+}
+
+.createCommentImg {
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.createCommentCancelImgBtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.createCommentBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createCommentOptions {
+    display: flex;
+    margin-left: 20px;
+}
+
+.createCommentOption {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.createCommentIcon {
+    font-size: 18px;
+    margin-right: 3px;
+}
+
+.createCommentOptionText {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.createCommentShareButton {
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.createCommentShareButton.masculine {
+    background-color: #4a76fd;
+    color: white;
+}
+
+.createCommentShareButton.feminine {
+    background-color: #e639af;
+    color: white;
+}
+
+.createCommentShareButton.ruby {
+    background-color: #850014; 
+    color: white;
+}
+
+.createCommentShareButton.orange { 
+    background-color: #ff8303; 
+    color: white;
+}
+
+.createCommentShareButton.sun {
+    background-color: #ffe700; 
+    color: white;
+}
+
+.createCommentShareButton.emerald { 
+    background-color: #50c878; 
+    color: white;
+}
+
+.createCommentShareButton.blue {
+    background-color: #098de9;
+    color: white;
+}
+
+.createCommentShareButton.indigo { 
+    background-color: #30307e; 
+    color: white;
+}
+
+.createCommentShareButton.violet { 
+    background-color: #8a2be2; 
+    color: white;
+}
+
+.createCommentShareButton.rainbow {
+    background: -webkit-linear-gradient(top, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.createCommentShareButton.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.createCommentShareButton.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.createCommentShareButton.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.createCommentShareButton.grey {
+    background-color: #bfc2c7;
+    color: black;
+}

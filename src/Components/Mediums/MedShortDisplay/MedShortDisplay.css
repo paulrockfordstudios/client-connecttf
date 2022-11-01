@@ -1,0 +1,145 @@
+.medShortDisplayContainer {
+    margin-right: 2px;
+    margin-left: -2px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.medShortDisplayBackgroundTheme {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+    top: -10px;
+}
+
+.medShortDisplay {
+    width: 100%; 
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.medShortDisplay.union {
+    position: absolute;
+}
+
+.medShortDisplay-container {
+    padding: 30px;
+}
+
+.medShortDisplayContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.medShortDisplayContainerTop {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.medShortDisplayContainerTopLeft.indexEven {
+    margin-right: 30px;
+}
+
+.medShortDisplayContainerTopRight.indexEven {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.medShortDisplayContainerTopLeft.indexOdd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.medShortDisplayContainerTopRight.indexOdd {
+    margin-left: 30px;
+}
+
+.medShortDisplayContainerHeader {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.medShortDisplayContainerImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.medShortDisplayContainerName {
+    font-size: 32px;
+    font-weight: 700;  
+}
+
+.medShortDisplayContainerHeaderYouTubeIcon {
+    font-size: 48px !important;
+    color: #c4302b;
+    margin-right: 10px;
+}
+
+.medShortDisplayContainerProfile {
+    display: flex;
+    align-items: center;
+}
+
+.medShortDisplayContainerProfilePic {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.medShortDisplayContainerProfileSpectrum {
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+}
+
+.medShortDisplayContainerProfileName {
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.medShortDisplayContainerMoreVert {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.medShortDisplayContainerStats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.medShortDisplayContainerStarField {
+    margin-left: 10px;
+}
+
+.medShortDisplayContainerStatText {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.medShortDisplayContainerStatCount {
+    font-size: 18px;
+    font-weight: 900;
+    margin-right: 10px;
+}

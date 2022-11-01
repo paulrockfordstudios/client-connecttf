@@ -1,0 +1,145 @@
+.channelShortDisplayContainer {
+    margin-right: 2px;
+    margin-left: -2px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.channelShortDisplayBackgroundTheme {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+    top: -10px;
+}
+
+.channelShortDisplay {
+    width: 100%; 
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.channelShortDisplay.union {
+    position: absolute;
+}
+
+.channelShortDisplay-container {
+    padding: 30px;
+}
+
+.channelShortDisplayContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.channelShortDisplayContainerTop {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.channelShortDisplayContainerTopLeft.indexEven {
+    margin-right: 30px;
+}
+
+.channelShortDisplayContainerTopRight.indexEven {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.channelShortDisplayContainerTopLeft.indexOdd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.channelShortDisplayContainerTopRight.indexOdd {
+    margin-left: 30px;
+}
+
+.channelShortDisplayContainerHeader {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.channelShortDisplayContainerImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.channelShortDisplayContainerName {
+    font-size: 32px;
+    font-weight: 700;  
+}
+
+.channelShortDisplayContainerHeaderYouTubeIcon {
+    font-size: 48px !important;
+    color: #c4302b;
+    margin-right: 10px;
+}
+
+.channelShortDisplayContainerProfile {
+    display: flex;
+    align-items: center;
+}
+
+.channelShortDisplayContainerProfilePic {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.channelShortDisplayContainerProfileSpectrum {
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+}
+
+.channelShortDisplayContainerProfileName {
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.channelShortDisplayContainerMoreVert {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.channelShortDisplayContainerStats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.channelShortDisplayContainerStarField {
+    margin-left: 10px;
+}
+
+.channelShortDisplayContainerStatText {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.channelShortDisplayContainerStatCount {
+    font-size: 18px;
+    font-weight: 900;
+    margin-right: 10px;
+}

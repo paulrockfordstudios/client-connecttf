@@ -1,0 +1,71 @@
+.quoteOfTheDayContainer {
+    position: relative;
+    margin-top: 20px;
+}
+
+.quoteOfTheDayBackgroundTheme {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+}
+
+.quoteOfTheDay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    border-radius: 10px;
+    background-color: white;
+    height: 170px;
+    overflow: hidden;
+}
+
+.quoteOfTheDay.union {
+    position: absolute;
+}
+
+.quoteOfTheDay.flame {
+    margin-Top: 20px;
+}
+
+.quoteOfTheDay-container {
+    position: relative;
+    display: flex;
+    padding: 0 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+.quoteOfTheDayTitle {
+    margin-bottom: 20px;
+}
+
+.quoteOfTheDayPNGIcon {
+    height: 150px;
+    width: 150px;
+    opacity: 0.4;
+}
+
+.quoteOfTheDayQuoteContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    
+}
+
+.quoteOfTheDayQuote {
+    margin-bottom: 15px;
+    font-style: italic;
+}

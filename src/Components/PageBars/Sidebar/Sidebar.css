@@ -1,0 +1,287 @@
+.sidebar {
+    height: calc(100vh - 70px);
+    background-color: white;
+    overflow-y: scroll;
+    position: fixed;
+    top: 73px;
+    width: 15%; 
+    z-index: 1; 
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #bfc2c7;
+    border-radius: 3px;
+}
+
+
+.sidebar-container {
+    padding: 30px;
+}
+
+.sidebarMenuTitle {
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.sidebarTopicListContainer {
+    margin-bottom: 30px;
+}
+
+.sidebarTopicList {
+    margin: 10px 0 0 20px
+}
+
+.sidebarList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebarListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+
+.sidebarListItemLink {
+    display: flex;
+    align-items: center;
+}
+
+.sidebarListItem:hover {
+    font-weight: 700;
+}
+
+/*
+.sidebarListItem:hover {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+*/
+
+.sidebarIcon {
+    margin-left: -2px;
+    margin-right: 15px;
+    font-size: 28px !important;
+}
+
+.sidebarImgIcon {
+    margin-right: 17px;
+    width: 28px;
+}
+
+.sidebarImgText {
+    width: 100px;
+}
+
+.sidebarIcon.youtube {
+    color: #c4302b;
+}
+
+.sidebarTopicTitle {
+    font-size: 14px;
+    font-weight: 500; 
+}
+
+.sidebarTopicTitle.masculine, .sidebarMenuTitle.masculine {
+    color: #4a76fd; 
+}
+
+.sidebarTopicTitle.feminine, .sidebarMenuTitle.feminine {
+    color: #e639af; 
+}
+
+.sidebarTopicTitle.ruby, .sidebarMenuTitle.ruby {
+    color: #850014; 
+}
+
+.sidebarTopicTitle.orange, .sidebarMenuTitle.orange {
+    color: #ff8303; 
+}
+
+.sidebarTopicTitle.sun, .sidebarMenuTitle.sun {
+    color: #ffe700; 
+}
+
+.sidebarTopicTitle.emerald, .sidebarMenuTitle.emerald {
+    color: #50c878; 
+}
+
+.sidebarTopicTitle.blue, .sidebarMenuTitle.blue {
+    color: #098de9; 
+}
+
+.sidebarTopicTitle.indigo, .sidebarMenuTitle.indigo {
+    color: #30307e; 
+}
+
+.sidebarTopicTitle.violet, .sidebarMenuTitle.violet {
+    color: #8a2be2; 
+}
+
+.sidebarTopicTitle.rainbow, .sidebarMenuTitle.rainbow {
+    background: -webkit-linear-gradient(left, #850014 , #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014 , #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014 , #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014 , #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sidebarTopicTitle.silver, .sidebarMenuTitle.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.sidebarTopicTitle.gold, .sidebarMenuTitle.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sidebarTopicTitle.platinum, .sidebarMenuTitle.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sidebarTopicTitle.gray, .sidebarMenuTitle.gray {
+    color: #aeb4b7; 
+}
+
+.sidebarTopicHr {
+    border: none;
+    height: 1px;
+}
+
+.sidebarTopicHr.current {
+    width: 77px;
+}
+
+.sidebarTopicHr.connections {
+    width: 117px;
+}
+
+.sidebarTopicHr.guidance {
+    width: 84px;
+}
+
+.sidebarTopicHr.perspective {
+    width: 105px;
+}
+
+.sidebarHr {
+    border: none;
+    height: 4px;
+    margin: 10px 0 30px 0;
+    width: 100%;
+}
+
+.sidebarHr.masculine, .sidebarTopicHr.masculine {
+    background-color: #4a76fd;
+}
+
+.sidebarHr.feminine, .sidebarTopicHr.feminine {
+    background-color: #e639af;
+}
+
+.sidebarHr.ruby, .sidebarTopicHr.ruby {
+    background-color: #850014;   
+}
+
+.sidebarHr.orange, .sidebarTopicHr.orange { 
+    background-color: #ff8303; 
+}
+
+.sidebarHr.sun, .sidebarTopicHr.sun {
+    background-color: #ffe700;  
+}
+
+.sidebarHr.emerald, .sidebarTopicHr.emerald { 
+    background-color: #50c878; 
+}
+
+.sidebarHr.blue, .sidebarTopicHr.blue {
+    background-color: #098de9; 
+}
+
+.sidebarHr.indigo, .sidebarTopicHr.indigo { 
+    background-color: #30307e; 
+}
+
+.sidebarHr.violet, .sidebarTopicHr.violet { 
+    background-color: #8a2be2; 
+}
+
+.sidebarHr.rainbow, .sidebarTopicHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.sidebarHr.silver, .sidebarTopicHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.sidebarHr.gold, .sidebarTopicHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.sidebarHr.platinum, .sidebarTopicHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.sidebarHr.gray, .sidebarTopicHr.gray {
+    background-color: #bfc2c7;
+}
+
+.sidebarHrDiamond {
+    justify-content: center;
+    height: 4px;
+    margin: 20px 0 0 10px;
+    object-fit: cover;
+    width: 90%;
+}
+
+.sidebarOnlineContainer {
+    margin-top: 20px;
+}
+
+.sidebarOnlineNoneText {
+    margin: 10px 0 30px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #bfc2c7;
+}

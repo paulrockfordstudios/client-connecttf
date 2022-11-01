@@ -1,0 +1,61 @@
+.notifications {
+    display: flex;
+}
+
+.notifications-container {
+    margin-top: 74px;
+    width: 100%;
+    padding: 20px 20% 30px 15%;
+    overflow-x: hidden;  
+}
+
+.notificationsAd {
+    margin: 0 20px;
+}
+
+.notificationsRight {
+    margin: 0 60px 0 20px;
+}
+
+.notificationsDisplayContainer {
+    width: 100%;
+    position: relative;
+}
+
+.notificationsDisplayBackgroundTheme {
+    width: 100%;
+    padding-right: 40px;
+    border-radius: 20px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+}
+
+.notificationsDisplay-container {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px; 
+    
+}
+
+.notificationsDisplay-container.union {
+    position: sticky;
+}
+
+.notificationsDisplay-container.flame {
+    width: calc(100% - 20px);
+}
+
+.notificationsDisplayList {
+    padding-left: 0;
+}
+
+.notificationsDisplayListItem {
+    list-style: none;
+}

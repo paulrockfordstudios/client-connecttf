@@ -1,0 +1,507 @@
+.messageBar {
+    width: 20%;
+    position: fixed;
+    right: 0;
+    top: 70px;
+}
+
+.chatConvBackgroundTheme {
+    display: flex;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: height 225ms ease-in-out;
+    margin-left: 30px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    opacity: 0.75;
+}
+
+.chatConvBackgroundTheme.close {
+    Height: 80px;
+    Width: 80px;
+    border-radius: 50%;
+    transition: height 325ms ease-in-out;
+}
+
+.chatConvBackgroundTheme.open {
+    Height: 500px;
+    Width: calc(20% - 35px);
+    border-radius: 40px;
+    transition: height 325ms ease-in-out;
+}
+
+.chatConv-container {
+    display: flex;
+    background: white;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: height 325ms ease-in-out;
+    margin-left: 30px;
+}
+
+.chatConv-container.close {
+    Height: 80px;
+    Width: 80px;
+    border-radius: 50%;
+    transition: height 325ms ease-in-out;
+}
+
+.chatConv-container.open {
+    Height: 500px;
+    Width: calc(20% - 35px);
+    border-radius: 40px;
+    transition: height 325ms ease-in-out;
+}
+
+.chatConv-container.close.masculine:hover {
+    background-color: #d8e1fe;
+}
+
+.chatConv-container.close.feminine:hover {
+    background-color: #fde1ef;
+}
+
+.chatConv-container.close.feminine:active {
+    background-color: #e4cbd8;
+}
+
+.chatConv-container.close.ruby:hover {
+    background-color: #d4a6ad;
+}
+
+.chatConv-container.close.orange:hover {
+    background-color: #ffdab3;
+}
+
+.chatConv-container.close.sun:hover {
+    background-color: #fff9bf;
+}
+
+.chatConv-container.close.emerald:hover {
+    background-color: #caeed6;
+}
+
+.chatConv-container.close.blue:hover {
+    background-color: #cee8fb;
+}
+
+.chatConv-container.close.indigo:hover {
+    background-color: #babad4;
+}
+
+.chatConv-container.close.violet:hover {
+    background-color: #dcbff6;
+}
+
+.chatConv-container.close.gray:hover {
+    background-color: #e4e6e7;
+}
+
+.chatConvContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;  
+}
+
+.chatConvContainerTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    padding: 0 30px;
+}
+
+.chatConvContainerTopLeft {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+ 
+.chatConvAvatarContainer {
+    display: flex;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+
+.chatConvContainerTopRight {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 100%;
+    width: 50%;
+    margin-right: 15px;
+}
+
+.chatConvBtnContainer {
+    position: relative;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.chatConvBtnContainerBackgroundTheme {
+    position: absolute;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 15px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    opacity: 0.75;
+}
+
+.chatConvContainerBtn {
+    position: absolute;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 15px;
+    background-color: white;
+}
+
+.chatConvContainerBtn.masculine:hover,.chatConvBtn.masculine:hover, .chatConv-container.close.masculine:hover {
+    background-color: #d8e1fe;
+}
+
+.chatConvContainerBtn.masculine:active, .chatConvBtn.masculine:active, .chatConv-container.close.masculine:active  {
+    background-color: #c3cbe5;
+}
+
+.chatConvContainerBtn.feminine:hover, .chatConvBtn.feminine:hover, .chatConv-container.close.feminine:hover {
+    background-color: #fde1ef;
+}
+
+.chatConvContainerBtn.feminine:active, .chatConvBtn.feminine:active, .chatConv-container.close.feminine:active {
+    background-color: #e4cbd8;
+}
+
+.chatConvContainerBtn.ruby:hover, .chatConvBtn.ruby:hover, .chatConv-container.close.ruby:hover {
+    background-color: #d4a6ad;
+}
+
+.chatConvContainerBtn.ruby:active, .chatConvBtn.ruby:active, .chatConv-container.close.ruby:active  {
+    background-color: #be959b;
+}
+
+.chatConvContainerBtn.orange:hover, .chatConvBtn.orange:hover, .chatConv-container.close.orange:hover {
+    background-color: #ffdab3;
+}
+
+.chatConvContainerBtn.orange:active, .chatConvBtn.orange:active, .chatConv-container.close.orange:active {
+    background-color: #e6c5a1;
+}
+
+.chatConvContainerBtn.sun:hover, .chatConvBtn.sun:hover, .chatConv-container.close.sun:hover {
+    background-color: #fff9bf;
+}
+
+.chatConvContainerBtn.sun:active, .chatConvBtn.sun:active, .chatConv-container.close.sun:active {
+    background-color: #e6e1ac;
+}
+
+.chatConvContainerBtn.emerald:hover, .chatConvBtn.emerald:hover, .chatConv-container.close.emerald:hover {
+    background-color: #caeed6;
+}
+
+.chatConvContainerBtn.emerald:active, .chatConvBtn.emerald:active, .chatConv-container.close.emerald:active {
+    background-color: #b6d7c1;
+}
+
+.chatConvContainerBtn.blue:hover, .chatConvBtn.blue:hover, .chatConv-container.close.blue:hover {
+    background-color: #cee8fb;
+}
+
+.chatConvContainerBtn.blue:active, .chatConvBtn.blue:active, .chatConv-container.close.blue:active {
+    background-color: #bad1e2;
+}
+
+.chatConvContainerBtn.indigo:hover, .chatConvBtn.indigo:hover, .chatConv-container.close.indigo:hover {
+    background-color: #babad4;
+}
+
+.chatConvContainerBtn.indigo:active, .chatConvBtn.indigo:active, .chatConv-container.close.indigo:active {
+    background-color: #a8a8bf;
+}
+
+.chatConvContainerBtn.violet:hover, .chatConvBtn.violet:hover, .chatConv-container.close.violet:hover {
+    background-color: #dcbff6;
+}
+
+.chatConvContainerBtn.violet:active, .chatConvBtn.violet:active, .chatConv-container.close.violet:active {
+    background-color: #c6acde;
+}
+
+.chatConvContainerBtn.rainbow:hover, .chatConvBtn.rainbow:hover, .chatConv-container.close.rainbow:hover {
+    background: -webkit-linear-gradient(left, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+}
+
+.chatConvContainerBtn.rainbow:active, .chatConvBtn.rainbow:active, .chatConv-container.close.rainbow:active {
+    background: -webkit-linear-gradient(left, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* Standard syntax (must be last) */
+}
+
+.chatConvContainerBtn.silver:hover, .chatConvBtn.silver:hover, .chatConv-container.close.silver:hover {
+    background: -webkit-linear-gradient(left, #f4f4f4 , #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4 , #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.chatConvContainerBtn.silver:active, .chatConvBtn.silver:active, .chatConv-container.close.silver:active {
+    background: -webkit-linear-gradient(left, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dcdcdc, #c7c7c7 , #dcdcdc); /* Standard syntax (must be last) */
+}
+
+.chatConvContainerBtn.gold:hover, .chatConvBtn.gold:hover, .chatConv-container.close.gold:hover {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+}
+
+.chatConvContainerBtn.gold:active, .chatConvBtn.gold:active, .chatConv-container.close.gold:active {
+    background: -webkit-linear-gradient(left, #cfc1a9, #e1d9bc , #cfc1a9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #cfc1a9, #e1d9bc , #cfc1a9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #cfc1a9, #e1d9bc , #cfc1a9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #cfc1a9, #e1d9bc , #cfc1a9); /* Standard syntax (must be last) */
+}
+
+.chatConvContainerBtn.platinum:hover, .chatConvBtn.platinum:hover, .chatConv-container.close.platinum:hover {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.chatConvContainerBtn.platinum:active, .chatConvBtn.platinum:active, .chatConv-container.close.platinum:active {
+    background: -webkit-linear-gradient(left, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* Standard syntax (must be last) */
+}
+
+.chatConvContainerBtn.gray:hover, .chatConvBtn.gray:hover, .chatConv-container.close.gray:hover {
+    background-color: #e4e6e7;
+}
+
+.chatConvContainerBtn.gray:active, .chatConvBtn.gray:active, .chatConv-container.close.gray:active {
+    background-color: #cecfd0;
+}
+
+.chatConvAvatar {
+    display: flex;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.chatConvWriteIcon {
+    height: 15px;
+    width: 15px;
+    margin: auto;
+}
+
+.chatConvIcon {
+    margin: auto;
+    height: 40px;
+}
+
+.chatConvOptionsIcon {
+    margin: auto;
+    font-size: 18px !important;
+}
+
+.chatConvContainerCenter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.chatConvContainerTitle {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 0 0 5px;
+}
+
+.chatConvHr { 
+    border: none;
+    height: 1px;
+    width: 100%;
+}
+
+.chatConvTitleHr { 
+    border: none;
+    height: 1px;
+    margin-left: 5px;
+}
+
+.chatConvTitleHr.union {
+    width: 104px;
+}
+
+.chatConvTitleHr.flame {
+    width: 106px;
+}
+
+.chatConvTitleHr.masculine, .chatConvHr.masculine {
+    background-color: #4a76fd;
+}
+
+.chatConvTitleHr.feminine, .chatConvHr.feminine {
+    background-color: #e639af;
+}
+
+.chatConvTitleHr.ruby, .chatConvHr.ruby {
+    background-color: #850014;
+}
+
+.chatConvTitleHr.orange, .chatConvHr.orange {
+    background-color: #ff8303;
+}
+
+.chatConvTitleHr.sun, .chatConvHr.sun {
+    background-color: #ffe700;
+}
+
+.chatConvTitleHr.emerald, .chatConvHr.emerald {
+    background-color: #50c878;
+}
+
+.chatConvTitleHr.blue, .chatConvHr.blue {
+    background-color: #098de9;
+}
+
+.chatConvTitleHr.indigo, .chatConvHr.indigo {
+    background-color: #30307e;
+}
+
+.chatConvTitleHr.violet, .chatConvHr.violet {
+    background-color: #8a2be2;
+}
+
+.chatConvTitleHr.rainbow, .chatConvHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.chatConvTitleHr.silver, .chatConvHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.chatConvTitleHr.gold, .chatConvHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.chatConvTitleHr.platinum, .chatConvHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.chatConvList {
+    overflow-y: scroll;
+}
+
+.chatConvList::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chatConvList::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.chatConvList::-webkit-scrollbar-thumb {
+    background-color: #bfc2c7;
+    border-radius: 3px;
+}
+
+.chatConvContainerCenterUnion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 190px;
+}
+
+.chatConvContainerCenterFlame {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 190px;
+}
+
+
+.chatConvContainerBottom {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    height: 56px;
+}
+
+.chatConvBottomBtnContainer {
+    position: relative;
+    display: flex;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    margin-left: auto;
+}
+
+.chatConvBottomBtnContainerBackgroundTheme {
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    margin-left: auto;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    opacity: 0.75;
+}
+
+.chatConvBtn {
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: auto;
+}
+
+.chatConvBtnPNGIcon {
+    height: 18px;
+    width: 18px;
+    margin: 9px 0 0 9px;
+}

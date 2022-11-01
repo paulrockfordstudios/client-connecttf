@@ -1,0 +1,435 @@
+.cdpQuestionScreenContainer {
+    position: fixed;
+    z-index: 999;
+    top: 30%;
+    bottom: 30%;
+    left: 30%;
+    right: 30%;
+    width: 40%;
+    height: 20%;
+}
+
+.cdpQuestionContainer {
+    width: 80%;
+    height: 40%;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 10px 50px -20px rgba(0,0,0,0.75); 
+    box-shadow: 0px 10px 50px -20px rgba(0,0,0,0.75);
+}
+
+.cdpQuestionTop {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cdpQuestionQuestion {
+    margin: 40px 0;
+    font-weight: 500;
+}
+
+.cdpQuestionDataTitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 40px;
+}
+
+.cdpQuestionBottom {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.cdpQuestionButton {
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.cdpQuestionButton.base {
+    position: relative;
+}
+
+.cdpQuestionButton.font {
+    position: absolute;
+    top: 5px;
+    left: -10px;
+}
+
+.cdpQuestionButton.ruby {
+    background-color: #850014;
+    color: white;
+}
+
+.cdpQuestionButton.ruby:hover {
+    color: #d4a6ad;
+}
+
+.cdpQuestionButton.ruby:active {
+    background-color: #5d000e;
+    color: #be959b;
+}
+
+.cdpQuestionButton.orange {
+    background-color: #ff8303;
+    color: white;
+}
+
+.cdpQuestionButton.orange:hover {
+    color: #ffdab3;
+}
+
+.cdpQuestionButton.orange:active {
+    background-color: #b35c02;
+    color: #e6c5a1;
+}
+
+.cdpQuestionButton.sun {
+    background-color: #ffe700;
+    color: white;
+}
+
+.cdpQuestionButton.sun:hover {
+    color: #fff9bf;
+}
+
+.cdpQuestionButton.sun:active {
+    background-color: #b3a200;
+    color: #e6e1ac;
+}
+
+.cdpQuestionButton.emerald {
+    background-color: #50c878;
+    color: white;
+}
+
+.cdpQuestionButton.emerald:hover {
+    color: #caeed6;
+}
+
+.cdpQuestionButton.emerald:active {
+    background-color: #388c54;
+    color: #b6d7c1;
+}
+
+.cdpQuestionButton.blue {
+    background-color: #098de9;
+    color: white;
+}
+
+.cdpQuestionButton.blue:hover {
+    color: #cee8fb;
+}
+
+.cdpQuestionButton.blue:active {
+    background-color: #0663a4;
+    color: #bad1e2;
+}
+
+.cdpQuestionButton.indigo {
+    background-color: #30307e;
+    color: white;
+}
+
+.cdpQuestionButton.indigo:hover {
+    color: #babad4;
+}
+
+.cdpQuestionButton.indigo:active {
+    background-color: #222258;
+    color: #a8a8bf;
+}
+
+.cdpQuestionButton.violet {
+    background-color: #8a2be2;
+    color: white;
+}
+
+.cdpQuestionButton.violet:hover {
+    color: #dcbff6;
+}
+
+.cdpQuestionButton.violet:active {
+    background-color: #611e9f;
+    color: #c6acde;
+}
+
+.cdpQuestionButton.base.left.rainbow {
+    background: -webkit-linear-gradient(left, #850014, #ff8303, #ffe700, #50c878); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878); /* Standard syntax (must be last) */
+}
+
+.cdpQuestionButton.font.left.rainbow {
+    color: white;
+}
+
+.cdpQuestionButton.font.left.rainbow:hover {
+    background: -webkit-linear-gradient(left, #d4a6ad , #ffdab3, #fff9bf, #caeed6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad , #ffdab3, #fff9bf, #caeed6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad , #ffdab3, #fff9bf, #caeed6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad , #ffdab3, #fff9bf, #caeed6); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cdpQuestionButton.base.left.rainbow:active {
+    background: -webkit-linear-gradient(left, #5d000e, #b35c02, #b3a200, #388c54); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #5d000e, #b35c02, #b3a200, #388c54); /* Standard syntax (must be last) */
+}
+
+.cdpQuestionButton.font.left.rainbow:active {
+    background: -webkit-linear-gradient(left, #be959b, #e6c5a1, #e6e1ac, #b6d7c1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cdpQuestionButton.base.right.rainbow {
+    background: -webkit-linear-gradient(left, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.cdpQuestionButton.font.right.rainbow {
+    color: white;
+}
+
+.cdpQuestionButton.font.right.rainbow:hover {
+    background: -webkit-linear-gradient(left, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cdpQuestionButton.base.right.rainbow:active {
+    background: -webkit-linear-gradient(left, #388c54, #0663a4, #222258, #611e9f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #388c54, #0663a4, #222258, #611e9f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #388c54, #0663a4, #222258, #611e9f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #388c54, #0663a4, #222258, #611e9f); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.cdpQuestionButton.font.right.rainbow:hover {
+    background: -webkit-linear-gradient(left, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cdpQuestionButton.base.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.cdpQuestionButton.font.silver {
+    color: white;
+}
+
+.cdpQuestionButton.font.silver:hover {
+    background: -webkit-linear-gradient(left, #f4f4f4 , #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4 , #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cdpQuestionButton.base.silver:active {
+    background: -webkit-linear-gradient(left, #999999, #646464 , #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #999999, #646464 , #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #999999, #646464 , #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #999999, #646464 , #999999); /* Standard syntax (must be last) */
+}
+
+.cdpQuestionButton.font.silver:active {
+    background: -webkit-linear-gradient(left, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dcdcdc, #c7c7c7 , #dcdcdc); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cdpQuestionButton.base.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.cdpQuestionButton.font.gold {
+    color: white
+}
+
+.cdpQuestionButton.font.gold:hover {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cdpQuestionButton.base.gold:active {
+    background: -webkit-linear-gradient(left, #785414, #a79346 , #785414); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #785414, #a79346 , #785414); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #785414, #a79346 , #785414); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #785414, #a79346 , #785414); /* Standard syntax (must be last) */
+}
+
+.cdpQuestionButton.font.gold:active {
+    background: -webkit-linear-gradient(left, #cfc1a9, #e1d9bc , #cfc1a9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #cfc1a9, #e1d9bc , #cfc1a9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #cfc1a9, #e1d9bc , #cfc1a9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #cfc1a9, #e1d9bc , #cfc1a9); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cdpQuestionButton.base.left.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e); /* Standard syntax (must be last) */
+}
+
+.cdpQuestionButton.base.left.platinum {
+    color: white;
+}
+
+.cdpQuestionButton.font.left.platinum:hover {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cdpQuestionButton.base.left.platinum:active {
+    background: -webkit-linear-gradient(left, #94a4ad, #4b6269, #3c4448, #646464); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #94a4ad, #4b6269, #3c4448, #646464); /* Standard syntax (must be last) */
+}
+
+.cdpQuestionButton.font.left.platinum:active {
+    background: -webkit-linear-gradient(left, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cdpQuestionButton.base.right.platinum {
+    background: -webkit-linear-gradient(left, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */ 
+}
+
+.cdpQuestionButton.base.right.platinum {
+    color: white;
+}
+
+.cdpQuestionButton.font.right.platinum:hover {
+    background: -webkit-linear-gradient(left, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cdpQuestionButton.base.right.platinum:active {
+    background: -webkit-linear-gradient(left, #646464, #4d434a, #7b686b, #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #646464, #4d434a, #7b686b, #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #646464, #4d434a, #7b686b, #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #646464, #4d434a, #7b686b, #999999); /* Standard syntax (must be last) */
+}
+
+.cdpQuestionButton.font.right.platinum:active {
+    background: -webkit-linear-gradient(left, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cdpQuestionButton.font.diamond {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cdpQuestionButton.masculine {
+    background-color: #4a76fd;
+    color: white;
+}
+
+.cdpQuestionButton.masculine:hover {
+    color: #d8e1fe;
+}
+
+.cdpQuestionButton.masculine:active {
+    background-color: #3453b2;
+    color: #c3cbe5;
+}
+
+.cdpQuestionButton.feminine {
+    background-color: #e639af;
+    color: white;
+}
+
+.cdpQuestionButton.feminine:hover {
+    color: #fde1ef;
+}
+
+.cdpQuestionButton.feminine:active {
+    background-color: #a1287b;
+    color: #e4cbd8;
+}
+
+.cdpQuestionButton.gray {
+    background-color: #a4b4b7;
+    color: white;
+}
+
+.cdpQuestionButton.gray:hover {
+    color: #e4e6e7;
+}
+
+.cdpQuestionButton.gray:active {
+    background-color: #7a7e80;
+    color: #cecfd0;
+}

@@ -1,0 +1,198 @@
+.chatMessage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.chatMessage.own {
+    align-items: flex-end;
+}
+
+.chatMessageTop {
+    display: flex;
+}
+
+.chatMessageProfilePic {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;   
+}
+
+.chatMessageContainer {
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    max-width: 300px;
+    margin: 0 10px;
+}
+
+.chatMessageContainer.masculine {
+    background-color: #4a76fd;
+}
+
+.chatMessageContainer.feminine {
+    background-color: #e639af;
+}
+
+.chatMessageContainer.ruby {
+    background-color: #850014;
+}
+
+.chatMessageContainer.orange {
+    background-color: #ff8303;
+}
+
+.chatMessageContainer.sun {
+    background-color: #ffe700;
+}
+
+.chatMessageContainer.emerald {
+    background-color: #50c878;
+}
+
+.chatMessageContainer.blue {
+    background-color: #098de9;
+}
+
+.chatMessageContainer.indigo {
+    background-color: #30307e;
+}
+
+.chatMessageContainer.violet {
+    background-color: #8a2be2;
+}
+
+.chatMessageContainer.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.chatMessageContainer.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.chatMessageContainer.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.chatMessageContainer.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.chatMessageContainer.gray {
+    background-color: #bfc2c7;
+}
+
+
+
+.chatMessageBottom {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+
+
+.chatMessageContainer.own.masculine {
+    background-color: #d8e1fe;
+    color: black;
+}
+
+.chatMessageContainer.own.feminine {
+    background-color: #fde1ef;
+    color: black;
+}
+
+.chatMessageContainer.own.ruby {
+    background-color: #d4a6ad;
+    color: black;
+}
+
+.chatMessageContainer.own.orange {
+    background-color: #ffdab3;
+    color: black;
+}
+
+.chatMessageContainer.own.sun {
+    background-color: #fff9bf;
+    color: black;
+}
+
+.chatMessageContainer.own.emerald {
+    background-color: #caeed6;
+    color: black;
+}
+
+.chatMessageContainer.own.blue {
+    background-color: #cee8fb;
+    color: black;
+}
+
+.chatMessageContainer.own.indigo {
+    background-color: #babad4;
+    color: black;
+}
+
+.chatMessageContainer.own.violet {
+    background-color: #dcbff6;
+    color: black;
+}
+
+.chatMessageContainer.own.rainbow {
+    background: -webkit-linear-gradient(left, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+    color: black;
+}
+
+.chatMessageContainer.own.silver {
+    background: -webkit-linear-gradient(left, #f4f4f4 , #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4 , #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+    color: black;
+}
+
+.chatMessageContainer.own.gold {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+    color: black;
+}
+
+.chatMessageContainer.own.platinum {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+    color: black;
+}
+
+.chatMessageContainer.own.gray {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.cbPostImg {
+    border-radius: 10px;
+    margin: 5px 5px 0 5px;
+    width: calc(100% - 10px);
+    max-height: 500px;
+    object-fit: contain;
+}

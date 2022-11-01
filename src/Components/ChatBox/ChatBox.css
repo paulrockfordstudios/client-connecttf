@@ -1,0 +1,37 @@
+.cbChatBoxTop {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 80%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding-right: 10px;
+}
+
+.cbChatBoxFeed {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.convChatBoxBottom {
+    position: relative;
+}
+
+.convChatTextEditor {
+    height: 80px;
+}
+
+.convChatTextEditor.ebOpen {
+    top: -250px;
+    padding-top: 250px;
+    overflow-y: hidden;
+}
+
+.convChatTextEditor.ebClose{
+    overflow-y: auto;
+}
+
+.convChatControlPanel {
+    position: absolute;
+    top: 90px;
+    width: 280px;
+}

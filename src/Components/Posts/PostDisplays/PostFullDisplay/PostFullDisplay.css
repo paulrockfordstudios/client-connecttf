@@ -1,0 +1,360 @@
+.postFullDisplayContainer {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.postFullDisplayBackgroundTheme {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+}
+
+
+.postFullDisplay {
+    width: 100%; 
+    border-radius: 10px;
+    background-color: white;
+}
+
+.postFullDisplay.union {
+    position: absolute;
+}
+
+.postFullDisplay-container {
+    padding: 10px;
+}
+
+/* ------- Full Post Top ------- */
+
+.postFullDisplayTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.postFullDisplayTopLeft {
+    display: flex;
+    align-items: center; 
+    position: relative;
+}
+
+.postFullDisplayProfileLink {
+    display: flex;
+    align-items: center;
+}
+
+.postFullDisplayProfilePic {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.postFullDisplayProfileEnergy {
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.postFullDisplayUserName {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px 0 3px;
+}
+
+.postFullDisplayDateTime {
+    font-size: 12px;
+    margin-right: 3px;
+    color: #bfc2c7;
+}
+
+.postFullDisplayVisibilityIcon {
+    font-size: 14px !important;
+    color: #bfc2c7;
+}
+
+.postFullDisplayTopRight {
+    position: relative;
+    margin-right: -5px;
+    cursor: pointer;
+}
+
+.postFullDisplayInfo {
+    font-size: 12px;
+    margin-right: 3px;
+    color: #bfc2c7;
+}
+
+.postFullDisplayPostODropdown {
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+/* ------- Full Post Center ------- */
+
+.postFullDisplayCenter {
+    margin: 20px 0 20px 10px;
+}
+
+.postFullDisplayText {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.postFullDisplayhashtags {
+    color: #4a76fd;
+}
+
+.photoList {
+    margin-right: 40px;
+}
+
+.photos {
+    list-style: none;
+}
+
+.postImg {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+/* ------- Full Post Bottom ------- */
+
+.postFullDisplayBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.postFullDisplayCountItem {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.postFullDisplayPNGIcon {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.postFullDisplaySVGIcon {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.postFullDisplayCounter {
+    font-size: 15px;
+}
+
+.postFullDisplayBottomLeft {
+    display: flex;
+    align-items: center;
+}
+
+.postFullDisplayViewsDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.postFullDisplayLikesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.postFullDisplayLovesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.postFullDisplayPNGIcon.left {
+    margin-right: 5px;
+}
+
+.postFullDisplaySVGIcon.left {
+    margin-right: 5px;
+}
+
+.postFullDisplayCounter.left {
+    margin-right: 20px;
+}
+
+.postFullDisplayBottomRight {
+    display: flex;
+    align-items: center;
+}
+
+.postFullDisplaySVGIconDiv {
+    display: flex;
+    align-items: center;
+}
+
+.postFullDisplayCommentsDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.postFullDisplaySharesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.postFullDisplayPNGIcon.right {
+    margin-left: 20px;
+}
+
+.postFullDisplaySVGIcon.right {
+    height: 24px;
+    width: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.postFullDisplayCounter.right {
+    margin-left: 5px;
+}
+
+.postFullDisplaySVGIcon.masculine { 
+    color: #4a76fd;
+}
+
+.postFullDisplaySVGIcon.feminine { 
+    color: #e639af;
+}
+
+.postFullDisplaySVGIcon.ruby {
+    color: #850014;   
+}
+
+.postFullDisplaySVGIcon.orange { 
+    color: #ff8303; 
+}
+
+.postFullDisplaySVGIcon.sun {
+    color: #ffe700;  
+}
+
+.postFullDisplaySVGIcon.emerald { 
+    color: #50c878; 
+}
+
+.postFullDisplaySVGIcon.blue {
+    color: #098de9; 
+}
+
+.postFullDisplaySVGIcon.indigo { 
+    color: #bcbcd4; 
+}
+
+.postFullDisplaySVGIcon.violet { 
+    color: #8a2be2; 
+}
+
+.postFullDisplaySVGIcon.gray { 
+    color: #bfc2c7;
+}
+
+.postFullDisplayHr {
+    margin: 20px 10px 0 10px;
+    border: none;
+    height: 4px;
+}
+
+.postFullDisplayHr.masculine {
+    background-color: #4a76fd;
+}
+
+.postFullDisplayHr.feminine {
+    background-color: #e639af;
+}
+
+.postFullDisplayHr.ruby {
+    background-color: #850014;   
+}
+
+.postFullDisplayHr.orange { 
+    background-color: #ff8303; 
+}
+
+.postFullDisplayHr.sun {
+    background-color: #ffe700;  
+}
+
+.postFullDisplayHr.emerald { 
+    background-color: #50c878; 
+}
+
+.postFullDisplayHr.blue {
+    background-color: #098de9; 
+}
+
+.postFullDisplayHr.indigo { 
+    background-color: #30307e; 
+}
+
+.postFullDisplayHr.violet { 
+    background-color: #8a2be2; 
+}
+
+.postFullDisplayHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.postFullDisplayHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.postFullDisplayHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.postFullDisplayHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.postFullDisplayHr.gray {
+    background-color: #bfc2c7;
+}
+
+.postFullDisplayHrDiamond {
+    justify-content: center;
+    width: calc(100% - 20px);
+    height: 4px;
+    margin: 20px 0 0 10px;
+    object-fit: cover;
+}
+
+.postFullDisplayFeedTitle {
+    margin-left: 30px;
+    font-size: 24px; 
+    font-weight: 500;   
+    margin-right: 20px;  
+}
+
+.postFullDisplayFeedCount {
+    font-size: 12px;
+}

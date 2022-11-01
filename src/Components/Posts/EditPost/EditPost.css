@@ -1,0 +1,1205 @@
+.editPostPortal {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+}
+
+.editPostBackdropOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.editPostModal {
+    position: fixed;
+    top: 0;
+    left: 15%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.editPost {
+    width: 630px;
+    height: 630px;
+    border-radius: 40px;
+    background-color: white;
+    padding: 20px;
+    top: 2px;
+    left: 2px;
+    position: relative;
+    opacity: 1;
+    -webkit-box-shadow: 0px 10px 50px -20px rgba(0,0,0,0.75); 
+    box-shadow: 0px 10px 50px -20px rgba(0,0,0,0.75);
+}
+
+.editPost.union {
+    position: absolute;
+}
+
+.editPost.flame {
+    margin-bottom: 30px;
+}
+
+
+
+.editPost-container {
+    padding: 10px;
+}
+
+.editPostTop {
+    display: flex;
+    flex-direction: column;
+}
+
+.editPostTopUpper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.editPostLogo {
+    height: 30px;
+}
+
+.creatPostTitle {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.editPostCancelPNGIcon {
+    height: 36px;
+    margin-right: -5px;
+    margin-bottom: -2px;
+}
+
+.editPostCancelSVGIcon {
+    font-size: 36px !important;
+    margin-right: -5px;
+    margin-bottom: -2px;
+}
+
+.editPostCancelSVGIcon.masculine {
+    color: #d8e1fe;
+}
+
+.editPostCancelSVGIcon.masculine:hover {
+    color: #4a76fd;
+}
+
+.editPostCancelSVGIcon.masculine:active {
+    color: #3453b2;
+}
+
+.editPostCancelSVGIcon.feminine {
+    color: #fde1ef;
+}
+
+.editPostCancelSVGIcon.feminine:hover {
+    color: #e639af;
+}
+
+.editPostCancelSVGIcon.feminine:active {
+    color: #a1287b;
+}
+
+.editPostCancelSVGIcon.ruby {
+    color: #d4a6ad;
+}
+
+.editPostCancelSVGIcon.ruby:hover {
+    color: #850014;
+}
+
+.editPostCancelSVGIcon.ruby:active {
+    color: #5d000e;
+}
+
+.editPostCancelSVGIcon.orange {
+    color: #ffdab3;
+}
+
+.editPostCancelSVGIcon.orange:hover {
+    color: #ff8303;
+}
+
+.editPostCancelSVGIcon.orange:active {
+    color: #b35c02;
+}
+
+.editPostCancelSVGIcon.sun {
+    color: #fff9bf;
+}
+
+.editPostCancelSVGIcon.sun:hover {
+    color: #ffe700;
+}
+
+.editPostCancelSVGIcon.sun:active {
+    color: #b3a200;
+}
+
+.editPostCancelSVGIcon.emerald {
+    color: #caeed6;
+}
+
+.editPostCancelSVGIcon.emerald:hover {
+    color: #50c878;
+}
+
+.editPostCancelSVGIcon.emerald:active {
+    color: #388c54;
+}
+
+.editPostCancelSVGIcon.blue {
+    color: #cee8fb;
+}
+
+.editPostCancelSVGIcon.blue:hover {
+    color: #098de9;
+}
+
+.editPostCancelSVGIcon.blue:active {
+    color: #0663a4;
+}
+
+.editPostCancelSVGIcon.indigo {
+    color: #babad4;
+}
+
+.editPostCancelSVGIcon.indigo:hover {
+    color: #30307e;
+}
+
+.editPostCancelSVGIcon.indigo:active {
+    color: #222258;
+}
+
+.editPostCancelSVGIcon.violet {
+    color: #dcbff6;
+}
+
+.editPostCancelSVGIcon.violet:hover {
+    color: #8a2be2;
+}
+
+.editPostCancelSVGIcon.violet:active {
+    color: #611e9f;
+}
+
+.editPostCancelSVGIcon.gray {
+    color: #e4e6e7;
+}
+
+.editPostCancelSVGIcon.gray:hover {
+    color: #aeb4b7;
+}
+
+.editPostCancelSVGIcon.gray:active {
+    color: #7a7e80;
+}
+
+.editPostTopLower {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.editPostLink {
+    display: flex;
+    align-items: center;
+}
+
+.editPostProfilePic {
+    flex-shrink: 0;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.editPostProfileIcon {
+    flex-shrink: 0;
+    height: 24px;
+    margin-right: 3px;
+}
+
+.editPostName {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+
+.editPostDropdownBtns {
+    display: flex;
+    flex-direction: row;
+}
+
+.editPostDropdownBtn {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-left: 20px;
+}
+
+.editPostDropdownBtn.masculine {
+    background-color: #4a76fd;
+}
+
+.editPostDropdownBtn.feminine {
+    background-color: #e639af;
+}
+
+.editPostDropdownBtn.ruby {
+    background-color: #850014;
+}
+
+.editPostDropdownBtn.orange {
+    background-color: #ff8303;
+}
+
+.editPostDropdownBtn.sun {
+    background-color: #ffe700;
+}
+
+.editPostDropdownBtn.emerald {
+    background-color: #50c878;
+}
+
+.editPostDropdownBtn.blue {
+    background-color: #098de9;
+}
+
+.editPostDropdownBtn.indigo {
+    background-color: #30307e;
+}
+
+.editPostDropdownBtn.violet {
+    background-color: #8a2be2;
+}
+
+.editPostDropdownBtn.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.editPostDropdownBtn.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.editPostDropdownBtn.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.editPostDropdownBtn.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.editPostDropdownBtn.gray {
+    background-color: #aeb4b7;
+}
+
+.editPostVisibilityIcon {
+    display: flex;
+    align-items: center;
+    font-size: 20px !important;
+    margin: 0 5px;
+}
+
+.editPostDropdownTitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.editPostDropdownTitle.feed {
+    margin-left: 5px;
+}
+
+.editPostDropdownIcon {
+    font-size: 30px !important;
+    margin-right: -2px;
+}
+
+.editPostTitleEditorContainer {
+    position: relative;
+    width: 100%;
+    min-height: 48px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.editPostTitleHigherSpectrumBackground {
+    position: absolute;
+    width: 100%;
+    min-height: 48px;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+}
+
+.editPostTitleWhiteBackground {
+    position: absolute;
+    margin: 24px 30px;
+    width: calc(100% - 60px);
+    height: 0px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 30px 30px white; 
+    box-shadow: 0px 0px 30px 30px white;
+}
+
+.editPostTitleEditor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 48px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.editPostTitleEditorInput {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 50px);
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background: transparent;  
+}
+
+.editPostTitleEditorInput:focus {
+    outline: none;
+}
+
+.editPostTitleRequirementText {
+    font-size: 12px;
+    cursor: initial;
+    margin: 0 20px;
+    color: #aeb4b7;
+}
+
+.editPostEditorContainerContainer {
+    position: relative;
+    width: 610px;
+    height: 254px;
+    border-radius: 20px; 
+}
+
+.editPostEditorContainerContainer.editor {
+    position: relative;
+    margin: 20px 0;
+}
+
+.editPostEditorContainerContainer.imgDZ {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.editPostHigherSpectrumBackground {
+    position: absolute;
+    width: 100%;
+    height: 256px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+}
+
+.editPostWhiteBackground {
+    position: absolute;
+    margin: 50px;
+    width: calc(100% - 100px);
+    height: 154px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 30px 50px white; 
+    box-shadow: 0px 0px 30px 50px white;
+}
+
+
+.editPostEditor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 44px);
+    height: 214px;
+    max-height: 254px;
+    padding:  20px 19px 20px 25px;
+    font-size: 14px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.creatPostImgDropzoneContainer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -2px;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    overflow: hidden;
+    transition: height 325ms cubic-bezier(0.43,-0.35, 0.14, 1.35);
+    border-radius: 20px;
+}
+
+.editPostImgDZContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 222px;
+    width: 570px; 
+    margin: 20px;  
+    border-radius: 20px;
+}
+
+.editPostImgDZContainer.rainbow {
+    background: -webkit-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+}
+
+
+.editPostImgDZContainer.silver {
+    background: -webkit-linear-gradient(left, #f4f4f4, #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4, #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.editPostImgDZContainer.gold {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+}
+
+.editPostImgDZContainer.platinum {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.editPostImgDZBorder {
+    height: 222px;
+    width: 570px;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+}
+
+.editPostImgDropzone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 564px;
+    height: 216px;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.editPostImgDropzone.masculine {
+    background-color: #d8e1ef; 
+    border: dashed 3px #4a76fd;
+}
+
+.editPostImgDropzone.feminine {
+    background-color: #fde1ef; 
+    border: dashed 3px #e639af;
+}
+
+.editPostImgDropzone.ruby {
+    background-color: #d4a6ad; 
+    border: dashed 3px #850014;
+}
+
+.editPostImgDropzone.orange {
+    background-color: #ffdab3; 
+    border: dashed 3px #ff8303;
+}
+
+.editPostImgDropzone.sun {
+    background-color: #fff9bf; 
+    border: dashed 3px #ff3700;
+}
+
+.editPostImgDropzone.emerald {
+    background-color: #caeed6; 
+    border: dashed 3px #50c878;
+}
+
+.editPostImgDropzone.blue {
+    background-color: #cee8fb; 
+    border: dashed 3px #098de9;
+}
+
+.editPostImgDropzone.indigo {
+    background-color: #babad4; 
+    border: dashed 3px #30307e;
+}
+
+.editPostImgDropzone.violet {
+    background-color: #dcbff6; 
+    border: dashed 3px #8a2be2;
+}
+
+.editPostImgDropzone.violet {
+    background-color: #dcbff6; 
+    border: dashed 3px #8a2be2;
+}
+
+.editPostImgDropzone.gray {
+    background-color: #e4e6e7; 
+    border: dashed 3px #aeb4b7;
+}
+
+.editPostImgDZCancelPNGIcon {
+    position: absolute;
+    top: 25px;
+    right: 27px;
+    height: 20px;
+    width: 20px;
+    z-index: 3;
+}
+
+.editPostImgDZCancelSVGIcon {
+    position: absolute;
+    top: 23px;
+    right: 25px;
+    z-index: 3;
+}
+
+.editPostImgDZCancelSVGIcon.masculine {
+    color: #4a76fd;
+}
+
+.editPostImgDZCancelSVGIcon.feminine {
+    color: #e639af;
+}
+
+.editPostImgDZCancelSVGIcon.ruby {
+    color: #850014;
+}
+
+.editPostImgDZCancelSVGIcon.orange {
+    color: #ff8303;
+}
+
+.editPostImgDZCancelSVGIcon.sun {
+    color: #ffe700;
+}
+
+.editPostImgDZCancelSVGIcon.emerald {
+    color: #50c878;
+}
+
+.editPostImgDZCancelSVGIcon.blue {
+    color: #098de9;
+}
+
+.editPostImgDZCancelSVGIcon.indigo {
+    color: #30307e;
+}
+
+.editPostImgDZCancelSVGIcon.violet {
+    color: #8a2be2;
+}
+
+.editPostImgDZCancelSVGIcon.gray {
+    color: #aeb4b7;
+}
+
+.editPostEditorContainer {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.editPostHashtagEditor {
+    width: 100%;
+    padding-right: 20px;
+}
+
+/*
+div.public-DraftEditorPlaceholder-inner {
+    font-size: 12px;
+}
+*/
+
+.editPostInput {
+    border: none;
+    width: 80%;
+    white-space: pre-wrap;
+}
+
+.editPostInput:focus {
+    outline: none;
+}
+
+.editPostHrDiamond {
+    width: 95%;
+    height: 1px;
+    margin: 20px;
+    object-fit: cover;
+}
+
+.editPostHr {
+    width: 100%;
+    margin: 20px 0;
+    border: none;
+    height: 1px;
+}
+
+.editPostHr.masculine {
+    background-color: #4a76fd;
+}
+
+.editPostHr.feminine {
+    background-color: #e639af;
+}
+
+.editPostHr.ruby {
+    background-color: #850014;   
+}
+
+.editPostHr.orange { 
+    background-color: #ff8303; 
+}
+
+.editPostHr.sun {
+    background-color: #ffe700;  
+}
+
+.editPostHr.emerald { 
+    background-color: #50c878; 
+}
+
+.editPostHr.blue {
+    background-color: #098de9; 
+}
+
+.editPostHr.indigo { 
+    background-color: #30307e; 
+}
+
+.editPostHr.violet { 
+    background-color: #8a2be2; 
+}
+
+.editPostHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.editPostHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.editPostHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.editPostHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.editPostHr.gray {
+    background-color: #aeb4b7;
+}
+
+.editPostImages-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.editPostImageContainer {
+    position: relative;
+    margin-top: 10px;
+}
+
+.editPostImageContainer.top {
+    margin-top: 0;
+}
+
+.editPostImg {
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+.editPostCancelImgPNGBtn {
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+   
+}
+
+.editPostCancelImgSVGBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+   
+}
+
+.editPostCancelImgSVGBtn.masculine {
+    color: #4a76fd;
+}
+
+.editPostCancelImgSVGBtn.feminine {
+    color: #e639af;
+}
+
+.editPostCancelImgSVGBtn.ruby {
+    color: #850014;
+}
+
+.editPostCancelImgSVGBtn.orange {
+    color: #ff8303;
+}
+
+.editPostCancelImgSVGBtn.sun {
+    color: #ffe700;
+}
+
+.editPostCancelImgSVGBtn.emerald {
+    color: #50c878;
+}
+
+.editPostCancelImgSVGBtn.blue {
+    color: #098de9;
+}
+
+.editPostCancelImgSVGBtn.indigo {
+    color: #30307e;
+}
+
+.editPostCancelImgSVGBtn.violet {
+    color: #8a2be2;
+}
+
+.editPostCancelImgSVGBtn.gray {
+    color: #aeb4b7;
+}
+
+.editPostBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.editPostOptions {
+    height: 36px;
+}
+
+.editPostOption {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.editPostAddPhotoSVGIcon {
+    font-size: 36px !important;
+    color: #7a7e80;
+}
+
+.editPostAddPhotoPNGIcon {
+    width: 36px;
+}
+
+.editPostCancelButton {
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.editPostShareButtonBackground {
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 120px;
+    height: 36px;
+}
+
+.editPostShareButtonBackground.disabled {
+    opacity: 0.3;
+}
+
+.editPostShareButtonBackground.masculine {
+    background-color: #4a76fd;
+}
+
+.editPostShareButtonBackground.feminine {
+    background-color: #e639af;
+}
+
+.editPostShareButtonBackground.ruby {
+    background-color: #850014;
+}
+
+.editPostShareButtonBackground.orange {
+    background-color: #ff8303;
+}
+
+.editPostShareButtonBackground.sun {
+    background-color: #ffe700;
+}
+
+.editPostShareButtonBackground.emerald {
+    background-color: #50c878;
+}
+
+.editPostShareButtonBackground.blue {
+    background-color: #098de9;
+}
+
+.editPostShareButtonBackground.indigo {
+    background-color: #30307e;
+}
+
+.editPostShareButtonBackground.violet {
+    background-color: #8a2be2;
+}
+
+.editPostShareButtonBackground.rainbow {
+    background: -webkit-linear-gradient(left, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.editPostShareButtonBackground.rainbow:active {
+    background: -webkit-linear-gradient(left, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* Standard syntax (must be last) */
+}
+
+.editPostShareButtonBackground.silver {
+    background: -webkit-linear-gradient(left, #dadada, #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada, #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.editPostShareButtonBackground.silver:active {
+    background: -webkit-linear-gradient(left, #999999, #646464 , #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #999999, #646464 , #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #999999, #646464 , #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #999999, #646464 , #999999); /* Standard syntax (must be last) */
+}
+
+.editPostShareButtonBackground.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.editPostShareButtonBackground.gold:active {
+    background: -webkit-linear-gradient(left, #785414, #a79346 , #785414); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #785414, #a79346 , #785414); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #785414, #a79346 , #785414); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #785414, #a79346 , #785414); /* Standard syntax (must be last) */
+}
+
+.editPostShareButtonBackground.platinum{
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.editPostShareButtonBackground.platinum:active {
+    background: -webkit-linear-gradient(left, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* Standard syntax (must be last) */
+}
+
+.editPostShareButton {
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 120px;
+    height: 36px;
+    font-size: 24px;
+    color: white;
+    background: transparent;
+}
+
+.editPostShareButton.masculine {
+    background-color: #4a76fd;
+}
+
+.editPostShareButton.masculine:hover {
+    color: #d8e1fe;
+}
+
+.editPostShareButton.masculine:active {
+    background-color: #3453b2;
+    color: #c3cbe5;
+}
+
+.editPostShareButton.feminine {
+    background-color: #e639af;
+}
+
+.editPostShareButton.feminine:hover {
+    color: #fde1ef;
+}
+
+.editPostShareButton.feminine:active {
+    background-color: #a1287b;
+    color: #e4cbd8;
+}
+
+.editPostShareButton.ruby {
+    background-color: #850014; 
+}
+
+.editPostShareButton.ruby:hover {
+    color: #d4a6ad;
+}
+
+.editPostShareButton.ruby:active {
+    background-color: #5d000e;
+    color: #be959b;
+}
+
+.editPostShareButton.orange { 
+    background-color: #ff8303; 
+}
+
+.editPostShareButton.orange:hover {
+    color: #ffdab3;
+}
+
+.editPostShareButton.orange:active {
+    background-color: #b35c02;
+    color: #e6c1ac;
+}
+
+.editPostShareButton.sun {
+    background-color: #ffe700; 
+}
+
+.editPostShareButton.sun:hover {
+    color: #fff9bf;
+}
+
+.editPostShareButton.sun:active {
+    background-color: #b3a200;
+    color: #e6e1ac;
+}
+
+.editPostShareButton.emerald { 
+    background-color: #50c878; 
+}
+
+.editPostShareButton.emerald:hover {
+    color: #caeed6;
+}
+
+.editPostShareButton.emerald:active {
+    background-color: #388c54;
+    color: #b6d7c1;
+}
+
+.editPostShareButton.blue {
+    background-color: #098de9;
+}
+
+.editPostShareButton.blue:hover {
+    color: #cee8fb;
+}
+
+.editPostShareButton.blue:active {
+    background-color: #0663a4;
+    color: #bad1e2;
+}
+
+.editPostShareButton.indigo { 
+    background-color: #30307e; 
+}
+
+.editPostShareButton.indigo:hover {
+    color: #babad4;
+}
+
+.editPostShareButton.indigo:active {
+    background-color: #222258;
+    color: #a8a8bf;
+}
+
+.editPostShareButton.violet { 
+    background-color: #8a2be2; 
+}
+
+.editPostShareButton.violet:hover {
+    color: #dcbff6;
+}
+
+.editPostShareButton.violet:active {
+    background-color: #611e9f;
+    color: #c6acde;
+}
+
+.editPostShareButton.rainbow,
+.editPostShareButton.silver,
+.editPostShareButton.gold,
+.editPostShareButton.platinum {
+    background: transparent;
+    color: white;
+}
+
+.editPostShareButton.rainbow:hover {
+    background: -webkit-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.editPostShareButton.rainbow:active {
+    background: -webkit-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.editPostShareButton.silver:hover {
+    background: -webkit-linear-gradient(left, #f4f4f4, #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #f4f4f4, #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.editPostShareButton.silver:active {
+    background: -webkit-linear-gradient(left, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #dcdcdc, #c7c7c7 , #dcdcdc); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.editPostShareButton.gold:hover {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.editPostShareButton.gold:active {
+    background: -webkit-linear-gradient(left, #cfc1a9, #e1d9bc , #cfc1a9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #cfc1a9, #e1d9bc , #cfc1a9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #cfc1a9, #e1d9bc , #cfc1a9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #cfc1a9, #e1d9bc , #cfc1a9); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.editPostShareButton.platinum:hover {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.editPostShareButton.platinum:active {
+    background: -webkit-linear-gradient(left, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.editPostShareButton.diamond {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.editPostShareButton.diamond:active {
+    background: -webkit-linear-gradient(left, #785414, #a79346 , #785414); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #785414, #a79346 , #785414); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #785414, #a79346 , #785414); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #785414, #a79346 , #785414); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.editPostShareButton.gray {
+    background-color: #bfc2c7;
+    color: black;
+}

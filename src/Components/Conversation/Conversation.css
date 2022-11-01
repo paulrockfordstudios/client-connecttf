@@ -1,0 +1,249 @@
+.conversation {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    height: 44px;
+}
+
+.conversation.cr {
+    align-items: center;
+    margin: 20px 2px 0 16px;
+    max-width: calc(100% - 80px);
+}
+
+.conversation.cr:hover {
+    max-width: calc(100% - 80px);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.conversation.mb {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 5px 6px;
+    width: calc(100% - 20px);
+}
+
+.conversationLeft {
+    width: 36px;
+    margin: 0 10px 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conversationRight {
+    margin-top: -4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conversationRight.cr {
+    width: calc(100% - 56px);
+}
+
+.conversationRight.mb {
+    width: calc(100% - 54px);
+}
+
+.conversationHr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    margin-top: 3px;
+}
+
+.conversationHr.masculine {
+    background-color: #4a76fd;
+}
+
+.conversationHr.feminine {
+    background-color: #e639af;
+}
+
+.conversationHr.ruby {
+    background-color: #850014;
+}
+
+.conversationHr.orange {
+    background-color: #ff8303;
+}
+
+.conversationHr.sun {
+    background-color: #ffe700;
+}
+
+.conversationHr.emerald {
+    background-color: #50c878;
+}
+
+.conversationHr.blue {
+    background-color: #098de9;
+}
+
+.conversationHr.indigo {
+    background-color: #30307e;
+}
+
+.conversationHr.violet {
+    background-color: #8a2be2;
+}
+
+.conversationHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.conversationHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.conversationHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.conversationHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.convRightTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.convRightBottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    height: 18px;
+    color: #7a7e80;
+    margin: 3px 10px 3px 10px;;
+    transition: opacity 3000ms;
+}
+
+.convSenderName {
+    margin-right: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.conversationLatestMessage {
+    color: #aeb4b7;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    padding-top: 2px;
+    transition: opacity 3000ms;
+    margin-right: 5px;
+}
+
+.conversation:hover {
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.conversation.masculine:hover {
+    background-color: #d8e1fe;
+}
+
+.conversation.feminine:hover {
+    background-color: #fde1ef;
+}
+
+.conversation.ruby:hover {
+    background-color: #d4a6ad;
+}
+
+.conversation.orange:hover {
+    background-color: #ffdab3;
+}
+
+.conversation.sun:hover {
+    background-color: #fff9bf;
+}
+
+.conversation.emerald:hover {
+    background-color: #caeed6;
+}
+
+.conversation.blue:hover {
+    background-color: #cee8fb;
+}
+
+.conversation.indigo:hover {
+    background-color: #babad4;
+}
+
+.conversation.violet:hover {
+    background-color: #dcbff6;
+}
+
+.conversation.rainbow:hover {
+    background: -webkit-linear-gradient(left, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+}
+
+.conversation.silver:hover {
+    background: -webkit-linear-gradient(left, #f4f4f4 , #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4 , #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.conversation.gold:hover {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+}
+
+.conversation.platinum:hover {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.conversation.gray:hover {
+    background-color: #f1f1f1;
+}
+
+.conversationProfilePic { 
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0; 
+    width: 36px;
+    height: 36px;
+}
+
+.conversationUserName {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.convLatestDateTime {
+    font-size: 12px;
+    color: #7a7e80;
+}

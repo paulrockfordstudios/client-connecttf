@@ -1,0 +1,425 @@
+
+
+
+.aboutBanner {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    Margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about hr {
+    width: 100% !important;
+    height: 2px !important;
+    border: none;
+}
+
+.about-container {
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;   
+}
+
+/*
+.about-container {
+    height: 100%;
+    width: 100%; 
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    background-color: white;
+    display: flex;    
+}
+*/
+
+.aboutNav-container {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 10px 20px;
+}
+
+.aboutNav {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutNavItem {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #bfc2c7;
+    cursor: pointer;
+}
+
+.aboutNavItem.active {
+    font-size: 30px;
+    font-weight: 900;
+    pointer-events: none;
+}
+
+.aboutNavItem:hover {
+    width: calc(100% + 15%);
+    border-radius: 5px;
+    color: white;
+}
+
+.aboutNavItem.ruby.active {
+    color: #850014;
+}
+
+.aboutNavItem.ruby:hover {
+    background-color: #d4a6ad;
+}
+
+.aboutNavItem.orange.active {
+    color: #ff8303;
+}
+
+.aboutNavItem.orange:hover {
+    background-color: #ffdab3;
+}
+
+.aboutNavItem.sun.active {
+    color: #ffe700;
+}
+
+.aboutNavItem.sun:hover {
+    background-color: #fff9bf;
+}
+
+.aboutNavItem.emerald.active {
+    color: #50c878;
+}
+
+.aboutNavItem.emerald:hover {
+    background-color: #caeed6;
+}
+
+.aboutNavItem.blue.active {
+    color: #098de9;
+}
+
+.aboutNavItem.blue:hover {
+    background-color: #cee8fb;
+}
+
+.aboutNavItem.indigo.active {
+    color: #30307e;
+}
+
+.aboutNavItem.indigo:hover {
+    background-color: #babad4;
+}
+
+.aboutNavItem.violet.active {
+    color: #8a2be2;
+}
+
+.aboutNavItem.violet:hover {
+    background-color: #dcbff6;
+}
+
+.aboutNavItem.rainbow.active {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutNavItem.rainbow:hover {
+    background: -webkit-linear-gradient(left, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+}
+
+.aboutNavItem.silver.active {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutNavItem.silver:hover {
+    background: -webkit-linear-gradient(left, #f4f4f4 , #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4 , #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.aboutNavItem.gold.active {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutNavItem.gold:hover {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+}
+
+.aboutNavItem.platinum.active {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutNavItem.platinum:hover {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.aboutNavItem.gray.active {
+    color: #aeb4b7;
+}
+
+.aboutNavItem.gray:hover {
+    background-color: #e4e6e7;
+}
+
+.aboutNavDivider {
+    height: calc(100% - 30px);
+    margin-bottom: 10px;
+}
+
+.aboutNavDivider.ruby {
+    border-right: 5px solid #850014;
+}
+
+.aboutNavDivider.orange {
+    border-right: 5px solid #ff8303;
+}
+
+.aboutNavDivider.sun {
+    border-right: 5px solid #ffe700;
+}
+
+.aboutNavDivider.emerald {
+    border-right: 5px solid #50c878;
+}
+
+.aboutNavDivider.blue {
+    border-right: 5px solid #098de9;
+}
+
+.aboutNavDivider.indigo {
+    border-right: 5px solid #30307e;
+}
+
+.aboutNavDivider.violet {
+    border-right: 5px solid #8a2be2;
+}
+
+.aboutNavDivider.gray {
+    border-right: 5px solid #aeb4b7;
+}
+
+.aboutNavJPGDivider {
+    height: calc(100% - 30px);
+    width: 5px;
+}
+
+.aboutUnionInfo-container {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    padding: 20px 40px 10px 40px;
+}
+
+.aboutUnionFlameInfo {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.aboutUnionFlame {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: 900;
+    font-size: 22px;
+    margin-bottom:15px;
+}
+
+.aboutUnionFlame.masculine {
+    color: #4a76fd;
+}
+
+.aboutUnionFlame.feminine {
+    color: #e639af;
+}
+
+.aboutUnionFlame.gray {
+    color: #aeb4b7;
+}
+
+.aboutDetails {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+.aboutDetails {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+*/
+
+.aboutDetail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.aboutDetailItemKey {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: #555;
+}
+
+.aboutDetailItemValue {
+    padding-top: 0px;
+}
+
+.aboutDetailIcon {
+    height: 16px;
+    margin-right: 5px;
+}
+
+.aboutDetailItemValueText {
+    color: #555;
+}
+
+.aboutDetailTF {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.aboutDetailTFKey {
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.aboutDetailTFKey.masculine {
+    color: #e639af;
+}
+
+.aboutDetailTFKey.feminine {
+    color: #4a76fd;
+}
+
+.aboutDetailTFValue {
+    cursor: pointer;
+}
+
+.aboutDetailTFLink {
+    display: flex;
+    align-items: center;
+}
+
+.aboutDetailTFPic {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.aboutDetailTFEnergy {
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+.aboutDetailTFName {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 3px;
+}
+
+.aboutHrBottom {
+    margin-bottom: 60px;
+}
+
+.aboutHrTop.ruby, .aboutHrBottom.ruby {
+    background-color: #850014;
+}
+
+.aboutHrTop.orange, .aboutHrBottom.orange {
+    background-color: #ff8303;
+}
+
+.aboutHrTop.sun, .aboutHrBottom.sun {
+    background-color: #ffe700;
+}
+
+.aboutHrTop.emerald, .aboutHrBottom.emerald {
+    background-color: #50c878;
+}
+
+.aboutHrTop.blue, .aboutHrBottom.blue {
+    background-color: #098de9;
+}
+
+.aboutHrTop.indigo, .aboutHrBottom.indigo {
+    background-color: #30307e;
+}
+
+.aboutHrTop.violet, .aboutHrBottom.violet {
+    background-color: #8a2be2;
+}
+
+.aboutHrTop.rainbow, .aboutHrBottom.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.aboutHrTop.silver, .aboutHrBottom.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.aboutHrTop.gold, .aboutHrBottom.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.aboutHrTop.platinum, .aboutHrBottom.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.aboutHrTop.gray, .aboutHrBottom.gray {
+    background-color: #aeb4b7;
+}

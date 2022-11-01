@@ -1,0 +1,165 @@
+.introInfo {
+    display: flex;
+}
+
+.introInfo-container {
+    width: 100%;
+    padding: 25px 0 25px 15%;
+    overflow-x: hidden;  
+}
+
+.introInfoRight {
+    margin: 0 60px 0 20px;
+}
+
+.introInfoDisplayContainer {
+    width: 100%;
+    position: relative;
+}
+
+.introInfoDisplay-container {
+    height: 100%;
+    width: 800px;
+    min-width: 800px;
+    max-width: 800px;
+    border-radius: 60px;
+    background-color: white;
+    padding: 40px;     
+}
+
+.introInfoGreeting {
+    font-size: 54px;
+    font-weight: 900;
+    color: #7a7e80;
+    margin-bottom: 20px;
+}
+
+.introInfoFirstName {
+    color: black;
+}
+
+.iigConnect {
+    color: #4a76fd;
+}
+
+.iigTF {
+    color: #e639af;
+}
+
+.introInfoAboutStatement {
+    margin-bottom: 20px;
+}
+
+.introInfoFirstStep {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.introInfoFirstStepRequest {
+    font-size: 13px;
+    color: #7a7e80;
+    margin-bottom: 20px;
+}
+
+.introInfoAction {
+    margin-bottom: 20px;
+}
+
+.introInfoActionTitle {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.introInfoActionDesc {
+    font-size: 14px;
+}
+
+.introInfoActionDisclaimer {
+    font-size: 13px;
+    color: #7a7e80;
+    margin-bottom: 10px;
+}
+
+.introInfoActionInput {
+    height: 40px;
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid #bfc2c7;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+input::placeholder {
+    color: #aeb4b7;
+}
+
+.introInfoActionInput.sentence {
+    width: calc(100% - 30px);
+}
+
+.introInfoCheckboxField {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introInfoCheckboxFieldColumn {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.introInfoCheckboxItem {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1/5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    transform: scale(1.5);
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #4a76fd; 
+}
+
+.introInfoCheckboxText {
+    margin-left: 10px;
+}
+
+.IntroInfoBottom {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.introInfoNextBtn {
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 80px;
+    height: 36px;
+    font-size: 24px;
+    color: white;
+    background-color: #4a76fd;
+}
+
+.introInfoNextBtn:hover {
+    color: #d8e1fe;
+}
+
+.introInfoNextBtn:active {
+    background-color: #3453b2;
+    color: #c3cfd0;
+}
+
+.introInfoNextBtn.disabled {
+    background-color: #d8e1fe;
+    color: white;
+}

@@ -1,0 +1,904 @@
+.flareTypeDropdown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 60px);
+    background-color: white;
+    top: 85px;
+    left: 0;
+    z-index: 999;
+    padding: 0 30px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+    transition: height 325ms;
+}
+
+.flareTypeDropdownTopQuestion {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.flareTypeDropdownDescription {
+    margin-top: 20px;
+    color: #aeb4b7;
+}
+
+.flareTypeDropdownDefault {
+    font-weight: 500;
+    color: #7a7e80;
+}
+
+.flareTypeHr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.flareTypeDropdownCenter {
+    background-color: white;
+    width: 100%;
+    height: 287px;
+}
+
+.flareTypeList {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.flareTypeListItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 10px 0 0;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.flareTypeListItem:hover {
+    background-color: #e4e6e7;
+}
+
+.flareTypeListItem.visible.masculine {
+    background-color: #d8e1fe;
+}
+
+.flareTypeListItem.visible.feminine {
+    background-color: #fde1ef;
+}
+
+.flareTypeListItem.visible.ruby {
+    background-color: #d4a6ad;
+}
+
+.flareTypeListItem.visible.orange {
+    background-color: #ffdab3;
+}
+
+.flareTypeListItem.visible.sun {
+    background-color: #fff9bf;
+}
+
+.flareTypeListItem.visible.emerald {
+    background-color: #caeed6;
+}
+
+.flareTypeListItem.visible.blue {
+    background-color: #cee8fb;
+}
+
+.flareTypeListItem.visible.indigo {
+    background-color: #babad4;
+}
+
+.flareTypeListItem.visible.violet {
+    background-color: #dcbff6;
+}
+
+.flareTypeListItem.visible.rainbow {
+    background: -webkit-linear-gradient(left, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+}
+
+.flareTypeListItem.visible.silver {
+    background: -webkit-linear-gradient(left, #f4f4f4 , #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4 , #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.flareTypeListItem.visible.gold {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+}
+
+.flareTypeListItem.visible.platinum {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.flareTypeListItem.visible.gray {
+    background-color: #e4e6e7;
+}
+
+.flareTypeChoice {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.flareTypeChoiceDescription {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 48px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flareTypeChoiceDescriptionTop {
+    font-size: 20px;
+    font-weight: 500;
+    color: #7a7e80;
+}
+
+.flareTypeChoiceDescriptionBottom {
+    font-size: 14px;
+    margin-top: 3px;
+    color: #aeb4b7;
+}
+
+.flareTypeChoiceRadioBtnHS {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.flareTypeChoiceRadioBtn {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.flareTypeChoiceRadioBtn.inActive {
+    flex-shrink: 0;
+    width: 22px !important;
+    height: 22px;
+    border: 1px solid #7a7e80;
+}
+
+.flareTypeChoiceRadioBtn.active {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.flareTypeChoiceRadioBtn.active.masculine {
+    border: 2px solid #4a76fd;
+}
+
+.flareTypeChoiceRadioBtn.active.feminine {
+    border: 2px solid #e639af;
+}
+
+.flareTypeChoiceRadioBtn.active.ruby {
+    border: 2px solid #850014;
+}
+
+.flareTypeChoiceRadioBtn.active.orange {
+    border: 2px solid #ff8303;
+}
+
+.flareTypeChoiceRadioBtn.active.sun {
+    border: 2px solid #ffe700;
+}
+
+.flareTypeChoiceRadioBtn.active.emerald {
+    border: 2px solid #50c878;
+}
+
+.flareTypeChoiceRadioBtn.active.blue {
+    border: 2px solid #098de9;
+}
+
+.flareTypeChoiceRadioBtn.active.indigo {
+    border: 2px solid #30307e;
+}
+
+.flareTypeChoiceRadioBtn.active.violet {
+    border: 2px solid #8a2be2;
+}
+
+.flareTypeChoiceRadioBtn.active.gray {
+    border: 2px solid #aeb4b7;
+}
+
+.flareTypeChoiceRadioBtnCenter {
+    width: 14px;
+    height: 14px;
+    margin: 3px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.flareTypeChoiceRadioBtnCenter.active.masculine {
+    background-color: #4a76fd;
+}
+
+.flareTypeChoiceRadioBtnCenter.active.feminine {
+    background-color: #e639af;
+}
+
+.flareTypeChoiceRadioBtnCenter.active.ruby {
+    background-color: #850014;
+}
+
+.flareTypeChoiceRadioBtnCenter.active.orange {
+    background-color: #ff8303;
+}
+
+.flareTypeChoiceRadioBtnCenter.active.sun {
+    background-color: #ffe700;
+}
+
+.flareTypeChoiceRadioBtnCenter.active.emerald {
+    background-color: #50c878;
+}
+
+.flareTypeChoiceRadioBtnCenter.active.blue {
+    background-color: #098de9;
+}
+
+.flareTypeChoiceRadioBtnCenter.active.indigo {
+    background-color: #30307e;
+}
+
+.flareTypeChoiceRadioBtnCenter.active.violet {
+    background-color: #8a2be2;
+}
+
+.flareTypeChoiceRadioBtnCenter.active.gray {
+    background-color: #aeb4b7;
+}
+
+.flareTypeDropdownBottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.defaultflareTypeCheckboxContainer {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.defaultflareTypeCheckboxPNGIcon {
+    height: 18px;
+    margin-right: calc(.5em + 3px);
+    margin-top: -3px;
+}
+
+.defaultflareTypeCheckbox {
+    color: #7a7e80;
+    margin-left: -3px;
+    margin-right: .5em;
+    margin-top: 2px;
+}
+
+.defaultflareTypeCheckbox.checked.masculine {
+    color: #4a76fd;
+}
+
+.defaultflareTypeCheckbox.checked.feminine {
+    color: #e639af;
+}
+
+.defaultflareTypeCheckbox.checked.ruby {
+    color: #850014;
+}
+
+.defaultflareTypeCheckbox.checked.orange {
+    color: #ff8303;
+}
+
+.defaultflareTypeCheckbox.checked.sun {
+    color: #ffe700;
+}
+
+.defaultflareTypeCheckbox.checked.emerald {
+    color: #50c878;
+}
+
+.defaultflareTypeCheckbox.checked.blue {
+    color: #098de9;
+}
+
+.defaultflareTypeCheckbox.checked.indigo {
+    color: #30307e;
+}
+
+.defaultflareTypeCheckbox.checked.violet {
+    color: #8a2be2;
+}
+
+.defaultflareTypeCheckbox.checked.gray {
+    color: #aeb4b7;
+}
+
+.flareTypeControlBtns {
+    display: flex;
+    flex-direction: row;   
+}
+
+
+.flareTypeControlBtnBackground {
+    Height: 36px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+} 
+
+.flareTypeControlBtnBackground.back.rainbow:hover {
+    background: -webkit-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.back.rainbow:active {
+    background: -webkit-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.back.silver:hover {
+    background: -webkit-linear-gradient(left, #f4f4f4, #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #f4f4f4, #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.back.silver:active {
+    background: -webkit-linear-gradient(left, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #dcdcdc, #c7c7c7 , #dcdcdc); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.back.gold:hover {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.back.gold:active {
+    background: -webkit-linear-gradient(left, #cfc1a9, #e1d9bc , #cfc1a9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #cfc1a9, #e1d9bc , #cfc1a9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #cfc1a9, #e1d9bc , #cfc1a9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #cfc1a9, #e1d9bc , #cfc1a9); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.back.platinum:hover {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.back.platinum:active {
+    background: -webkit-linear-gradient(left, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.doneSave.rainbow {
+    background: -webkit-linear-gradient(left, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.doneSave.rainbow:active {
+    background: -webkit-linear-gradient(left, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.doneSave.silver {
+    background: -webkit-linear-gradient(left, #dadada, #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada, #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.doneSave.silver:active {
+    background: -webkit-linear-gradient(left, #999999, #646464 , #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #999999, #646464 , #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #999999, #646464 , #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #999999, #646464 , #999999); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.doneSave.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.doneSave.gold:active {
+    background: -webkit-linear-gradient(left, #785414, #a79346 , #785414); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #785414, #a79346 , #785414); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #785414, #a79346 , #785414); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #785414, #a79346 , #785414); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.doneSave.platinum{
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtnBackground.doneSave.platinum:active {
+    background: -webkit-linear-gradient(left, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* Standard syntax (must be last) */
+}
+
+.flareTypeControlBtn {
+    Height: 36px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    background: transparent;
+}
+
+.flareTypeControlBtn.doneSave {
+    color: white;
+}
+
+.flareTypeControlBtn.back.masculine {
+    color: #4a76fd;
+}
+
+.flareTypeControlBtn.back.masculine:hover {
+    background-color: #d8e1fe;
+}
+
+.flareTypeControlBtn.back.masculine:active {
+    background-color: #c3cbe5;
+    color: #3453b2;
+}
+
+.flareTypeControlBtn.doneSave.masculine {
+    background-color: #4a76fd;
+}
+
+.flareTypeControlBtn.doneSave.masculine:hover {
+    color: #d8e1fe;
+}
+
+.flareTypeControlBtn.doneSave.masculine:active {
+    background-color: #3453b2;
+    color: #c3cbe5;
+}
+
+.flareTypeControlBtn.back.feminine {
+    color: #e639af;
+}
+
+.flareTypeControlBtn.back.feminine:hover {
+    background-color: #fde1ef;
+}
+
+.flareTypeControlBtn.back.feminine:active {
+    background-color: #e4cbd8;
+    color: #a1287b;
+}
+
+.flareTypeControlBtn.doneSave.feminine {
+    background-color: #e639af;
+}
+
+.flareTypeControlBtn.doneSave.feminine:hover {
+    color: #fde1ef;
+}
+
+.flareTypeControlBtn.doneSave.feminine:active {
+    background-color: #a1287b;
+    color: #e4cbd8;
+}
+
+.flareTypeControlBtn.back.ruby {
+    color: #850014;
+}
+
+.flareTypeControlBtn.back.ruby:hover {
+    background-color: #d4a6ad;
+}
+
+.flareTypeControlBtn.back.ruby:active {
+    background-color: #be959b;
+    color: #5d000e;
+}
+
+.flareTypeControlBtn.doneSave.ruby {
+    background-color: #850014;
+}
+
+.flareTypeControlBtn.doneSave.ruby:hover {
+    color: #d4a6ad;
+}
+
+.flareTypeControlBtn.doneSave.ruby:active {
+    background-color: #5d000e;
+    color: #be959b;
+}
+
+.flareTypeControlBtn.back.orange {
+    color: #ff8303;
+}
+
+.flareTypeControlBtn.back.orange:hover {
+    background-color: #ffdab3;
+}
+
+.flareTypeControlBtn.back.orange:active {
+    background-color: #e6c5a1;
+    color: #b35c02;
+}
+
+.flareTypeControlBtn.doneSave.orange {
+    background-color: #ff8303;
+}
+
+.flareTypeControlBtn.doneSave.orange:hover {
+    color: #ffdab3;
+}
+
+.flareTypeControlBtn.doneSave.orange:active {
+    background-color: #b35c02;
+    color: #e6c5a1;
+}
+
+.flareTypeControlBtn.back.sun {
+    color: #ffe700;
+}
+
+.flareTypeControlBtn.back.sun:hover {
+    background-color: #fff9bf;
+}
+
+.flareTypeControlBtn.back.sun:active {
+    background-color: #e6e1ac;
+    color: #b3a200;
+}
+
+.flareTypeControlBtn.doneSave.sun {
+    background-color: #ffe700;
+}
+
+.flareTypeControlBtn.doneSave.sun:hover {
+    color: #fff9bf;
+}
+
+.flareTypeControlBtn.doneSave.sun:active {
+    background-color: #b3a200;
+    color: #e6e1ac;
+}
+
+.flareTypeControlBtn.back.emerald {
+    color: #50c878;
+}
+
+.flareTypeControlBtn.back.emerald:hover {
+    background-color: #caeed6;
+}
+
+.flareTypeControlBtn.back.emerald:active {
+    background-color: #b6d7c1;
+    color: #388c54;
+}
+
+.flareTypeControlBtn.doneSave.emerald {
+    background-color: #50c878;
+}
+
+.flareTypeControlBtn.doneSave.emerald:hover {
+    color: #caeed6;
+}
+
+.flareTypeControlBtn.doneSave.emerald:active {
+    background-color: #388c54;
+    color: #b6d7c1;
+}
+
+.flareTypeControlBtn.back.blue {
+    color: #098de9;
+}
+
+.flareTypeControlBtn.back.blue:hover {
+    background-color: #cee8fb;
+}
+
+.flareTypeControlBtn.back.blue:active {
+    background-color: #bad1e2;
+    color: #0663a4;
+}
+
+.flareTypeControlBtn.doneSave.blue {
+    background-color: #098de9;
+}
+
+.flareTypeControlBtn.doneSave.blue:hover {
+    color: #cee8fb;
+}
+
+.flareTypeControlBtn.doneSave.blue:active {
+    background-color: #0663a4;
+    color: #bad1e2;
+}
+
+.flareTypeControlBtn.back.indigo {
+    color: #30307e;
+}
+
+.flareTypeControlBtn.back.indigo:hover {
+    background-color: #babad4;
+}
+
+.flareTypeControlBtn.back.indigo:active {
+    background-color: #a8a8bf;
+    color: #222258;
+}
+
+.flareTypeControlBtn.doneSave.indigo {
+    background-color: #30307e;
+}
+
+.flareTypeControlBtn.doneSave.indigo:hover {
+    color: #babad4;
+}
+
+.flareTypeControlBtn.doneSave.indigo:active {
+    background-color: #222258;
+    color: #a8a8bf;
+}
+
+.flareTypeControlBtn.back.violet {
+    color: #8a2be2;
+}
+
+.flareTypeControlBtn.back.violet:hover {
+    background-color: #dcbff6;
+}
+
+.flareTypeControlBtn.back.violet:active {
+    background-color: #c6acde;
+    color: #611e9f;
+}
+
+.flareTypeControlBtn.doneSave.violet {
+    background-color: #8a2be2;
+}
+
+.flareTypeControlBtn.doneSave.violet:hover {
+    color: #dcbff6;
+}
+
+.flareTypeControlBtn.doneSave.violet:active {
+    background-color: #611e9f;
+    color: #c6acde;
+}
+
+.flareTypeControlBtn.back.rainbow {
+    background: -webkit-linear-gradient(left, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.back.rainbow:active {
+    background: -webkit-linear-gradient(left, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #5d000e, #b35c02, #b3a200, #388c54, #0663a4, #222258, #611e9f); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.doneSave.rainbow:hover {
+    background: -webkit-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3, #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.doneSave.rainbow:active {
+    background: -webkit-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #be959b, #e6c5a1, #e6e1ac, #b6d7c1, #bad1e2, #a8a8bf, #c6acde); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.back.silver {
+    background: -webkit-linear-gradient(left, #dadada, #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada, #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada, #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.back.silver:active {
+    background: -webkit-linear-gradient(left, #999999, #646464 , #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #999999, #646464 , #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #999999, #646464 , #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #999999, #646464 , #999999); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.doneSave.silver:hover {
+    background: -webkit-linear-gradient(left, #f4f4f4, #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4, #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #f4f4f4, #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.doneSave.silver:active {
+    background: -webkit-linear-gradient(left, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dcdcdc, #c7c7c7 , #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #dcdcdc, #c7c7c7 , #dcdcdc); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.back.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.back.gold:active {
+    background: -webkit-linear-gradient(left, #785414, #a79346 , #785414); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #785414, #a79346 , #785414); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #785414, #a79346 , #785414); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #785414, #a79346 , #785414); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.doneSave.gold:hover {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.doneSave.gold:active {
+    background: -webkit-linear-gradient(left, #cfc1a9, #e1d9bc , #cfc1a9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #cfc1a9, #e1d9bc , #cfc1a9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #cfc1a9, #e1d9bc , #cfc1a9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #cfc1a9, #e1d9bc , #cfc1a9); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.back.platinum{
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a, #af9499, #dadada); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.back.platinum:active {
+    background: -webkit-linear-gradient(left, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #94a4ad, #4b6269, #3c4448, #646464, #4d434a, #7b686b, #999999); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.doneSave.platinum:hover {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2, #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.doneSave.platinum:active {
+    background: -webkit-linear-gradient(left, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dae0e3, #bdc6c9, #b8bbbd, #c7c7c7, #bebbbd, #d0c9ca, #dcdcdc); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flareTypeControlBtn.back.diamond, .flareTypeControlBtn.doneSave.diamond {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.flareTypeControlBtn.back.diamond:active, .flareTypeControlBtn.doneSave.diamond:active {
+    background: -webkit-linear-gradient(left, #785414, #a79346 , #785414); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #785414, #a79346 , #785414); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #785414, #a79346 , #785414); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #785414, #a79346 , #785414); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.flareTypeControlBtn.back.gray {
+    color: #aeb4b7;
+}
+
+.flareTypeControlBtn.back.gray:hover {
+    background-color: #e4e6e7;
+}
+
+.flareTypeControlBtn.back.gray:active {
+    background-color: #cecfd0;
+    color: #7a7a80;
+}
+
+.flareTypeControlBtn.doneSave.gray {
+    background-color: #aeb4b7;
+}
+
+.flareTypeControlBtn.doneSave.gray:hover {
+    color: #e4e6e7;
+}
+
+.flareTypeControlBtn.doneSave.gray:active {
+    background-color: #7a7a80;
+    color: #cecfd0;
+}

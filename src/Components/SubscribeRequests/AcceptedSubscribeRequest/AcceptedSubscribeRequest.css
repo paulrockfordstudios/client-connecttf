@@ -1,0 +1,420 @@
+.acceptedSubRequest {
+    position: relative;
+    width: 100%;
+    height: 89px;
+}
+
+.acceptedSubRequestBackgroundTheme {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 89px;
+    transition-delay: 325ms;
+    transition: opacity 4000ms ease-in-out;
+    -webkit-transition: opacity 4000ms ease-in-out;
+    -moz-transition: opacity 4000ms ease-in-out;
+}
+
+.acceptedSubRequestContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    top: 2px
+}
+
+.acceptedSubRequestBackgroundTheme.unseen {
+    opacity: 1;   
+}
+
+
+.acceptedSubRequestBackgroundTheme.seen {
+    opacity: 0;   
+}
+
+.acceptedSubRequestBackgroundTheme.ruby {
+    background-color: #d4a6ad;
+}
+
+.acceptedSubRequestBackgroundTheme.orange {
+    background-color: #ffdab3;
+}
+
+.acceptedSubRequestBackgroundTheme.sun {
+    background-color: #fff9bf;
+}
+
+.acceptedSubRequestBackgroundTheme.emerald {
+    background-color: #caeed6;
+}
+
+.acceptedSubRequestBackgroundTheme.blue {
+    background-color: #cee8fb;
+}
+
+.acceptedSubRequestBackgroundTheme.indigo {
+    background-color: #babad4;
+}
+
+.acceptedSubRequestBackgroundTheme.violet {
+    background-color: #dcbff6;
+}
+
+.acceptedSubRequestBackgroundTheme.rainbow {
+    background: -webkit-linear-gradient(left, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+}
+
+.acceptedSubRequestBackgroundTheme.silver {
+    background: -webkit-linear-gradient(left, #f4f4f4 , #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4 , #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.acceptedSubRequestBackgroundTheme.gold {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+}
+
+.acceptedSubRequestBackgroundTheme.platinum {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.acceptedSubRequestBackgroundTheme.gray {
+    background-color: #e4e6e7;
+}
+
+.acceptedSubRequestHr {
+    height: 2px;
+    width: 100%;
+    border: none;
+}
+
+.acceptedSubRequestHr.bottom {
+    margin-top: 85px;
+}
+
+.acceptedSubRequestHr.ruby {
+    background-color: #850014;   
+}
+
+.acceptedSubRequestHr.orange { 
+    background-color: #ff8303; 
+}
+
+.acceptedSubRequestHr.sun {
+    background-color: #ffe700;  
+}
+
+.acceptedSubRequestHr.emerald { 
+    background-color: #50c878; 
+}
+
+.acceptedSubRequestHr.blue {
+    background-color: #098de9; 
+}
+
+.acceptedSubRequestHr.indigo { 
+    background-color: #30307e; 
+}
+
+.acceptedSubRequestHr.violet { 
+    background-color: #8a2be2; 
+}
+
+.acceptedSubRequestHr.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.acceptedSubRequestHr.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.acceptedSubRequestHr.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.acceptedSubRequestHr.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.acceptedSubRequestHr.gray {
+    background-color: #aeb4b7;
+}
+
+.acceptedSubRequestLeft {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 100%;
+}
+
+.acceptedSubRequestProfilePic {
+    display: flex; 
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;    
+}
+
+.acceptedSubRequestIcon {
+    display: flex; 
+    position: absolute;
+    height: 22px;
+    margin-right: 5px;
+    right: 0;
+    bottom: 20px;
+}
+
+.acceptedSubRequestRight {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% - 75px);
+    height: auto;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.acceptedSubRequestRightTop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: auto; 
+}
+
+.acceptedSubRequestTitle {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+.acceptedSubRequestTitleLeft {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 227px;
+    height: auto;
+}
+
+.acceptedSubRequestTitleRight {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+.acceptedSubRequestTitleRight.ruby {
+    color: #850014;
+}
+
+.acceptedSubRequestTitleRight.orange {
+    color: #ff8303;
+}
+
+.acceptedSubRequestTitleRight.sun {
+    color: #ffe700;
+}
+
+.acceptedSubRequestTitleRight.emerald {
+    color: #50c878;
+}
+
+.acceptedSubRequestTitleRight.blue {
+    color: #098de9;
+}
+
+.acceptedSubRequestTitleRight.indigo {
+    color: #30307e;
+}
+
+.acceptedSubRequestTitleRight.violet {
+    color: #8a2be2;
+}
+
+.acceptedSubRequestTitleRight.gray {
+    color: #aeb4b7;
+}
+
+.acceptedSubRequestName {
+    font-size: 15px;
+    font-weight: bold;
+    width: 225px   
+}
+
+.acceptedSubRequestAction {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.acceptedSubRequestRightCenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 20px;   
+}
+
+.acceptedSubRequestRightBottom {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.acceptedSubRequestRetort {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    color: #7a7e80;
+    width: 100%;
+}
+
+.acceptedSubRequestRetort.request {
+    justify-content: space-evenly;
+}
+
+.acceptedSubRequestRetortLeft.friendship {
+    width: calc(100% - 75px);
+    padding-right: 10px;
+}
+
+.acceptedSubRequestRetortRight.friendship {
+    width: 75px;
+}
+
+.acceptedSubRequestRetortLeft.befriend {
+    width: calc(100% - 90px);
+    padding-right: 10px;
+}
+
+.acceptedSubRequestRetortRight.befriend {
+    width: 90px;  
+}
+
+.acceptedSubRequestBtn {
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    height: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.acceptedSubRequestBtn.befriend {
+    width: 90px;
+}
+
+.acceptedSubRequestBtn.message {
+    width: 75px;
+}
+
+.acceptedSubRequestBtn.accept {
+    width: 100px;
+}
+
+.acceptedSubRequestBtn.reject {
+    width: 100px;
+}
+
+.acceptedSubRequestBtn.ruby {
+    background-color: #850014;
+    color: white;
+}
+
+.acceptedSubRequestBtn.orange {
+    background-color: #ff8303;
+    color: white;
+}
+
+.acceptedSubRequestBtn.sun {
+    background-color: #ffe700;
+    color: white;
+}
+
+.acceptedSubRequestBtn.emerald {
+    background-color: #50c878;
+    color: white;
+}
+
+.acceptedSubRequestBtn.blue {
+    background-color: #098de9;
+    color: white;
+}
+
+.acceptedSubRequestBtn.indigo {
+    background-color: #30307e;
+    color: white;
+}
+
+.acceptedSubRequestBtn.violet {
+    background-color: #8a2be2;
+    color: white;
+}
+
+.acceptedSubRequestBtn.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.acceptedSubRequestBtn.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.acceptedSubRequestBtn.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.acceptedSubRequestBtn.gray {
+    background-color: #bfc2c7;
+    color: black;
+}

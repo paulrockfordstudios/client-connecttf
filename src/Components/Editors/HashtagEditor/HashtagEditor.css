@@ -1,0 +1,164 @@
+.hashtagEditorContainer {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.hashtagEditorHigherSpectrumBackground {
+    position: absolute;
+    width: 100%;
+    min-height: 48px;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+}
+
+.hashtagEditorWhiteBackground {
+    position: absolute;
+    margin: 24px 30px;
+    width: calc(100% - 60px);
+    height: 0px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 30px 30px white; 
+    box-shadow: 0px 0px 30px 30px white;
+}
+
+.hashtagEditor {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 48px;;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hashtagEditorContainerContainer {
+    width: calc(100% - 20px);
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 30px;
+    overflow-y: auto;
+    margin-left: 13px;
+}
+
+.hashtagList {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.hashtagItem {
+    width: auto;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0 8px;
+    font-size: 14px;
+    list-style: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.hashtagIcon {
+    margin-left: 5px;
+    font-size: 14px !important;
+    cursor: pointer;
+}
+
+.hashtagItem.masculine {
+    background-color: #4A76FD;
+}
+
+.hashtagItem.feminine {
+    background-color: #e639af;
+}
+
+.hashtagItem.ruby {
+    background-color: #850014;
+}
+
+.hashtagItem.orange {
+    background-color: #ff8303;
+}
+
+.hashtagItem.sun {
+    background-color: #ffe700;
+}
+
+.hashtagItem.emerald {
+    background-color: #50c878;
+}
+
+.hashtagItem.blue {
+    background-color: #098de9;
+}
+
+.hashtagItem.indigo {
+    background-color: #30307e;
+}
+
+.hashtagItem.violet {
+    background-color: #8a2be2;
+}
+
+.hashtagItem.rainbow {
+    background: -webkit-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #ff8303, #ffe700, #50c878, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+}
+
+.hashtagItem.silver {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+}
+
+.hashtagItem.gold {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+}
+
+.hashtagItem.platinum {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+}
+
+.hashtagItem.gray {
+    background-color: #aeb4b7;
+}
+
+
+.hashtagInput {
+    flex: 1;
+    border: none;
+    height: 28px;
+    font-size: 14px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.hashtagInput:focus {
+    outline: transparent;
+}
+
+.hashtagCount {
+    margin: 0 20px;
+    color: #7a7e80;
+}

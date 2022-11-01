@@ -1,0 +1,22 @@
+
+.home-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: calc(65% + 3px);
+    margin: 74px 20% 20px 15%;
+
+}
+
+
+
+.createPostQNScreenContainer {
+    position: fixed;
+    z-index: 999;
+    top: 40%;
+    bottom: 40%;
+    left: 30%;
+    right: 30%;
+    width: 40%;
+    height: 20%;
+}

@@ -1,0 +1,60 @@
+.friendNewsContainer {
+    position: relative;
+    margin-top: 20px;
+}
+
+.friendNewsBackgroundTheme {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+}
+
+.friendNews {
+    width: 100%; 
+    border-radius: 10px;
+    background-color: white;
+}
+
+.friendNews.union {
+    position: absolute;
+}
+
+.friendNews.flame {
+    margin-Top: 20px;
+}
+
+.friendNews-container {
+    padding: 10px;
+}
+
+.friendNewsTitle {
+    margin-bottom: 20px;
+}
+
+.friendNewsList {
+    padding-left: 10px;
+    margin: 0;
+    list-style: none;
+}
+
+.friendNewsUpdate {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+
+.friendNewsIcon {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.friendNewsText {
+    font-weight: 300;
+    font-size: 14px;
+}

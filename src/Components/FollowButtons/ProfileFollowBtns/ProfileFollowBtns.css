@@ -1,0 +1,220 @@
+.profileConnectBtns-container {
+    margin: 0 0 20px 0;
+}
+
+.profileConnectBtns button {
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.profileBtns.ruby button{
+    background-color: #850014;
+    color: white;
+}
+
+.profileBtns.orange button{
+    background-color: #ff8303;
+    color: white;
+}
+
+.profileBtns.sun button{
+    background-color: #ffe700;
+    color: white;
+}
+
+.profileBtns.emerald button{
+    background-color: #50c878;
+    color: white;
+}
+
+.profileBtns.blue button{
+    background-color: #098de9;
+    color: white;
+}
+
+.profileBtns.indigo button{
+    background-color: #30307e;
+    color: white;
+}
+
+.profileBtns.violet button{
+    background-color: #8a2be2;
+    color: white;
+}
+
+.profileBtns.silver button {
+    background: -webkit-linear-gradient(left, #dadada , #8e8e8e, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dadada , #8e8e8e, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dadada , #8e8e8e, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.profileBtns.gold button {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.profileBtns.platinum button {
+    background: -webkit-linear-gradient(left, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #6b8c95, #566167, #8e8e8e, #6d606a,  #af9499, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.profileBtns.masculine button{
+    background-color: #4a76fd;
+    color: white;
+}
+
+.profileBtns.feminine button{
+    background-color: #e639af;
+    color: white;
+}
+
+.profileBtns.gray button{
+    background-color: #bfc2c7;
+    color: black;
+}
+
+.profileDisconnectBtn {
+    width: 40px;
+    vertical-align: bottom;
+    padding-top: 3px;
+}
+
+.profileDisconnectBtn.rainbow {
+    width: 40px;
+    vertical-align: bottom;
+    padding-top: 3px;
+    background: -webkit-linear-gradient(left, #850014, #c2420b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #850014, #c2420b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #850014, #c2420b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #850014, #c2420b); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.profileDisconnectBtn.platinum {
+    width: 40px;
+    vertical-align: bottom;
+    padding-top: 3px;
+    background: -webkit-linear-gradient(left, #d3e9f6, #7a9aa3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d3e9f6, #7a9aa3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d3e9f6, #7a9aa3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d3e9f6, #7a9aa3); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.profileFollowBtn {
+    width: 150px;
+    vertical-align: bottom;
+}
+
+.profileFollowBtn.rainbow {
+    width: 150px;
+    vertical-align: bottom;
+    background: -webkit-linear-gradient(left, #c2420b, #ff8303, #ffe700); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #c2420b, #ff8303, #ffe700); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #c2420b, #ff8303, #ffe700); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #c2420b, #ff8303, #ffe700); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.profileFollowBtn.platinum {
+    width: 150px;
+    vertical-align: bottom;
+    background: -webkit-linear-gradient(left, #6b8c95, #566167, #8e8e8e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #6b8c95, #566167, #8e8e8e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #6b8c95, #566167, #8e8e8e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #6b8c95, #566167, #8e8e8e); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.profileFollowIcon {
+    padding-top: 2px;
+}
+
+.profileMessageBtn {
+    width: 150px;
+    vertical-align: bottom;
+}
+
+.profileMessageBtn.rainbow {
+    width: 150px;
+    vertical-align: bottom;
+    background: -webkit-linear-gradient(left, #ffe700, #50c878, #098de9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ffe700, #50c878, #098de9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ffe700, #50c878, #098de9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ffe700, #50c878, #098de9); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.profileMessageBtn.platinum {
+    width: 150px;
+    vertical-align: bottom;
+    background: -webkit-linear-gradient(left, #8e8e8e, #8e8e8e, #8e8e8e, #6d606a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #8e8e8e, #8e8e8e, #8e8e8e, #6d606a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #8e8e8e, #8e8e8e, #8e8e8e, #6d606a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #8e8e8e, #8e8e8e, #8e8e8e, #6d606a); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.profileSubscribeBtn {
+    width: 150px;
+    vertical-align: bottom;
+}
+
+.profileSubscribeBtn.rainbow {
+    width: 150px;
+    vertical-align: bottom;
+    background: -webkit-linear-gradient(left, #098de9, #30307e, #8a2be2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #098de9, #30307e, #8a2be2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #098de9, #30307e, #8a2be2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #098de9, #30307e, #8a2be2); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.profileSubscribeBtn.platinum {
+    width: 150px;
+    vertical-align: bottom;
+    background: -webkit-linear-gradient(left, #6d606a, #af9499, #dadada); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #6d606a, #af9499, #dadada); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #6d606a, #af9499, #dadada); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #6d606a, #af9499, #dadada); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.profileSubscribeIcon {
+    padding-top: 2px;
+}
+
+.profileSubscribeIcon {
+    padding-top: 2px;
+    color: white;
+}
+
+.pfbDiamondText {
+    background: -webkit-linear-gradient(left, #ab781d , #eed264, #ab781d) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ab781d , #eed264, #ab781d) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ab781d , #eed264, #ab781d) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ab781d , #eed264, #ab781d) !important; /* Standard syntax (must be last) */
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    font-weight: 900;
+}
+
+
+
+
+
+
+

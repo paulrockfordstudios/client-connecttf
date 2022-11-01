@@ -1,0 +1,297 @@
+.commentDisplay {
+    width: 100%; 
+    border-radius: 10px;
+    margin: 0;
+}
+
+.commentDisplay-container {
+    padding: 10px;
+}
+
+/* ------- Comment Top ------- */
+
+.commentDisplayTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.commentDisplayTopLeft {
+    display: flex;
+    align-items: center; 
+}
+
+.commentDisplayProfileLink {
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.commentDisplayProfileLink.masculine {
+    background-color: #d8e1fe;
+}
+
+.commentDisplayProfileLink.feminine {
+    background-color: #fde1ef;
+}
+
+.commentDisplayProfileLink.ruby {
+    background-color: #d4a6ad;
+}
+
+.commentDisplayProfileLink.orange {
+    background-color: #ffdab3;
+}
+
+.commentDisplayProfileLink.sun {
+    background-color: #fff9bf;
+}
+
+.commentDisplayProfileLink.emerald {
+    background-color: #caeed6;
+}
+
+.commentDisplayProfileLink.blue {
+    background-color: #cee8fb;
+}
+
+.commentDisplayProfileLink.indigo {
+    background-color: #babad4;
+}
+
+.commentDisplayProfileLink.violet {
+    background-color: #dcbff6;
+}
+
+.commentDisplayProfileLink.rainbow {
+    background: -webkit-linear-gradient(left, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d4a6ad, #ffdab3 , #fff9bf, #caeed6, #cee8fb, #babad4, #dcbff6); /* Standard syntax (must be last) */
+}
+
+.commentDisplayProfileLink.silver {
+    background: -webkit-linear-gradient(left, #f4f4f4 , #dddddd, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f4f4f4 , #dddddd, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f4f4f4 , #dddddd, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.commentDisplayProfileLink.gold {
+    background: -webkit-linear-gradient(left, #e6d6bb , #faf1d0, #e6d6bb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e6d6bb , #faf1d0, #e6d6bb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e6d6bb , #faf1d0, #e6d6bb); /* Standard syntax (must be last) */
+}
+
+.commentDisplayProfileLink.platinum {
+    background: -webkit-linear-gradient(left, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f2f8fc, #d2dcdf, #cccfd1, #dddddd, #d3cfd2,  #e7dfe0, #f4f4f4); /* Standard syntax (must be last) */
+}
+
+.commentDisplayProfileLink.gray {
+    background-color: #f1f1f1;
+}
+
+.commentDisplayProfilePic {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.commentDisplayProfileEnergy {
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.commentDisplayUserName {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px 0 3px;
+}
+
+.commentDisplayDateTime {
+    font-size: 12px;
+    color: #bfc2c7;
+}
+
+.commentDisplayTopRight {
+    position: relative;
+}
+
+.commentDisplayOptions {
+    cursor: pointer;
+}
+
+.commentDisplayAODropdown {
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+
+/* ------- Comment Center ------- */
+
+.commentDisplayCenter {
+    margin: 20px 0;
+}
+
+.commentDisplayText {
+    display: flex;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.commentDisplayhashtags {
+    color: #4a76fd;
+    font-size: 12px;
+}
+
+.photoList {
+    margin-right: 40px;
+}
+
+.photos {
+    list-style: none;
+}
+
+.postImg {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+/* ------- Comment Bottom ------- */
+
+.commentDisplayBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.commentDisplayCountItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.cDShowReplies {
+    font-size: 12px;
+    font-weight: 500;
+    color: #4a76fd;
+    cursor: pointer;
+}
+
+.commentDisplayLikesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.commentDisplayLovesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.commentDisplayRepliesDropdown {
+    position: absolute; 
+    top: 25px;
+}
+
+.commentDisplaySVGIconDiv {
+    display: flex;
+    align-items: center;
+}
+
+.commentDisplayPNGIcon {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.commentDisplaySVGIcon {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.commentDisplayBottomLeft {
+    display: flex;
+    align-items: center;
+}
+
+.commentDisplayPNGIcon.left {
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.commentDisplaySVGIcon.left {
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.commentDisplayPNGIcon.right {
+    height: 24px;
+    width: 24px;
+}
+
+.commentDisplaySVGIcon.right {
+    height: 32px;
+    width: 32px;
+}
+
+.commentDisplaySVGIcon.masculine { 
+    color: #4a76fd;
+}
+
+.commentDisplaySVGIcon.feminine { 
+    color: #e639af;
+}
+
+.commentDisplaySVGIcon.ruby {
+    color: #850014;   
+}
+
+.commentDisplaySVGIcon.orange { 
+    color: #ff8303; 
+}
+
+.commentDisplaySVGIcon.sun {
+    color: #ffe700;  
+}
+
+.commentDisplaySVGIcon.emerald { 
+    color: #50c878; 
+}
+
+.commentDisplaySVGIcon.blue {
+    color: #098de9; 
+}
+
+.commentDisplaySVGIcon.indigo { 
+    color: #30307e; 
+}
+
+.commentDisplaySVGIcon.violet { 
+    color: #8a2be2; 
+}
+
+.commentDisplaySVGIcon.gray { 
+    color: #bfc2c7;
+}
+
+.commentDisplayCounter {
+    font-size: 12px;
+    margin-right: 20px;
+}

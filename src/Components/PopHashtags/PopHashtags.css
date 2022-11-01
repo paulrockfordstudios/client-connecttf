@@ -1,0 +1,49 @@
+.popHashtagsContainer {
+    position: relative;
+    margin-top: 20px;
+}
+
+.popHashtagsBackgroundTheme {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.75;
+}
+
+.popHashtags {
+    width: 100%; 
+    border-radius: 10px;
+    background-color: white;
+}
+
+.popHashtags.union {
+    position: absolute;
+}
+
+.popHashtags.flame {
+    margin-Top: 20px;
+}
+
+.popHashtags-container {
+    padding: 10px;
+}
+
+.popHashtagsTitle {
+    margin-bottom: 20px;
+}
+
+.popHashtagsList {
+    padding-left: 10px;
+    margin: 0;
+    list-style: none;
+}
+
+.popHashtag {
+    margin-bottom: 10px;
+    color: #4a76fd;
+}

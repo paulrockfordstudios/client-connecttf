@@ -1,0 +1,170 @@
+.flameProfilePics {
+    display: flex;
+}
+
+.flameProfilePics-container {
+    width: 100%;
+    padding: 25px 0 25px 15%;
+    overflow-x: hidden;  
+}
+
+.flameProfilePicsRight {
+    margin: 0 60px 0 20px;
+}
+
+.flameProfilePicsDisplayContainer {
+    width: 100%;
+    position: relative;
+}
+
+.flameProfilePicsDisplay-container {
+    height: 100%;
+    width: 800px;
+    min-width: 800px;
+    max-width: 800px;
+    border-radius: 60px;
+    background-color: white;
+    padding: 40px;     
+}
+
+.flameProfilePicsGreeting {
+    font-size: 54px;
+    font-weight: 900;
+    color: #7a7e80;
+    margin-bottom: 20px;
+}
+
+.flameProfilePicsFirstName {
+    color: black;
+}
+
+.flameProfilePicsFirstStep {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.flameProfilePicsFirstStepRequest {
+    font-size: 13px;
+    color: #7a7e80;
+    margin-bottom: 20px;
+}
+
+.flameProfilePicsAction {
+    margin-bottom: 20px;
+}
+
+.flameProfilePicsActionTitle {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.flameProfilePicsActionDesc {
+    font-size: 14px;
+}
+
+.flameProfilePicsActionDisclaimer {
+    font-size: 13px;
+    color: #7a7e80;
+    margin-bottom: 20px;
+}
+
+.flameProfilePicsFirstStepRequest {
+    font-size: 13px;
+    color: #7a7e80;
+    margin-bottom: 20px;
+}
+
+.flameProfilePicsAvatarContainer {
+    width: 100%;
+    Display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flameProfilePicsProfileImg {
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.flameProfilePicsProfileImg.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.flameProfilePicsProfileImg.background {
+    width: 600px;
+    height: 180px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.flameProfilePicsEditorBtn {
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    height: 36px;
+    font-size: 24px;
+    color: white;
+    background-color: #4a76fd;
+    padding: 0 20px;
+}
+
+.flameProfilePicsEditorBtn:hover {
+    color: #d8e1fe;
+}
+
+.flameProfilePicsEditorBtn:active {
+    background-color: #3453b2;
+    color: #c3cfd0;
+}
+
+.flameProfilePicsBottom {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.flameProfilePicsBackBtn {
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 80px;
+    height: 36px;
+    font-size: 24px;
+    color: #4a76fd;
+    background-color: white;
+}
+
+.flameProfilePicsBackBtn:hover {
+    background-color: #d8e1fe;
+}
+
+.flameProfilePicsBackBtn:active {
+    color: #3453b2;
+    background-color: #c3cfd0;
+}
+
+.flameProfilePicsNextBtn {
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 80px;
+    height: 36px;
+    font-size: 24px;
+    color: white;
+    background-color: #4a76fd;
+    margin-left: 10px;
+}
+
+.flameProfilePicsNextBtn:hover {
+    color: #d8e1fe;
+}
+
+.flameProfilePicsNextBtn:active {
+    background-color: #3453b2;
+    color: #c3cfd0;
+}
